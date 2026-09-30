@@ -23,6 +23,29 @@
     "accent": "#4a4b50"
   },
   {
+    "id": "GOSYouMEYmE",
+    "slug": "3am-coding-GOSYou",
+    "title": "3am Coding",
+    "description": "It's 3am. I have tickets still open, and the deadline is tomorrow morning, my brain is fully offline.\n\nSo I gave one to Devin, told it what I wanted, and went to bed. #sponsored\n\nwoke up to a PR.\n\nstill reviewed it properly myself. just didn't have to sit there babysitting every step at 3am 🫠\n\nIf you've got a backlog you keep avoiding, link's in the comments.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "GOSYouMEYmE",
+    "thumbnail": "https://i.ytimg.com/vi/GOSYouMEYmE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 0,
+    "likes": 0,
+    "publishedAt": "2026-09-25",
+    "author": {
+      "name": "Tina Huang",
+      "avatar": "https://yt3.googleusercontent.com/5Eyvt8Lqdea_DD_YRQoZ1EPrROHQuhbqfZmBfiiXrqYBv1PGU2cHAWGR0QzXKp3O9NVxTtOd=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2UXDak6o7rBm23k3Vv5dww",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
     "id": "L75zF2WKiVE",
     "slug": "new-manus-20-is-fully-autonomo-L75zF2",
     "title": "New Manus 2.0 is Fully Autonomous, New Sonnet 5.5 Beats Opus, Tencent AI Companion & More AI News",
@@ -345,6 +368,29 @@
     "accent": "#4a4b50"
   },
   {
+    "id": "SQYwRET4a6Q",
+    "slug": "why-did-the-ai-race-just-chang-SQYwRE",
+    "title": "Why Did The AI Race Just Change? 🏁",
+    "description": "The AI conversation is shifting fast. New foundation models arrive every few weeks, but what really matters to businesses is efficiency, cost, reliability, and real-world impact. \n\n#ai #generativeai #aimodel #aiagents#techtrends\n\n---------------------------------------------------------------------------------------------------------\nFind us on YouTube:\n🔵 IBM Technology: https://www.youtube.com/@IBMTechnology\n🔵 IBM: https://www.youtube.com/@IBM \n🔵 IBM Developer: https://youtube.com/@IBMDeveloperAdvocates",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "SQYwRET4a6Q",
+    "thumbnail": "https://i.ytimg.com/vi/SQYwRET4a6Q/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 0,
+    "likes": 0,
+    "publishedAt": "2026-09-25",
+    "author": {
+      "name": "IBM Technology",
+      "avatar": "https://yt3.googleusercontent.com/7qCmNHAsFvD6RSINuJ1WoGZYoKmm7TDnhORKFqLb8QoeOFh2qFXal8brkzoxNrwqmJTuvOLs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
     "id": "q5O1mIpvXQ8",
     "slug": "can-humanizer-make-ai-writing--q5O1mI",
     "title": "Can Humanizer make AI writing sound human?",
@@ -387,6 +433,29 @@
     "channelId": "UC_RovKmk0OCbuZjA8f08opw",
     "tags": [
       "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "4dbaUKz3c1Q",
+    "slug": "your-ai-designs-look-generic-i-4dbaUK",
+    "title": "Your AI designs look generic? Impeccable fixes that.",
+    "description": "Your AI designs look generic? Impeccable fixes that with 24 commands that amplify boring layouts, inject real motion, and kill the AI tells your users already spot.\n\nWatch one \"bolder\" command turn a flat Utah National Parks site into something with stronger typography, deep forest green sections, and larger imagery. Then \"delight\" adds a stamp-press animation when you check off a park. Then \"critique\" runs a full design + responsiveness review with fixes you can actually ship.\n\nThe easiest way I've found to level up AI-generated designs.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "4dbaUKz3c1Q",
+    "thumbnail": "https://i.ytimg.com/vi/4dbaUKz3c1Q/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 0,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "Futurepedia",
+      "avatar": "https://yt3.googleusercontent.com/7gpWN95XOZ-MO30txO1hyDUM9b830cX3mMANqWNVLVegO4LaoWueslV370g-8dBdkirYOKhUCw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC_RovKmk0OCbuZjA8f08opw",
+    "tags": [
+      "general-ai"
     ],
     "accent": "#4a4b50"
   },
@@ -1077,75 +1146,6 @@
     "channelId": "UCiGWNa6QK6CiKPvv5-YPv8g",
     "tags": [
       "llm"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "BVAv7PAsWBs",
-    "slug": "how-to-connect-gpt-6-astra-to--BVAv7P",
-    "title": "How to Connect GPT-6 Astra to DaVinci Resolve With MCP",
-    "description": "Follow me and DM me \"DA VINCI\" on IG/FB only 👇\n\nGPT-6 Astra edited this video inside DaVinci Resolve through the new DaVinci Resolve MCP.\n\nI gave it photos and asked it to make a video. The bridge connected ChatGPT to the editor, so Astra worked inside DaVinci Resolve instead of sending me editing instructions.\n\nHere’s the full setup:\n\n1. Download DaVinci Resolve 21.0.3.\n\n2. Open Codex, choose GPT-6 Astra, and set the reasoning effort to light.\n\n3. Give Astra the DaVinci Resolve MCP repository link. Let it handle the setup.\n\n4. Restart DaVinci Resolve after the installation finishes.\n\n5. Create a new project. Open Workspace, choose Scripts, then run resolve_bridge.\n\n6. Point Astra to your photos and ask it to make a video.\n\nThe order matters. Finish the MCP setup before restarting DaVinci Resolve. Then create the project and launch resolve_bridge from the Scripts menu. Once the connection is live, give Astra your source photos and a clear editing request.\n\nThis workflow turns a chat request into work inside a desktop video editor. You still choose the photos and describe the video you want. Astra handles the editing task through the MCP bridge.\n\nHow do I connect GPT-6 Astra to DaVinci Resolve?\nHow do I install the DaVinci Resolve MCP?\nHow do I edit a video with ChatGPT and DaVinci Resolve?\n\n#ai #chatgpt #aitools #automation #technology",
-    "toolName": "ChatGPT",
-    "toolCategory": "llm",
-    "youtubeId": "BVAv7PAsWBs",
-    "thumbnail": "https://i.ytimg.com/vi/BVAv7PAsWBs/hqdefault.jpg",
-    "durationSeconds": 0,
-    "views": 0,
-    "likes": 0,
-    "publishedAt": "2026-09-24",
-    "author": {
-      "name": "Sabrina Ramonov",
-      "avatar": "https://yt3.googleusercontent.com/4xWBLiSBOwmuX6RA3cNVtjzNpR5Rxy0fsK4hjqGKujCuGegLMndIE2yo-co0OQMOzJ2THGXt=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCiGWNa6QK6CiKPvv5-YPv8g",
-    "tags": [
-      "llm"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "WD9EoyRQbEY",
-    "slug": "5-videos-to-learn-5-ai-skills-WD9Eoy",
-    "title": "5 Videos to Learn 5 AI Skills",
-    "description": "Follow me and DM me \"MASTERY\" on IG/FB only 👇\n\n5 videos. 5 AI skills.\n\nIf you keep saving random AI tips without knowing where to begin, use this list as a focused learning path.\n\nStart with AI basics. Then learn how AI connects to money, get familiar with Claude AI, study AI content, and finish with AI video.\n\n1. AI Basics: https://www.youtube.com/watch?v=L2CXXmDG-mM&t=1034s\n2. AI + Money: https://www.youtube.com/watch?v=Fgutvd4-F_0&t=190s\n3. Claude AI: https://www.youtube.com/watch?v=1dSNfnFL40c&t=801s\n4. AI + Content: https://www.youtube.com/watch?v=o5GsAxEX-Bk&t=220s\n5. AI + Video: https://www.youtube.com/watch?v=M4cmrdoUKxI&t=915s\n\nDon't try to master all 5 skills in 1 sitting. Pick 1 video, take notes, and apply the lesson to a real project before moving on.\n\nDepth beats dabbling. The people getting results with AI use a few tools on real problems and build reps over time. Watching gives you the input. Practice gives you the skill.\n\nGo through the list in order, or start with the skill you need for your next project. Keep the work concrete: learn 1 idea, use it, then review what happened.\n\nWhat are the best AI videos for beginners?\nHow do I learn to make money with AI?\nHow do I learn Claude AI, AI content, and AI video?\n\n#learning #study #motivation #ai #chatgpt",
-    "toolName": "ChatGPT",
-    "toolCategory": "llm",
-    "youtubeId": "WD9EoyRQbEY",
-    "thumbnail": "https://i.ytimg.com/vi/WD9EoyRQbEY/hqdefault.jpg",
-    "durationSeconds": 0,
-    "views": 0,
-    "likes": 0,
-    "publishedAt": "2026-09-24",
-    "author": {
-      "name": "Sabrina Ramonov",
-      "avatar": "https://yt3.googleusercontent.com/4xWBLiSBOwmuX6RA3cNVtjzNpR5Rxy0fsK4hjqGKujCuGegLMndIE2yo-co0OQMOzJ2THGXt=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCiGWNa6QK6CiKPvv5-YPv8g",
-    "tags": [
-      "llm"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "X3LQSpAHzSA",
-    "slug": "this-ai-clone-made-my-video-in-X3LQSp",
-    "title": "This AI Clone Made My Video in Nine Minutes Flat",
-    "description": "👉 *Try VEED* — https://bit.ly/4wGcik9\n\nOne selfie, one paragraph of text, and your real voice. That's all it takes to build an AI clone that makes finished, subtitled talking videos without a studio day.\n\nIf you run a business, your face is your distribution, and filming is what quietly eats your week. This is the selfie clone, the fast on-ramp for short form, ads, and quick answers to customer questions.\n\nWhat you'll learn:\n✅ The selfie rules that decide if your clone looks real or cursed\n✅ Why I turn the music off on every AI talking video\n✅ The one script edit most people skip before they publish\n\nWait until you see which one photo makes or breaks the whole clone.\n\n#AIClone #ContentCreation #AITools\n........\n\nABOUT\n\nJulia McCoy, founder of First Movers, was the first to build a clone of herself on YouTube that fully replaced her face and voice. Today, every clone First Movers builds for clients runs on the same 6 layer clone system that powers Dr. McCoy. 300,000+ subscribers · 750+ videos Julia never filmed · 2M+ impressions a month · 0 demonetizations.\n\nSubscribe to learn the best in AI news, how to build an AI YouTube clone, set up an AI content engine for your brand, and 20x with AI.\n\n*Want to join First Movers?* Start here 👇\n\n*Free Blueprint* → https://firstmovers.ai/blueprint/\n*AI Labs*  → Learn it yourself with 500+ First Movers: https://firstmovers.ai/labs/\n*Clone Mastermind*  →  Get filmed once in Scottsdale and build your AI brain in-person with Julia: https://firstmovers.ai/clone-mastermind/\n*Done-for-you AI Systems* you fully own → https://firstmovers.ai/consulting/\n*Book a Free Call* → https://firstmovers.ai/book-my-call/\n\n#AIClone #AIAutomation #FirstMovers",
-    "toolName": "General AI Tools",
-    "toolCategory": "general-ai",
-    "youtubeId": "X3LQSpAHzSA",
-    "thumbnail": "https://i.ytimg.com/vi/X3LQSpAHzSA/hqdefault.jpg",
-    "durationSeconds": 0,
-    "views": 0,
-    "likes": 0,
-    "publishedAt": "2026-09-30",
-    "author": {
-      "name": "Julia McCoy",
-      "avatar": "https://yt3.googleusercontent.com/K1c1eTKd0oYL4Wn7o62ZdCM48hKeOFIk9JCVgPo8Anj8GTVLYTFTogJna8_sDq9L5F6NeXl7LA=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCqzK60-oUOEq36uU9B1MMUg",
-    "tags": [
-      "general-ai"
     ],
     "accent": "#4a4b50"
   }
