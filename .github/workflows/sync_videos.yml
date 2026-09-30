@@ -28,6 +28,7 @@ jobs:
       - name: Run Video Pipeline
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }} # Optional: If using external DB
+          INGEST_TO_DB: "true"
           PYTHONUNBUFFERED: "1"
         run: |
           python main.py
