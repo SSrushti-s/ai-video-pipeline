@@ -1,0 +1,5 @@
+yt-dlp>=2024.08.06
+aiohttp>=3.9.0
+pydantic>=2.6.0
+asyncpg>=0.29.0
+python-dotenv>=1.0.0
