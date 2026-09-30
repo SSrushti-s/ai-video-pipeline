@@ -8,7 +8,7 @@ import aiohttp
 
 from config.settings import FRESHNESS
 from src.schemas.video_model import YouTubeVideoRecord, AuthorData
-from config.youtube_channels import AI_CHANNELS_POOL
+from config.channels import AI_CHANNELS_POOL
 from src.classifiers.tool_classifier import classify_tool_category, extract_tool_name
 from src.utils.dedupe import SeenStore
 
