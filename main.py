@@ -6,7 +6,7 @@ import logging
 from config.settings import TARGET_COUNT, INGEST_TO_DB, OUTPUT_FILE, DATABASE_URL
 from src.db.database import Database
 from src.utils.dedupe import SeenStore
-from src.crawlers.youtube_crawler import YouTubeVideoCrawler
+from src.crawler.youtube_crawler import YouTubeVideoCrawler
 
 logging.basicConfig(
     level=logging.INFO,
