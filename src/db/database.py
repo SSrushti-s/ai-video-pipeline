@@ -58,12 +58,12 @@ class Database:
             await conn.execute(query)
 
     async def get_existing_video_ids(self, video_ids: list[str]) -> set[str]:
-        """Check Neon DB for IDs that are already stored."""
+        """Check Neon DB for IDs that are already stored with valid duration."""
         if not self.pool or not video_ids:
             return set()
         query = """
         SELECT "id" FROM "YouTubeVideoRecord"
-        WHERE "id" = ANY($1::text[]);
+        WHERE "id" = ANY($1::text[]) AND "durationSeconds" > 0;
         """
         async with self.pool.acquire() as conn:
             rows = await conn.fetch(query, video_ids)
