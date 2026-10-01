@@ -1,1 +1,209 @@
-
+[
+  {
+    "id": "sKltfHvsDQM",
+    "slug": "build-faster-with-ultrafast-sKltfH",
+    "title": "Build faster with Ultrafast ",
+    "description": "Ultrafast is our fastest way to build with Astra yet: in Codex, it runs up to 8x faster than Astra Standard and 4x faster than Astra Fast.\n\nBring your ideas to life as fast as you can type them.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "sKltfHvsDQM",
+    "thumbnail": "https://i.ytimg.com/vi/sKltfHvsDQM/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 49100,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Fls_onRviPM",
+    "slug": "openai-devday-2026-keynote-ful-Fls_on",
+    "title": "OpenAI DevDay 2026 Keynote (FULL)",
+    "description": "Watch Sam Altman, Romain Huet, Tejal Patwardhan, and Holly Li announce and demo 20+ launches at OpenAI DevDay, including dots, ChatGPT Spaces, GPT-6.1 Sol, Astra Ultrafast, and more.",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "Fls_onRviPM",
+    "thumbnail": "https://i.ytimg.com/vi/Fls_onRviPM/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 571141,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "7Bv68f5szSU",
+    "slug": "meet-the-all-new-codex-cloud-7Bv68f",
+    "title": "Meet the all new Codex Cloud",
+    "description": "Start a Codex task, close your laptop, and pick it up from your phone. See how to create a reusable cloud environment with your repositories, networking, and secrets, then share it with your team.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "7Bv68f5szSU",
+    "thumbnail": "https://i.ytimg.com/vi/7Bv68f5szSU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 69388,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "uXspbC2srEQ",
+    "slug": "introducing-dots-always-on-age-uXspbC",
+    "title": "Introducing dots, always-on agents built to handle everything.",
+    "description": "Dots are frontier intelligence that have your back. Powered by GPT‑6 Astra, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7. Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever you need them.\n\nYour dot is always within reach, whether it is through ChatGPT, Slack, or Teams. You can ask questions, explore ideas, and give feedback along the way; or you can simply hop on a voice call when you need to talk something out. The more you work together, the more your dot learns your preferences, how you think, and what good looks like to you.\n\nThe magic of dots is when they bring you work done the way you would do it, sometimes before you even think to ask. With dots alongside you, ambitious ideas and projects you haven’t had the time or support to pursue start to feel achievable.\n\nhttps://openai.com/index/introducing-dots/",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "uXspbC2srEQ",
+    "thumbnail": "https://i.ytimg.com/vi/uXspbC2srEQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 485772,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "m8VkCbkFAKA",
+    "slug": "meet-the-builders-of-our-time--m8VkCb",
+    "title": "Meet the builders of our time - the Codex Originals.",
+    "description": "These builders aren’t just writing code. They’re rewriting what’s possible.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "m8VkCbkFAKA",
+    "thumbnail": "https://i.ytimg.com/vi/m8VkCbkFAKA/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 18326,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "a75xDflRooI",
+    "slug": "the-defenders-window-at-enterp-a75xDf",
+    "title": "The Defender's Window at enterprise scale with Standard Chartered",
+    "description": "Matt Weaver, Head of Applied AI Architects at OpenAI, and Reuben Athaide, Head of Innovation, Applications & Assurance at Standard Chartered, discuss how the global bank is using OpenAI Daybreak to stay ahead of attackers.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "a75xDflRooI",
+    "thumbnail": "https://i.ytimg.com/vi/a75xDflRooI/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 17321,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "zoohZ1BiHs0",
+    "slug": "building-the-partner-ecosystem-zoohZ1",
+    "title": "Building the partner ecosystem with Sophos",
+    "description": "Claire Lawlor, Digital Native AD EMEA at OpenAI, and John Peterson, CTO at Sophos, explain the role of technology partnerships in keeping organizations safe from cyber threats",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "zoohZ1BiHs0",
+    "thumbnail": "https://i.ytimg.com/vi/zoohZ1BiHs0/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 11006,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "6wNqpZdHE_s",
+    "slug": "gpt-6-astra-in-practice-turnin-6wNqpZ",
+    "title": "GPT-6 Astra in practice: Turning ideas into projects",
+    "description": "See what members of the OpenAI Developer Experience team are building with Astra, from a YouTube thumbnail generator and visual learning tools to music workflows, a hardware prototype, and a tactical RPG. The team shares how Astra helps them turn loosely defined ideas into working projects, navigate complex software, and work through the details along the way.",
+    "toolName": "General AI Tools",
+    "toolCategory": "llm",
+    "youtubeId": "6wNqpZdHE_s",
+    "thumbnail": "https://i.ytimg.com/vi/6wNqpZdHE_s/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 55876,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "3jDhHA9JGUE",
+    "slug": "the-defenders-window-cyber-sec-3jDhHA",
+    "title": "The Defender's Window: Cyber security keynote",
+    "description": "OpenAI's security experts explain why every organization needs a cyber defence factory, and how to build it with Daybreak.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "3jDhHA9JGUE",
+    "thumbnail": "https://i.ytimg.com/vi/3jDhHA9JGUE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 27350,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "OpenAI",
+      "avatar": "https://yt3.googleusercontent.com/MopgmVAFV9BqlzOJ-UINtmutvEPcNe5IbKMmP_4vZZo3vnJXcZGtybUBsXaEVxkmxKyGqX9R=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCXZCJLdBC09xxGZ6gcdrc6A",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  }
+]
