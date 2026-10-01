@@ -223,7 +223,8 @@ class YouTubeVideoCrawler:
                     duration, likes = await self._fetch_video_duration_and_likes(session, vid)
 
                     # 6. Skip shorts or clips under 2 minutes
-                    if duration > 0 and duration < 120:
+                    # Skip shorts (under 2 minutes or marked as short)
+                    if (duration > 0 and duration < 120) or "/shorts/" in info.get("webpage_url", ""):
                         await self.seen_store.mark_seen(vid, session)
                         continue
 
