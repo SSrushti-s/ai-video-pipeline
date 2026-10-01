@@ -82,9 +82,14 @@ class Database:
         ) VALUES (
             $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13::jsonb, $14, $15::jsonb, $16, NOW()
         )
-        ON CONFLICT ("id") DO UPDATE SET
+       ON CONFLICT ("id") DO UPDATE SET
+            "durationSeconds" = CASE 
+                WHEN EXCLUDED."durationSeconds" > 0 THEN EXCLUDED."durationSeconds" 
+                ELSE "YouTubeVideoRecord"."durationSeconds" 
+            END,
             "views" = EXCLUDED."views",
             "likes" = EXCLUDED."likes",
+            "thumbnail" = EXCLUDED."thumbnail",
             "updatedAt" = NOW();
         """
 
