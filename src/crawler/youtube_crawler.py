@@ -53,7 +53,10 @@ class YouTubeVideoCrawler:
 
         if channel_id:
             url = f"https://www.youtube.com/channel/{channel_id}"
-            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Cookie": "SOCS=CAESEwgDEgk2MTQ1NzU4ODQaAmVuIAEaBgiA_LyaBg; CONSENT=YES+cb.20230531-04-p0.en+FX+999"
+            }
             try:
                 async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=6)) as resp:
                     if resp.status == 200:
@@ -141,41 +144,65 @@ class YouTubeVideoCrawler:
 
     async def _fetch_accurate_video_metrics(self, session: aiohttp.ClientSession, vid: str, default_views: int) -> dict:
         """
-        Extracts duration, views, and likes directly from YouTube's watch payload.
-        Zero bot checks, zero cookie requirements, and 100% reliable.
+        Extracts duration, views, and likes directly.
+        Bypasses EU/Cloud datacenter consent walls via SOCS cookies + InnerTube fallback.
         """
         url = f"https://www.youtube.com/watch?v={vid}"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept-Language": "en-US,en;q=0.9"
+            "Accept-Language": "en-US,en;q=0.9",
+            # Bypasses YouTube/Google Consent walls on Datacenter (Azure/GitHub) IPs
+            "Cookie": "SOCS=CAESEwgDEgk2MTQ1NzU4ODQaAmVuIAEaBgiA_LyaBg; CONSENT=YES+cb.20230531-04-p0.en+FX+999"
         }
         duration = 0
         views = default_views
         likes = 0
 
+        # Step 1: Watch page inspection with consent cookies
         try:
             async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as resp:
                 if resp.status == 200:
                     html = await resp.text()
 
-                    # 1. Exact Duration in seconds
                     m_sec = re.search(r'"lengthSeconds":"(\d+)"', html)
                     if m_sec:
                         duration = int(m_sec.group(1))
 
-                    # 2. Live Views
                     m_views = re.search(r'"viewCount":"(\d+)"', html)
                     if m_views:
                         views = int(m_views.group(1))
 
-                    # 3. Live Likes
                     m_likes = re.search(r'"likeCount":"?(\d+)"?', html)
                     if m_likes:
                         likes = int(m_likes.group(1))
-        except Exception as e:
-            logger.debug(f"Direct metric fetch failed for {vid}: {e}")
+        except Exception:
+            pass
 
-        # Check for Short (clips under 2 minutes)
+        # Step 2: InnerTube Player API fallback (Guaranteed clean JSON if HTML redirected)
+        if duration == 0:
+            try:
+                it_url = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
+                payload = {
+                    "context": {
+                        "client": {
+                            "clientName": "WEB",
+                            "clientVersion": "2.20240313.01.00",
+                            "hl": "en",
+                            "gl": "US"
+                        }
+                    },
+                    "videoId": vid
+                }
+                async with session.post(it_url, json=payload, headers={"User-Agent": headers["User-Agent"]}, timeout=aiohttp.ClientTimeout(total=6)) as resp:
+                    if resp.status == 200:
+                        res = await resp.json()
+                        vd = res.get("videoDetails", {})
+                        duration = int(vd.get("lengthSeconds", 0) or 0)
+                        views = int(vd.get("viewCount", views) or views)
+            except Exception:
+                pass
+
+        # Filter out Shorts (clips under 2 minutes)
         is_short = (0 < duration < 120)
 
         return {
@@ -202,7 +229,7 @@ class YouTubeVideoCrawler:
 
                     vid = item["video_id"]
                     
-                    # 1. Deduplication check
+                    # 1. Deduplication check against Neon DB / local cache
                     if await self.seen_store.is_seen(vid, session):
                         continue
 
@@ -221,10 +248,10 @@ class YouTubeVideoCrawler:
                         await self.seen_store.mark_seen(vid, session)
                         continue
 
-                    # 4. Extract accurate metrics (duration, views, likes)
+                    # 4. Extract accurate metrics
                     metrics = await self._fetch_accurate_video_metrics(session, vid, item["views"])
 
-                    # 5. Skip Shorts (under 2 minutes)
+                    # 5. Skip Shorts
                     if metrics["is_short"]:
                         await self.seen_store.mark_seen(vid, session)
                         continue
