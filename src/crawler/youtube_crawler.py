@@ -5,6 +5,7 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 import aiohttp
+import yt_dlp
 
 from config.settings import FRESHNESS
 from src.schemas.video_model import YouTubeVideoRecord, AuthorData
@@ -26,6 +27,7 @@ class YouTubeVideoCrawler:
         self._avatar_cache = self._load_avatar_cache()
 
     def _load_avatar_cache(self) -> dict[str, str]:
+        """Loads cached channel avatars from disk to avoid redundant network calls."""
         if os.path.exists(self.avatar_cache_file):
             try:
                 with open(self.avatar_cache_file, "r", encoding="utf-8") as f:
@@ -35,6 +37,7 @@ class YouTubeVideoCrawler:
         return {}
 
     def _save_avatar_cache(self):
+        """Persists discovered channel avatars to disk."""
         try:
             os.makedirs(os.path.dirname(self.avatar_cache_file), exist_ok=True)
             with open(self.avatar_cache_file, "w", encoding="utf-8") as f:
@@ -43,22 +46,30 @@ class YouTubeVideoCrawler:
             logger.debug(f"Failed to persist avatar cache: {e}")
 
     async def _get_channel_avatar(self, session: aiohttp.ClientSession, channel: dict) -> str:
+        """
+        Retrieves the channel avatar via:
+        1. Explicit "avatar" key in youtube_channels.py (if provided)
+        2. Local disk cache (data/channel_avatars.json)
+        3. YouTube channel page og:image metadata (auto-fetched once)
+        4. Safe fallback identicon
+        """
         channel_name = channel.get("name", "AI")
         channel_id = channel.get("channel_id")
 
+        # 1. Check if manually provided in youtube_channels.py
         if channel.get("avatar"):
             return channel["avatar"]
+
+        # 2. Check local disk cache
         if channel_id and channel_id in self._avatar_cache:
             return self._avatar_cache[channel_id]
 
+        # 3. Auto-fetch official YouTube channel avatar from og:image
         if channel_id:
             url = f"https://www.youtube.com/channel/{channel_id}"
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Cookie": "SOCS=CAESEwgDEgk2MTQ1NzU4ODQaAmVuIAEaBgiA_LyaBg; CONSENT=YES+cb.20230531-04-p0.en+FX+999"
-            }
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
             try:
-                async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=6)) as resp:
+                async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as resp:
                     if resp.status == 200:
                         html = await resp.text()
                         m = re.search(r'<meta property="og:image" content="([^"]+)"', html)
@@ -67,9 +78,10 @@ class YouTubeVideoCrawler:
                             self._avatar_cache[channel_id] = avatar_url
                             self._save_avatar_cache()
                             return avatar_url
-            except Exception:
-                pass
+            except Exception as e:
+                logger.debug(f"Could not auto-fetch avatar for {channel_name}: {e}")
 
+        # 4. Fallback if network blocked
         return f"https://api.dicebear.com/7.x/identicon/svg?seed={channel_name}"
 
     def _generate_slug(self, title: str, video_id: str) -> str:
@@ -104,24 +116,12 @@ class YouTubeVideoCrawler:
                 media_group = entry.find('media:group', ns)
                 desc = media_group.find('media:description', ns) if media_group is not None else None
                 
-                views = 0
-                if media_group is not None:
-                    comm = media_group.find('media:community', ns)
-                    if comm is not None:
-                        stats = comm.find('media:statistics', ns)
-                        if stats is not None and stats.attrib.get('views'):
-                            try:
-                                views = int(stats.attrib['views'])
-                            except ValueError:
-                                views = 0
-
                 if vid is not None and title is not None:
                     videos.append({
                         "video_id": vid.text,
                         "title": title.text,
                         "published_at": published.text if published is not None else None,
                         "description": desc.text if desc is not None else "",
-                        "views": views,
                         "channel_name": channel["name"],
                         "channel_id": channel_id
                     })
@@ -135,6 +135,7 @@ class YouTubeVideoCrawler:
         
         if tool_category != "general-ai" or tool_name != "General AI Tools":
             return True
+            
         if channel_name not in MIXED_CONTENT_CHANNELS:
             return True
             
@@ -142,79 +143,16 @@ class YouTubeVideoCrawler:
         text = f"{title} {description}".lower()
         return any(re.search(rf"\b{re.escape(k)}\b", text) for k in ai_keywords)
 
-    async def _fetch_accurate_video_metrics(self, session: aiohttp.ClientSession, vid: str, default_views: int) -> dict:
-        """
-        Extracts duration, views, and likes directly.
-        Bypasses EU/Cloud datacenter consent walls via SOCS cookies + InnerTube fallback.
-        """
-        url = f"https://www.youtube.com/watch?v={vid}"
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept-Language": "en-US,en;q=0.9",
-            # Bypasses YouTube/Google Consent walls on Datacenter (Azure/GitHub) IPs
-            "Cookie": "SOCS=CAESEwgDEgk2MTQ1NzU4ODQaAmVuIAEaBgiA_LyaBg; CONSENT=YES+cb.20230531-04-p0.en+FX+999"
-        }
-        duration = 0
-        views = default_views
-        likes = 0
-
-        # Step 1: Watch page inspection with consent cookies
-        try:
-            async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as resp:
-                if resp.status == 200:
-                    html = await resp.text()
-
-                    m_sec = re.search(r'"lengthSeconds":"(\d+)"', html)
-                    if m_sec:
-                        duration = int(m_sec.group(1))
-
-                    m_views = re.search(r'"viewCount":"(\d+)"', html)
-                    if m_views:
-                        views = int(m_views.group(1))
-
-                    m_likes = re.search(r'"likeCount":"?(\d+)"?', html)
-                    if m_likes:
-                        likes = int(m_likes.group(1))
-        except Exception:
-            pass
-
-        # Step 2: InnerTube Player API fallback (Guaranteed clean JSON if HTML redirected)
-        if duration == 0:
-            try:
-                it_url = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false"
-                payload = {
-                    "context": {
-                        "client": {
-                            "clientName": "WEB",
-                            "clientVersion": "2.20240313.01.00",
-                            "hl": "en",
-                            "gl": "US"
-                        }
-                    },
-                    "videoId": vid
-                }
-                async with session.post(it_url, json=payload, headers={"User-Agent": headers["User-Agent"]}, timeout=aiohttp.ClientTimeout(total=6)) as resp:
-                    if resp.status == 200:
-                        res = await resp.json()
-                        vd = res.get("videoDetails", {})
-                        duration = int(vd.get("lengthSeconds", 0) or 0)
-                        views = int(vd.get("viewCount", views) or views)
-            except Exception:
-                pass
-
-        # Filter out Shorts (clips under 2 minutes)
-        is_short = (0 < duration < 120)
-
-        return {
-            "duration": duration,
-            "views": views,
-            "likes": likes,
-            "is_short": is_short
-        }
-
     async def fetch_ai_videos(self, target_count: int = 50) -> list[YouTubeVideoRecord]:
         logger.info("Scanning YouTube RSS feeds for new AI videos...")
         records = []
+        
+        full_opts = {
+            'quiet': True,
+            'skip_download': True,
+            'js_runtimes': {'node': {}},
+            'extractor_args': {'youtube': {'player_client': ['android', 'web']}},
+        }
 
         async with aiohttp.ClientSession() as session:
             for channel in AI_CHANNELS_POOL:
@@ -229,7 +167,7 @@ class YouTubeVideoCrawler:
 
                     vid = item["video_id"]
                     
-                    # 1. Deduplication check against Neon DB / local cache
+                    # 1. Deduplication check
                     if await self.seen_store.is_seen(vid, session):
                         continue
 
@@ -248,20 +186,33 @@ class YouTubeVideoCrawler:
                         await self.seen_store.mark_seen(vid, session)
                         continue
 
-                    # 4. Extract accurate metrics
-                    metrics = await self._fetch_accurate_video_metrics(session, vid, item["views"])
+                    # 4. Resolve author avatar (auto-fetched or cached)
+                    avatar_url = await self._get_channel_avatar(session, channel)
 
-                    # 5. Skip Shorts
-                    if metrics["is_short"]:
+                    # 5. Extract rich metadata using yt-dlp only for this new AI video
+                    view_count, like_count, duration = 0, 0, 0
+                    thumbnail_url = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+
+                    try:
+                        with yt_dlp.YoutubeDL(full_opts) as ydl:
+                            info = ydl.extract_info(f"https://www.youtube.com/watch?v={vid}", download=False)
+                            duration = int(info.get('duration', 0) or 0)
+                            view_count = int(info.get('view_count', 0) or 0)
+                            like_count = int(info.get('like_count', 0) or 0)
+                            
+                            thumbnails = info.get('thumbnails', [])
+                            if thumbnails:
+                                thumbnail_url = thumbnails[-1].get('url', thumbnail_url)
+                    except Exception as e:
+                        logger.warning(f"Could not extract yt-dlp metadata for {vid}, using defaults: {e}")
+
+                    # Skip shorts or clips under 2 minutes
+                    if duration > 0 and duration < 120:
                         await self.seen_store.mark_seen(vid, session)
                         continue
 
-                    # 6. Resolve channel avatar
-                    avatar_url = await self._get_channel_avatar(session, channel)
-
                     category = classify_tool_category(item["title"], item["description"])
                     tool = extract_tool_name(item["title"], item["description"])
-                    thumbnail_url = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
 
                     record = YouTubeVideoRecord(
                         id=vid,
@@ -272,9 +223,9 @@ class YouTubeVideoCrawler:
                         toolCategory=category,
                         youtubeId=vid,
                         thumbnail=thumbnail_url,
-                        durationSeconds=metrics["duration"],
-                        views=metrics["views"],
-                        likes=metrics["likes"],
+                        durationSeconds=duration,
+                        views=view_count,
+                        likes=like_count,
                         publishedAt=pub_dt.strftime("%Y-%m-%d"),
                         author=AuthorData(name=channel["name"], avatar=avatar_url),
                         channelId=item["channel_id"],
@@ -284,9 +235,6 @@ class YouTubeVideoCrawler:
 
                     records.append(record)
                     await self.seen_store.mark_seen(vid, session)
-                    logger.info(
-                        f"✅ Found AI video: {record.title[:35]}... ({vid}) "
-                        f"[duration={metrics['duration']}s, views={metrics['views']}, likes={metrics['likes']}]"
-                    )
+                    logger.info(f"Found new AI video: {record.title} ({vid})")
 
         return records
