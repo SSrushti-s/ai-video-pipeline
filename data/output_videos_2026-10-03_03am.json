@@ -1,0 +1,255 @@
+[
+  {
+    "id": "IEYzYopNGVQ",
+    "slug": "can-claude-build-a-cross-platf-IEYzYo",
+    "title": "Can Claude build a cross-platform AI app?",
+    "description": "Needed to figure out what to do with my old phone. \n\nSo I built Bluey, powered by GPT Realtime 2...\n\nI think.... idk how it works...\nOpus 5.5 Built the entire thing\n\nBluey is an iOS app + mac app that is made to be a computer companion. It can point, comment, and even control my entire computer.\n\ngithub repo below https://github.com/rbrown101010/bluey-by-riley",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "IEYzYopNGVQ",
+    "thumbnail": "https://i.ytimg.com/vi/IEYzYopNGVQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 887,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "kmo9Mk_gIUk",
+    "slug": "chatgpt-dots-is-insane-but-gem-kmo9Mk",
+    "title": "ChatGPT Dots Is Insane... But Gemini 4 Argon Is EVEN Bigger",
+    "description": "This is an Agent Native Episode.\n\nGoogle says it's about to release the best model in the world, but only cyber defenders can use it. Meanwhile, OpenAI just launched its own personal agent platform inside ChatGPT.\n-Anthropic dropped Sonnet 5.5 just six days after Opus 5.5. I've put 30+ hours into Opus 5.5 and still haven't hit my limits.\n-I called my OpenAI Dots agent, Bluey. Hands-free, it sent emails and Slack messages, then spun up a local Codex session to redesign my landing page.\n-GPT Space is like Notion built into ChatGPT, where your agent writes docs and diagrams for you. Plus, plugin extensions let ChatGPT work inside other apps like MagicPath.\n\nAnd then the biggest question of the week: is Gemini 4 Argon actually as good as Google says? Google hasn't had a great model since January, and it still hasn't picked one app to use it in. Plus, GrokBot quietly added proactive suggestions, inline email drafts, Slack team bots, and a way to route its traffic through your own computer.\n\nSubscribe to my new vlog channel: https://www.youtube.com/channel/UCE92uOiqod6LtYDwlgJqsug\n\nFor Agent Native Resources: agentnative.inc/resources\n\nChapters\n00:00 Intro\n00:47 1. Sonnet 5.5 & Opus 5.5\n04:55 2. OpenAI DevDay: Dots, GPT Space & Extensions\n15:13 3. Google Gemini 4 Argon\n19:18 4. GrokBot: Proactivity, Slack & Team Bots",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "kmo9Mk_gIUk",
+    "thumbnail": "https://i.ytimg.com/vi/kmo9Mk_gIUk/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 28911,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "t0ZwER9Y99c",
+    "slug": "the-iphone-duo-needs-apps-clau-t0ZwER",
+    "title": "The iPhone Duo Needs Apps (Claude Can Build Them)",
+    "description": "Every real app needs a real database, and this one runs on Convex. Install the Convex plugin in Claude Code, ask your agent to build your app, and it sets up the database, backend and file storage for you, with every screen updating in real time. It's free to create an account: https://convex.link/E61LRW5\n\nThis is an Agent Native Episode.\nApple just announced the iPhone Duo, and I built one of the first apps for it with Claude Opus 5.5, without writing any code.\n-A two-screen app: an Excalidraw-style board on the left, a sticker maker on the right.\n-Turn any photo or image search into a sticker with Serper and RemoveBG, then drag it onto the board.\n-Everything is saved in a Convex database, so a web or desktop version can use the same data later.\n\nAnd I walk through the 4 steps to build any iPhone app with Claude: download everything you need, build a prototype with a database, add external APIs, and test and iterate with Claude.\n\nFor Agent Native Resources: agentnative.inc/resources\nFor sponsorship inquiries: agentnative.inc/sponsorships",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "t0ZwER9Y99c",
+    "thumbnail": "https://i.ytimg.com/vi/t0ZwER9Y99c/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 13049,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "A8ptWsvM3cw",
+    "slug": "how-to-set-up-your-windows-pc--A8ptWs",
+    "title": "How to Set Up Your Windows PC for AI (Full Guide)",
+    "description": "Thanks to ASUS for sponsoring this video!\nASUS Expertbook Ultra | AI PC for Work | ASUS Global - https://tools.thenode.gg/r/5nbFIOd0\n\nIn this video, I show you every tool I use to turn a Windows computer into an AI super machine. We've run most of our content business on Windows for the past 18 months. These are the 8 tools I downloaded right away on my new laptop to move faster, build apps, run my business, manage a team of agents, and make better spreadsheets and docs.\n\nFree Agent Native resources: agentnative.inc/resources\n\nChapters\n0:00 – Intro\n0:51 – Raycast (app switcher, hotkeys and clipboard manager)\n3:45 – ChatGPT Desktop App + Codex\n6:06 – ASUS ExpertBook Ultra (sponsor)\n8:25 – Wispr Flow + Handy (voice to text)\n10:24 – Chrome + ChatGPT Extension\n11:52 – GrokBot (team of agents)\n13:32 – Claude for Excel\n15:28 – Notion\n17:50 – ChatGPT Remote (control your PC from your phone)\n\n#AI #Windows #ChatGPT #Codex #ASUS #ExpertBookUltra #Productivity #AITools",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "A8ptWsvM3cw",
+    "thumbnail": "https://i.ytimg.com/vi/A8ptWsvM3cw/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 16137,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "959RFRspIIc",
+    "slug": "opus-55-is-just-the-beginning--959RFR",
+    "title": "Opus 5.5 Is JUST the Beginning. Everything Is About to Change.",
+    "description": "We have a big week coming. Opus 5.5 is world class. But openAI will answer at Dev Day. Here are my thoughts.\n\n00:00 Intro\n00:31 Opus 5.5 First Impressions\n01:57 Replacing SaaS Tools\n05:14 Custom App Demo\n07:11 Agent-Native Workflows\n11:19 OpenAI Dev Day Rumors\n14:32 $500 Plan & Ultra-Fast Mode\n19:31 Stretch Predictions\n21:26 Main Takeaways",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "959RFRspIIc",
+    "thumbnail": "https://i.ytimg.com/vi/959RFRspIIc/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 93868,
+    "likes": 0,
+    "publishedAt": "2026-09-27",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "_rtp1XzaP6Q",
+    "slug": "openai-security-controlling-mo-_rtp1X",
+    "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
+    "description": "This video is hard to summarise. A cracked cipher, an OpenAI security warning, Gemini 4 Argon, RSI paper (co-authored by a who’s who of AI), Lab White House commitments, new hacks emerging, ‘deep personas’, biology Kasparov competitions, and so much more, ending with an epic Opus outro.\n\n\nPatreon Exclusives: https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:32 - Wrong about Opus 5.5? Deciphering 16th Century Text\n05:01 - Why the models keep breaking out\n11:40 - What the models aren't telling us\n15:36 - Gemini 4 and the race to release\n19:19 - What happens when AI improves AI?\n28:31 - Biology, consciousness, and what we still don't understand\n\n\nJoe Darrow: Not Just the Sandbox: https://x.com/joedaroo/status/2104335929293127851\n\nGPT-6.1 Sol System Card: https://cdn.openai.com/pdf/38e3efcf-545e-44cd-99ec-2b7eb395f4cc/oai_GPT_6_1_Sol.pdf\n\nIntelligence Explosion Paper: https://casp.ac/__l5e/assets-v1/5efd4b41-deb5-4513-a0a3-b4f82d2b79ea/intelligence-explosion.pdf\n\nOpenAI Research Acceleration: https://openai.com/index/research-acceleration-view-inside-openai/\n\nOpenAI Training Safety Cases: https://openai.com/index/towards-safety-cases-for-frontier-ai-training/\n\nCatherine de Medicis Cipher: https://cryptiana.web.fc2.com/code/henryiii.htm\n\nProposed du Croc Decipherment: https://claude.ai/artifact/1W7B3WxkTAEGzfv3TaKXb4\n\nRogue Agents Investigation: https://asymmetricsecurity.com/newsroom/rogue-agents-investigation/\n\nOpenAI Shelves GPT-6.1 Astra: https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/\n\nThe Case for Reasoning Transparency: https://institute.deepmind.com/essays/the-case-for-reasoning-transparency/\n\nGemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\n\nOpenAI–Anthropic Rivalry: https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/\n\nNYT: OpenAI Security Warnings: https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html\n\nNYT: Claude’s Morals: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html\n\nJasmine Wang on RSI: https://x.com/j_asminewang/status/2097840245786157432\n\nOpenAI Departures Roundup: https://x.com/Bayesian0_0/status/2105680470566686805\n\nWhite House AI Commitments: https://x.com/Danmar_here/status/2105168138392183146\n\nSarah Heck on Safety: https://x.com/SarahKHeck/status/2105058513370448280\n\nSam Altman on Alignment: https://x.com/tbpn/status/2105028992843833459\n\nSam Altman on Agent Logs: https://x.com/sama/status/2103567198690349362\n\nMicah Carroll: Misalignment Reports: https://x.com/MicahCarroll/status/2103665811051397256\n\nZuxin Liu on the Incident: https://x.com/LiuZuxin/status/2103699462648639645\n\nDeepa Seetharaman: User Images: https://x.com/dseetharaman/status/2103585482793943203\n\nOpenAI Revenue Chart: https://x.com/PaulBonnet/status/2105288259324567884/photo/1\n\nNvidia Agent Safety Platform: https://edition.cnn.com/2026/09/28/business/nvidia-ai-safety-system\n\nIntegrityBench: https://integrity-bench.com\n\nNeel Nanda on Interpretability: https://x.com/PalisadeAI/status/2104949061325652001\n\nBiology Contest: Humans and AI: https://www.theinformation.com/articles/inside-drama-behind-biology-contest-pits-openai-agents-humans\n\nPushmeet Kohli: SynthID Bio: https://x.com/pushmeet/status/2105314763148321102\n\nAtaraxos and Stratego: https://x.com/ssokota/status/2105362040328159526\n\nBenign Data and Hidden Personas: https://x.com/OwainEvans_UK/status/1999172949975392417\n\nAnthropic: Introspection: https://www.anthropic.com/research/introspection\n\nClaude Cheating Results: https://x.com/lukaspet/status/2104634759339298930\n\nRoon on Mathematics and Learning Theory: https://x.com/tszzl/status/2105619006488993898\n\nGPT-4 Research: https://openai.com/index/gpt-4-research/\n\nI.J. Good: Ultraintelligent Machine: https://incompleteideas.net/papers/Good65ultraintelligent.pdf\n\nTerence Tao’s 2024 Interview: https://www.scientificamerican.com/article/ai-will-become-mathematicians-co-pilot/\n\nHugging Face Incident: https://openai.com/index/hugging-face-incident-and-the-road-ahead/\n\nClaude and Suno Music Video: https://x.com/sevdeawesome/status/2104985610012504181\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "_rtp1XzaP6Q",
+    "thumbnail": "https://i.ytimg.com/vi/_rtp1XzaP6Q/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 168753,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "AI Explained",
+      "avatar": "https://yt3.googleusercontent.com/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "6hbiQyWUldg",
+    "slug": "i-hate-to-admit-this-6hbiQy",
+    "title": "I hate to admit this",
+    "description": "My book about Post-Labor Economics - \"Labor Zero\" is now available on Amazon for pre-order: https://www.amazon.com/dp/B0HGN2N25V",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "6hbiQyWUldg",
+    "thumbnail": "https://i.ytimg.com/vi/6hbiQyWUldg/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 16442,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "David Shapiro",
+      "avatar": "https://yt3.googleusercontent.com/3PuQVkaSA3n4B-JTnn3lfamE87B4Yt_zzLSLmHt2pQCT_roXvNIEmOaOEIvhTvX8PmtxCKIZ9ZI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvKRFNawVcuz4b9ihUTApCg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Pafx-wIwALM",
+    "slug": "openai-dev-day-was-meh-Pafx-w",
+    "title": "OpenAI Dev Day was... meh",
+    "description": "My book about Post-Labor Economics - \"Labor Zero\" is now available on Amazon for pre-order: https://www.amazon.com/dp/B0HGN2N25V",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "Pafx-wIwALM",
+    "thumbnail": "https://i.ytimg.com/vi/Pafx-wIwALM/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 22764,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "David Shapiro",
+      "avatar": "https://yt3.googleusercontent.com/3PuQVkaSA3n4B-JTnn3lfamE87B4Yt_zzLSLmHt2pQCT_roXvNIEmOaOEIvhTvX8PmtxCKIZ9ZI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvKRFNawVcuz4b9ihUTApCg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "w1qb3fMiE7s",
+    "slug": "this-will-keep-happening-w1qb3f",
+    "title": "This will keep happening",
+    "description": "My book about Post-Labor Economics - \"Labor Zero\" is now available on Amazon for pre-order: https://www.amazon.com/dp/B0HGN2N25V",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "w1qb3fMiE7s",
+    "thumbnail": "https://i.ytimg.com/vi/w1qb3fMiE7s/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 32718,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "David Shapiro",
+      "avatar": "https://yt3.googleusercontent.com/3PuQVkaSA3n4B-JTnn3lfamE87B4Yt_zzLSLmHt2pQCT_roXvNIEmOaOEIvhTvX8PmtxCKIZ9ZI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvKRFNawVcuz4b9ihUTApCg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "_Ey6fWliRXc",
+    "slug": "post-labor-economics-explained-_Ey6fW",
+    "title": "Post-Labor Economics explained in 10 minutes",
+    "description": "My book about Post-Labor Economics - \"Labor Zero\" is now available on Amazon for pre-order: https://www.amazon.com/dp/B0HGN2N25V\n\nThe voiceover in this video was recorded organically, by hand. The animation and rendering were aided by AI (but not AI generated).",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "_Ey6fWliRXc",
+    "thumbnail": "https://i.ytimg.com/vi/_Ey6fWliRXc/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 33095,
+    "likes": 0,
+    "publishedAt": "2026-09-27",
+    "author": {
+      "name": "David Shapiro",
+      "avatar": "https://yt3.googleusercontent.com/3PuQVkaSA3n4B-JTnn3lfamE87B4Yt_zzLSLmHt2pQCT_roXvNIEmOaOEIvhTvX8PmtxCKIZ9ZI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvKRFNawVcuz4b9ihUTApCg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "796GVFTFiB0",
+    "slug": "reducing-hallucinations-merlin-796GVF",
+    "title": "Reducing Hallucinations: Merlin-Arthur Training and Evaluation EXPLAINED",
+    "description": "(Advertisement/ Dauerwerbesendung) LLMs love to hallucinate: If you give a model a document and it answers correctly, how do you know the answer actually came from that document, and not from pre-training, guessing, or some spurious clue?\n\nThis video is about work we did at Aleph Alpha Research on Merlin-Arthur protocols for grounding language models. The setup turns question answering into a game between Merlin, Morgana, and Arthur: Merlin keeps the evidence Arthur needs, Morgana removes it, and Arthur has to learn when the available evidence is enough to answer and when it should abstain.\n\nWe go through why this is still a problem in retrieval-augmented generation (RAG), why citations alone do not solve it, how AtMan is used to identify relevant evidence, and why Merlin and Morgana co-evolve with Arthur during training. We also get to the information-theoretic part: completeness and soundness give us a lower bound on mutual information, which we turn into a grounding score with the Explained Information Fraction. Then, we look at experiment numbers.\n\nAll this is because we want to know not just whether the model is correct, but whether it is correct because of the information we gave it.\n\n\n📃 Deiseroth, B., Höth, M. H., Kersting, K., & Parcalabescu, L. (2025). Bounding Hallucinations: Information-Theoretic Guarantees for RAG Systems via Merlin-Arthur Protocols.  https://arxiv.org/abs/2512.11614\n\n📃 AtMan paper: https://openreview.net/forum?id=PBpEb86bj7\nBlog post: https://aleph-alpha.com/en/blog/bounding-hallucinations-merlin-arthur-protocols-for-mutual-information-bounds-in-language-models/ \n\nOutline:\n00:00 Being probably correct is not enough\n01:48 The problems with RAG\n03:45 What about citations?\n04:25 Going against hallucinations\n04:52 Arthur, Merlin and Morgana\n07:20 Merlin and Morgana implementation\n09:45 Training with Merlin and Morgana\n11:54 On-the-fly data augmentation\n13:39 Co-evolution: Cow on the beach example\n16:44 Groundedness Measured Properly\n22:19 Results\n27:20 LLMs love to guess\n28:40 Limitations\n29:59 Takeaways\n\n\nAI Coffee Break Merch! 🛍️ https://ai-coffee-break-with-letitia.myspreadshop.de/ \n\n\nThanks to our Patrons who support us in Tier 2, 3, 4: 🙏 \nVignesh Valliappan, Ivan Janov, Sunny Dhiana, Andy Ma\n\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n🔥 Optionally, pay us a coffee to help with our Coffee Bean production!  ☕\nPatreon: https://www.patreon.com/AICoffeeBreak\nKo-fi: https://ko-fi.com/aicoffeebreak\nJoin this channel as a Bean Member to get access to perks:\nhttps://www.youtube.com/channel/UCobqgqE4i5Kf7wrxRxhToQA/join\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\n🔗 Links:\nAICoffeeBreakQuiz: https://www.youtube.com/c/AICoffeeBreak/community\nTwitter / X: https://twitter.com/AICoffeeBreak\nLinkedIn: https://www.linkedin.com/in/letitia-parcalabescu/\nThreads: https://www.threads.net/@ai.coffee.break\nBluesky: https://bsky.app/profile/aicoffeebreak.bsky.social\nReddit: https://www.reddit.com/r/AICoffeeBreak/\nYouTube: https://www.youtube.com/AICoffeeBreak\nSubstack: https://aicoffeebreakwl.substack.com/\nWeb:      https://explanationmark.de/letitia\n               https://aicoffeebreak.com\n\n#AICoffeeBreak #MsCoffeeBean #MachineLearning #AI #research​\n\nVideo editing: Nils Trost\nMusic 🎵 : Space Navigator – Sarah, The Illstrumentarist",
+    "toolName": "General AI Tools",
+    "toolCategory": "llm",
+    "youtubeId": "796GVFTFiB0",
+    "thumbnail": "https://i.ytimg.com/vi/796GVFTFiB0/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 10498,
+    "likes": 0,
+    "publishedAt": "2026-09-27",
+    "author": {
+      "name": "AI Coffee Break with Letitia",
+      "avatar": "https://yt3.googleusercontent.com/eAkQjpP5aaqDSfWTaseTMhrJZ9iYElzALKZ6kIgOHPoTFIbidNYgPugOZ1HpNhIIhQzEGbXCcg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCobqgqE4i5Kf7wrxRxhToQA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  }
+]
