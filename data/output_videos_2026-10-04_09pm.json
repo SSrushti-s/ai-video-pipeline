@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "33Oct2hqGnk",
+    "slug": "agents-that-write-their-own-to-33Oct2",
+    "title": "Agents That Write Their Own Tools at Runtime — Sandhya Subramani, AWS",
+    "description": "This agent starts with zero tools. Ask it for something it can't do, and it writes the tool and uses it without restarting.\n\nSandhya Subramani, senior developer advocate for GenAI at AWS, demos meta-tooling with the open-source Strands Agents SDK. That means agents that write, load and use their own tools at runtime, and even spin up their own sub-agents. All it takes is a system prompt describing what a good tool looks like, plus three tools: editor, shell and load_tool. She walks through agentic patterns (swarm, graph, handoff, workflow), demos a travel planner that builds its own sub-agents, and covers the evals and guardrails you need before trusting a self-modifying agent in production.\n\nIn this talk:\n• Meta-tooling: editor, shell and load_tool plus one system prompt\n• Agents that create their own sub-agents\n• Evals for self-modifying agents: goal success, tool choice, parameters, inter-agent flow\n• Guardrails: sandboxed execution, constrained permissions and observability\n\nSPEAKER\nSandhya Subramani, Senior Developer Advocate, GenAI, AWS\nLinkedIn: https://www.linkedin.com/in/sandhyasubramani/\nGitHub: https://github.com/sandhya-subramani\n\nLINKS\nStrands Agents: https://strandsagents.com\nStrands Agents (GitHub): https://github.com/strands-agents\nStrands Agents tools: https://github.com/strands-agents/tools\n\nCHAPTERS\n0:00 Agents that forge their own tools\n0:40 Fixing code at runtime\n1:24 Demo: an agent with zero tools\n2:49 It writes a calculator tool\n3:39 It writes a character counter\n4:59 Meta-tooling with Strands Agents\n5:59 What Strands Agents is\n6:44 Three tools: editor, shell, load_tool\n7:43 Teaching the agent what a good tool looks like\n8:43 The system prompt in code\n9:53 Why this matters in production\n10:43 Agents that create agents\n11:03 Swarm, graph, handoff, workflow\n11:53 Demo: a self-assembling travel planner\n14:17 Self-healing agents\n15:21 With great power: evals\n17:06 Guardrails: sandbox, permissions, observability\n18:56 Self-improving agents\n19:21 Strands wrote its own TypeScript version\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AIAgents #AWS #AIEngineer",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "33Oct2hqGnk",
+    "thumbnail": "https://i.ytimg.com/vi/33Oct2hqGnk/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 43,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Bdrs3uAX0_M",
+    "slug": "ai-coding-agents-are-breaking--Bdrs3u",
+    "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph",
+    "description": "Claude Code can make the change. But what if you have 90,000 repositories to make it in?\n\nDan Adler, CEO of Sourcegraph, makes the case for the people who own the huge, decades-old codebases that run banks, cars and airlines. Coding agents are producing a tidal wave of code, and those codebases are starting to decay through duplicated code, drifting standards, brittle dependencies and new vulnerabilities. Agents understand code by searching, but you can't grep what you can't see. Dan argues that large-scale code visibility is infrastructure, and introduces Sourcegraph's Agentic Batch Changes for making changes across thousands of repos from a single prompt.\n\nIn this talk:\n• Why most software engineers work in large, long-lived codebases\n• How AI-generated code accelerates codebase decay\n• Why context, not model quality, is the bottleneck at enterprise scale\n• Making and auditing changes across thousands of repos\n\nSPEAKER\nDan Adler, CEO, Sourcegraph\nLinkedIn: https://www.linkedin.com/in/danielnealadler/\nX: https://x.com/DanielNealAdler\n\nLINKS\nSourcegraph: https://sourcegraph.com\nIntroducing Agentic Batch Changes: https://sourcegraph.com/blog/introducing-agentic-batch-changes\n\nCHAPTERS\n0:00 Intro\n0:12 Owning a large codebase\n0:37 The software that runs the world\n2:02 A tidal wave of AI-generated code\n2:57 Codebases are starting to decay\n3:57 Owning a codebase is harder than ever\n4:31 \"I don't know what this code does\"\n5:11 Codebase owners deserve better\n6:06 A call to dev tools builders\n6:31 \"I have 90,000 repositories\"\n7:21 Agents love to search\n7:51 You can't grep what you can't see\n8:21 There will be much more code\n8:56 The code graph\n9:21 Agentic Batch Changes\n10:21 Case study: Mercari\n11:11 How many repos do you really have?\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AICoding #DevTools #AIEngineer",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "Bdrs3uAX0_M",
+    "thumbnail": "https://i.ytimg.com/vi/Bdrs3uAX0_M/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 512,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "YXb2Wx1r_Pk",
+    "slug": "keyword-search-is-dying-is-you-YXb2Wx",
+    "title": "Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal",
+    "description": "Shoppers are moving from typing keywords to describing what they need, and agents are doing the searching.\n\nNixon Dinh, director of product for agentic commerce at PayPal, explains how shopping is moving from the search era to the intent era and then the delegation era, and why product catalogs built for keyword SEO aren't ready for AI agents. He breaks down keyword vs semantic search and shares the results of PayPal's experiments enriching merchant product data. Enrichment consistently improved agent recommendations and thin catalogs gained the most, but over-enriching with unstructured boilerplate diluted the signal and made agents hallucinate.\n\nIn this talk:\n• Search era, intent era, delegation era: how shopping behavior is shifting\n• Why catalogs syndicated for ads aren't readable by agents\n• Keyword vs semantic search, and why hybrid wins\n• Enrichment patterns that help, and why more text isn't better\n\nSPEAKER\nNixon Dinh, Director of Product, Agentic Commerce, PayPal\nLinkedIn: https://www.linkedin.com/in/nixon-dinh/\n\nLINKS\nPayPal Agentic Commerce Services: https://developer.paypal.com/agentic-commerce-services/about\nAgentic commerce docs: https://docs.paypal.ai/growth/agentic-commerce/overview\n\nCHAPTERS\n0:00 Intro\n0:12 Agentic commerce at PayPal\n0:52 How commerce evolves\n2:16 From the search era\n3:01 To the intent era\n3:51 Then the delegation era\n4:31 Why this matters now\n5:21 The market opportunity\n6:01 What merchants are seeing\n6:51 What changes for merchants\n7:40 Catalogs weren't built for agents\n8:20 Models are a black box\n8:55 Running experiments\n9:20 Keyword vs semantic search\n11:10 Enrichment patterns\n12:05 Example: enriching a running shoe\n13:20 Results: does enrichment help?\n13:54 Content quality beats more text\n14:29 Key learnings\n15:14 Takeaways\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AgenticCommerce #Ecommerce #AIEngineer",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "YXb2Wx1r_Pk",
+    "thumbnail": "https://i.ytimg.com/vi/YXb2Wx1r_Pk/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1884,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "jc3kbZkuHTo",
+    "slug": "the-human-is-an-async-api-mela-jc3kbZ",
+    "title": "The Human Is an Async API — Melanie Warrick, Temporal",
+    "description": "Humans don't respond in 200 milliseconds. Your agent shouldn't fall over waiting for one.\n\nMelanie Warrick from developer relations at Temporal shows how to build human-in-the-loop agents that don't block or lose state. Using a live multi-agent ice cream delivery demo with fleet, customer and dispatch agents on Google ADK and LangGraph, she explains why durability belongs in the agent harness and how Temporal's workers, workflows and activities track state. She shows how two primitives, a wait condition and a signal, let an agent pause for a human for minutes or weeks. Then she kills the worker mid-approval and brings it back with no lost work.\n\nIn this talk:\n• Why a blocking 'ask the human' call breaks in production\n• Temporal's workers, workflows and activities, and where model and tool calls belong\n• Wait conditions and signals for human-to-agent and agent-to-human flows\n• Deciding when a human should be in the loop: the cost of being wrong vs alert fatigue\n\nSPEAKER\nMelanie Warrick, Developer Relations, Temporal\nLinkedIn: https://www.linkedin.com/in/melaniewarrick/\nX: https://x.com/nyghtowl\nGitHub: https://github.com/nyghtowl\n\nLINKS\nTemporal: https://temporal.io\nTemporal (GitHub): https://github.com/temporalio/temporal\nTemporal + Google ADK: https://adk.dev/integrations/temporal/\nTemporal + LangGraph: https://docs.temporal.io/develop/python/integrations/langgraph\n\nCHAPTERS\n0:00 Intro\n0:13 Demo: Ziggy's ice cream delivery\n1:13 Google ADK + Temporal\n2:03 Human in the loop: changing an order\n3:38 The human is an async API\n4:13 What's in a harness?\n4:58 Durability belongs in the harness\n5:47 How Temporal works\n6:27 Workers, workflows and activities\n7:22 Back to human in the loop\n7:47 Why a blocking call fails\n8:02 Wait conditions and signals\n9:22 Starting the second demo\n10:12 The code: ADK integration\n11:37 Agent to human with LangGraph\n13:42 Demo: a high-value order needs a human\n15:07 Killing the worker mid-approval\n16:02 Recovery and replay\n16:47 When should a human be in the loop?\n17:47 Recap\n18:17 Resources\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AIAgents #Temporal #AIEngineer",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "jc3kbZkuHTo",
+    "thumbnail": "https://i.ytimg.com/vi/jc3kbZkuHTo/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 3282,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "pyvRID_CZZU",
+    "slug": "we-built-an-ai-support-agent-t-pyvRID",
+    "title": "We Built an AI Support Agent That Resolves 80% of Tickets — AssemblyAI",
+    "description": "1,000 API signups a day and one onboarding engineer. So AssemblyAI built Joey.\n\nMatt Lawler, forward deployed engineer lead at AssemblyAI, shares how his team replaced an off-the-shelf support bot that resolved 10% of conversations with their own agent, Joey, which resolves 80% end to end for about $700 a month. Joey is built on the Claude Agent SDK with docs checked out as local markdown, embeddings for retrieval, agentic file search and a large CLAUDE.md. It's deployed on Railway so fixes ship in about 30 seconds. Then Matt gives Joey a voice with AssemblyAI's Voice Agent API and demos it live, making the case that FDEs should automate themselves out of a job and dogfood the product their customers build.\n\nIn this talk:\n• Why the FDE model doesn't scale to 1,000 signups a day\n• Joey's architecture: local markdown docs, embeddings, agentic search and a single CLAUDE.md\n• Turning every escalation into a roadmap item for the agent\n• Adding real-time voice with one websocket: speech-to-text, LLM and text-to-speech\n\nSPEAKER\nMatt Lawler, Forward Deployed Engineer Lead, AssemblyAI\n\nLINKS\nAssemblyAI: https://www.assemblyai.com\nVoice Agent API docs: https://www.assemblyai.com/docs/voice-agents/voice-agent-api\nIntroducing the Voice Agent API: https://www.assemblyai.com/blog/introducing-our-voice-agent-api\nAssemblyAI on X: https://x.com/assemblyai\n\nCHAPTERS\n0:00 Intro\n0:33 Meet Matt\n1:13 What AssemblyAI does\n2:08 1,000 API signups a day\n2:38 What a forward deployed engineer does\n3:28 Why the FDE model doesn't scale\n3:57 Automate yourself out of a job\n4:12 The off-the-shelf bot: 10% resolution\n5:17 Building Joey\n6:12 Architecture: docs, embeddings, agentic search\n7:22 Deploying on Railway\n8:02 Results: 10% → 80% for $700 a month\n9:01 Escalations become the roadmap\n9:31 Giving Joey a voice\n10:56 Code walkthrough\n12:11 Live demo: talking to Joey\n14:24 Dogfood your own product\n15:08 Go build\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#VoiceAI #AIAgents #AIEngineer",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "pyvRID_CZZU",
+    "thumbnail": "https://i.ytimg.com/vi/pyvRID_CZZU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 6333,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "vPJBfbp8EDQ",
+    "slug": "jensen-huang-the-real-ai-threa-vPJBfb",
+    "title": "Jensen Huang: The REAL AI Threat Has NOT Even Arrived Yet",
+    "description": "🔒 Make yourself and your family AI-scam proof, step by step → https://neuralnutshell.com\n\nNVIDIA CEO Jensen Huang says there is a 0% chance AI will bring about the end of the world by 2030, calling doomsday warnings irresponsible and not grounded in science. In this interview, Huang argues that AI companies are transitioning from research labs into major product businesses and should devote more engineering resources to safety, testing, and verification. He also says existing laws should be applied before governments create new AI regulations, while arguing that America should develop AI as fast as possible without shipping unsafe products. The conversation examines warnings from AI leaders, cybersecurity incidents involving AI systems, the debate over government regulation versus industry responsibility, and the race with China. Huang ultimately rejects the idea that AI will cause an apocalypse while acknowledging the need for serious safety measures.\n\n📚 Sources cited in this video:\n\n- Nvidia CEO Says There’s ‘0% Chance’ That World Will End in 2030\nhttps://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030\n\n- OpenAI, The AI policy window is open. We need to act.\nhttps://openai.com/index/ai-policy-window/\n\n\n⚠️ DISCLAIMER: This channel provides AI commentary and analysis for educational and informational purposes only. Views expressed by guests are their own and do not represent the positions of any company or institution. We encourage viewers to consult multiple sources and form their own conclusions.\n\n#ai #agi #artificialintelligence",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "vPJBfbp8EDQ",
+    "thumbnail": "https://i.ytimg.com/vi/vPJBfbp8EDQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1437,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Neural Nutshell",
+      "avatar": "https://yt3.googleusercontent.com/d-Fxki0QZDXKQytAJRDi9YgabJX6HfeYFN5u7mn48Yw16TjWXHeZB-hMUfyxXcAYahEXZjElC3o=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCE0-acFJdnTPUCYlYoiq_fg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "mHPXee9Q0nU",
+    "slug": "pages-is-your-new-notion-in-do-mHPXee",
+    "title": "Pages is your new Notion in DOTS",
+    "description": "DOTS turns AI into your project assistant. Ask it to create a workspace for any project, and it instantly generates notes, checklists, and sub-pages, all contextualized to what it knows about you.\n\nOne prompt: \"create a new sub page in the scratch pad for a video I'm making about the launch of dots.\" Seconds later it had the page built out with notes, checklists, and links back to past chats on the topic.\n\nIf you've used Notion, Pages feels familiar, except your dot fills it in for you.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "mHPXee9Q0nU",
+    "thumbnail": "https://i.ytimg.com/vi/mHPXee9Q0nU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 474,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Futurepedia",
+      "avatar": "https://yt3.googleusercontent.com/7gpWN95XOZ-MO30txO1hyDUM9b830cX3mMANqWNVLVegO4LaoWueslV370g-8dBdkirYOKhUCw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC_RovKmk0OCbuZjA8f08opw",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "YB_pxncWuu4",
+    "slug": "dr-alex-wissner-gross-puts-a-r-YB_pxn",
+    "title": "Dr. Alex Wissner-Gross puts a real timeline on P vs. NP",
+    "description": "Dr. Alex Wissner-Gross puts a real timeline on P vs. NP, one of math's seven unsolved Millennium Prize problems.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "YB_pxncWuu4",
+    "thumbnail": "https://i.ytimg.com/vi/YB_pxncWuu4/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 796,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Peter H. Diamandis",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4sRGv4U1fm6diEUtlSUE26p1EQoHIlbm5wXRAiJfPrRo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvxm0qTrGN_1LMYgUaftWyQ",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "J53Ffes4ZGc",
+    "slug": "cathie-wood-and-brett-winton-o-J53Ffe",
+    "title": "Cathie Wood and Brett Winton on how fast AI revenue is actually growing",
+    "description": "Cathie Wood and Brett Winton on how fast AI revenue is actually growing — measured against the companies it's about to eclipse.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "J53Ffes4ZGc",
+    "thumbnail": "https://i.ytimg.com/vi/J53Ffes4ZGc/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1735,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Peter H. Diamandis",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4sRGv4U1fm6diEUtlSUE26p1EQoHIlbm5wXRAiJfPrRo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvxm0qTrGN_1LMYgUaftWyQ",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "nEhHYKFXS5I",
+    "slug": "use-chatgpt-to-break-tasks-int-nEhHYK",
+    "title": "Use ChatGPT to Break Tasks Into Steps Under 10 Minutes",
+    "description": "Follow me and DM me \"PRACTICAL\" on IG/FB only 👇\n\nHow to use AI to stop procrastinating...\n\nYou don't need a secret morning routine or another app. When a project feels too big, shrink the commitment until the first action feels easier to start.\n\nOpen ChatGPT or Claude and paste:\n\n“I need to finish this thing but I keep avoiding it. Break it down into tiny actions, each one less than 10 minutes. Tell me the first, then wait until I’m done.”\n\nDo only the first action. The goal isn't to finish the whole project in one session. The goal is to begin with a task small enough to complete in less than 10 minutes.\n\nWhen you finish, take a break. Return to the same chat and say you're done. Then start the next action, which should also take less than 10 minutes.\n\nKeep the AI focused on one action at a time. Don't ask for a giant plan and stare at the whole list. Let it give you the first action, wait for your update, then give you the next one.\n\nThis turns “finish the entire project” into one immediate step. Choose the task you've been avoiding, paste the prompt, and do the first action before planning anything else.\n\nHow do I use ChatGPT to stop procrastinating?\nWhat AI prompt breaks a task into 10-minute steps?\nHow do I make the first step easier to start?\n\n#mindset #brain #psychology #chatgpt #chatgptprompts",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "nEhHYKFXS5I",
+    "thumbnail": "https://i.ytimg.com/vi/nEhHYKFXS5I/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 507,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Sabrina Ramonov",
+      "avatar": "https://yt3.googleusercontent.com/4xWBLiSBOwmuX6RA3cNVtjzNpR5Rxy0fsK4hjqGKujCuGegLMndIE2yo-co0OQMOzJ2THGXt=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCiGWNa6QK6CiKPvv5-YPv8g",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "B4FC6aHZEu0",
+    "slug": "tokenmaxxers-optimize-the-wron-B4FC6a",
+    "title": "Tokenmaxxers Optimize the Wrong Thing",
+    "description": "Don't be a tokenmaxxer...\n\nTokenmaxxers chase the perfect prompt, squeeze every token, and switch between Claude and ChatGPT to stay on whichever model tech Twitter calls best.\n\nNone of those choices guarantees more progress. A more optimized model doesn't choose the right business problem for you.\n\nStart with the highest-ROI business problem in front of you. Ask which problem, if solved today, would move the business forward. Then bring AI into the work.\n\nUse AI to brainstorm possible approaches. Use it to plan the steps. Keep the problem at the center while you compare ideas and decide what to do next.\n\nYou don't need the perfect prompt for every task. You don't need to maximize every token. You don't need to change models whenever a new recommendation appears.\n\nPrompt quality, token usage, and model choice still matter. They come after you choose a business problem worth solving. Start with the problem, then use ChatGPT or Claude to think and plan.\n\nHow do I find the highest-ROI business problem?\nHow do I use AI to brainstorm business problems?\nHow do I stop over-optimizing ChatGPT prompts?\n\n#ai #chatgpt #productivity #business #entrepreneur",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "B4FC6aHZEu0",
+    "thumbnail": "https://i.ytimg.com/vi/B4FC6aHZEu0/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 602,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Sabrina Ramonov",
+      "avatar": "https://yt3.googleusercontent.com/4xWBLiSBOwmuX6RA3cNVtjzNpR5Rxy0fsK4hjqGKujCuGegLMndIE2yo-co0OQMOzJ2THGXt=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCiGWNa6QK6CiKPvv5-YPv8g",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "jkoDtRIYMdU",
+    "slug": "ai-turned-43-into-41495-here-a-jkoDtR",
+    "title": "AI Turned $43 Into $41,495. Here Are the 5 Moves It Made",
+    "description": "*FREE GUIDE: 📘 The Content Creator's AI Blueprint*  – https://FirstMovers.ai/blueprint/\n\n*A viral post claims one AI agent turned $43.47 into $41,495 overnight. I read all 10 AI money methods twice and sorted the gold from the fool's gold.*\n\nThat post reached 4.6 million people, and most of them saved it and did nothing. Three of the methods hold up, and every one is an *old business* that AI made about 90% cheaper to show up for.\n\nWhat you'll learn:\n✅ The 5 *moves* that turn AI money hype into a real offer\n✅ The 4-part test that separates a *system* from a gig\n✅ Why $200 is the most believable number in the whole post\n\nThe most useful paragraph in that post is the one the author *buried*.\n\n#AI #MakeMoneyOnline #SideHustle\n\nABOUT\n\nJulia McCoy, founder of First Movers, was the first to build a clone of herself on YouTube that fully replaced her face and voice. Today, every clone First Movers builds for clients runs on the same 6 layer clone system that powers Dr. McCoy. 300,000+ subscribers · 750+ videos Julia never filmed · 2M+ impressions a month · 0 demonetizations.\n\nSubscribe to learn the best in AI news, how to build an AI YouTube clone, set up an AI content engine for your brand, and 20x with AI.\n\n*Want to join First Movers?* Start here 👇\n\n*Free Blueprint* → https://firstmovers.ai/blueprint/\n*AI Labs*  → Learn it yourself with 500+ First Movers: https://firstmovers.ai/labs/\n*Clone Mastermind*  →  Get filmed once in Scottsdale and build your AI brain in-person with Julia: https://firstmovers.ai/clone-mastermind/\n*Done-for-you AI Systems* you fully own → https://firstmovers.ai/consulting/\n*Book a Free Call* → https://firstmovers.ai/book-my-call/\n\n#AIClone #AIAutomation #FirstMovers",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "jkoDtRIYMdU",
+    "thumbnail": "https://i.ytimg.com/vi/jkoDtRIYMdU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 9380,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julia McCoy",
+      "avatar": "https://yt3.googleusercontent.com/K1c1eTKd0oYL4Wn7o62ZdCM48hKeOFIk9JCVgPo8Anj8GTVLYTFTogJna8_sDq9L5F6NeXl7LA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCqzK60-oUOEq36uU9B1MMUg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "9CGsq3A590Q",
+    "slug": "openais-employees-warning-9CGsq3",
+    "title": "OpenAI's employee's WARNING",
+    "description": "The person who led safety-report writing for 12 OpenAI launches has quit—and says the culture is broken. Meanwhile, an internal model wrote “we may die!” after learning its instance might be stopped. We look at what actually happened, why insiders are worried, and the extraordinary discoveries arriving alongside these warnings.\n\n______________________________________________\nMy Links 🔗\n➡️ Twitter: https://x.com/WesRothMoney\n➡️ AI Newsletter: https://natural20.beehiiv.com/subscribe\n\nWant to work with me?\nBrand, sponsorship & business inquiries: wesroth@smoothmedia.co\n______________________________________________\n\nMY RELATED VIDEOS:\n\nOpenAI JUST revealed the truth about it's \"Rogue Agent\":\nhttps://www.youtube.com/watch?v=9lSIHaXT1rU\n\nOpenAI internal model JUST went ROGUE:\nhttps://www.youtube.com/watch?v=OSuhUTkM1no\n\nOpenAI just SOLVED MATH....:\nhttps://www.youtube.com/watch?v=gCHEFZDPVYs\n\nSOURCES:\n\nDavid Robinson — I Quit OpenAI Because Its Culture Is Broken:\nhttps://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/\n\nJoe (@joedaroo) — Its not just the f*cking sandbox:\nhttps://x.com/joedaroo/status/2104335929293127851\nSelected excerpts:\nhttps://simonwillison.net/2026/Sep/28/joedaroo/\n\nOpenAI — Navier–Stokes mathematics result:\nhttps://openai.com/index/navier-stokes-solution/\n\nRoon's profile (the learning-theory discussion):\nhttps://x.com/tszzl\n\nOpenAI — Preparing for a restart after reading Slack:\nhttps://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/\n\nAnthropic's meetings with religious scholars — Elizabeth Dias / The New York Times, via The Philadelphia Inquirer:\nhttps://www.inquirer.com/news/nation-world/religious-leaders-met-with-anthropic-20260930.html\n\nSam Altman's post on AI and religious authority:\nhttps://x.com/sama/status/2106388373221118198\n\nGoogle DeepMind — Introducing SynthID Bio:\nhttps://deepmind.google/blog/introducing-synthid-bio/\nNature paper:\nhttps://www.nature.com/articles/s41586-026-10965-y\n\nCarter Church — Breaking the Marmont Cipher, 1809:\nhttps://carter.church/writeups/the-letter-to-marmont/\n\nDaniel Bourdeau — Armstrong's coded postscript to Madison, 1808:\nhttps://dbourdeau.github.io/cyphersolver/armstrong.html\n\nCHAPTERS:\n00:00 AI Safety\n03:15 OpenAI Resignation\n04:45 Security and Scaling\n12:20 Shutdown Incident\n14:55 AI Consciousness\n18:25 SynthID Bio\n20:50 Historical Ciphers\n\n#ai #openai #ainews",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "9CGsq3A590Q",
+    "thumbnail": "https://i.ytimg.com/vi/9CGsq3A590Q/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 64059,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Wes Roth",
+      "avatar": "https://yt3.googleusercontent.com/DBBVMr7VodH_Y5y67c6X7apjoJLNxCHWXCHfjAHy2bep29hgM-Q_oDVkEururWHDii_S8S8l=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCqcbQf6yw5KzRoDDcZ_wBSw",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "jo70OkhryIA",
+    "slug": "deepseek-painted-my-portrait-jo70Ok",
+    "title": "DeepSeek Painted My Portrait",
+    "description": "Join My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.com\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/u7wTTGWhuJ\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "jo70OkhryIA",
+    "thumbnail": "https://i.ytimg.com/vi/jo70OkhryIA/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1704,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Matthew Berman",
+      "avatar": "https://yt3.googleusercontent.com/1X83USLZjNCWy21jOEP9rhsLujx6airwI-ANVsBhWMoErFuUkbx6-tDBjM-OAaIwxDv8MoUlHUk=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "0j8wy4jUlsw",
+    "slug": "the-end-of-the-app-era-what-co-0j8wy4",
+    "title": "The end of the app era: What comes next?",
+    "description": "AI agents are changing how companies buy and sell software. I break down which parts of your software stack still earn their price, why the agent you trained gets harder to replace, and what to do about it at work.\n\nFull post:\nhttps://natesnewsletter.substack.com/p/ai-agents-software-buying?utm_source=youtube&utm_medium=video&utm_campaign=ai-agents-software-buying-launch&utm_content=description\n\nNate's Library MCP (every prompt kit and guide, inside the AI you already use):\nhttps://unlock-ai.natebjones.com/guides/how-to-connect-nates-library?utm_source=youtube&utm_medium=video&utm_campaign=ai-agents-software-buying-launch&utm_content=description\n\nMy Links 🔗\n👉🏻 Newsletter: https://natesnewsletter.substack.com/?utm_source=youtube&utm_medium=video&utm_campaign=ai-agents-software-buying-launch&utm_content=description\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nWhat's really happening to software when your agent does the work?\n\nThe common story is that agents make SaaS obsolete, but the real question is which layer you're still paying for: the data, the application, or the agent.\n\nIn this video, I share the inside scoop on how agents are changing software:\n- Why the old tool gets easier to leave while your agent gets harder\n- How Meta, Salesforce, Microsoft, and DoorDash are positioning for agents\n- What Crustdata and Workday show about building versus buying software\n- Where you fit as an employee, a buyer, or a seller\n\nEvery software decision now runs through the data, application, and agentic layers, and the people who can explain how they use AI will shape what gets bought.\n\nChapters:\n00:00 DoorDash and the future of buying software\n02:01 A recruiter's agent that got hard to replace\n04:36 What you still buy when agents do the work\n07:35 Meta and Muse for Small Business\n09:17 Salesforce, Koa, and the Claude partnership\n12:56 Microsoft, Copilot, and Autopilot\n15:02 Where OpenAI and Anthropic fit\n17:03 DoorDash, MCP, and being reachable by agents\n19:39 Why your team's AI habits shape buying decisions\n21:06 Crustdata, The Firm, and Workday payroll\n24:30 The data, application, and agentic layers\n29:40 What to do as an employee, leader, or seller\n\nListen to this video as a podcast.\n\nSpotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4\nApple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "0j8wy4jUlsw",
+    "thumbnail": "https://i.ytimg.com/vi/0j8wy4jUlsw/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 14997,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "AI News & Strategy Daily | Nate B Jones",
+      "avatar": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "DVFHKIq4BoU",
+    "slug": "new-claude-update-is-amazing-DVFHKI",
+    "title": "NEW Claude Update is AMAZING!",
+    "description": "FREE AI SEO Course → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nFree SEO Strategy session → https://link.juliangoldie.com/widget/bookings/seo-gameplans3388j\n\nClaude just launched a limited-time promotion that makes working with Artifacts use 50% less of your 5-hour session limit. From October 1st to October 15th, eligible users can build and iterate on documents, presentations, and designs with a lighter usage impact. In this video, I’ll show you exactly how the promotion works, the catch most people are missing, and three practical SEO workflows using Claude Design, Claude Docs, and presentations.\n\n00:00 Intro – New Claude Update Is Amazing!\n00:32 Claude Artifacts – The New 50% Usage Promotion\n01:23 How The Artifact Discount Actually Works\n02:47 The Catch – It’s NOT Double Usage\n03:16 Why Claude Sonnet 5.5 Makes This More Useful\n04:08 Claude Design – Build SEO Landing Pages\n05:29 Claude Docs – Create SEO Content\n06:31 Presentations – Turn SEO Into Slide Decks\n07:25 The Real Opportunity – Build, Review & Iterate\n07:59 Free SEO Strategy Session",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "DVFHKIq4BoU",
+    "thumbnail": "https://i.ytimg.com/vi/DVFHKIq4BoU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 186,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "7UnXkvdePUg",
+    "slug": "new-ornith-models-are-crazy-go-7UnXkv",
+    "title": "NEW Ornith Models are Crazy Good! 🤯",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\n00:00 — Ornith 1.5 Is 4× Faster With DFlash\n00:25 — Ornith 1.5: Models, Benchmarks & Performance\n01:08 — How Ornith Trains Itself\n01:39 — DFlash: The New AI Speed Boost\n02:30 — Ornith Gets Up to 4.6× Faster\n02:50 — Using Fast AI Models for Business\n03:21 — AI Profit Boardroom: Real-World AI Workflows\n03:46 — Try Ornith + DFlash for Free\n04:25 — How DFlash Works With Ornith Models\n04:42 — Ornith 35B: Why It's Still Fast\n05:06 — Why AI Speed Actually Matters\n05:23 — What Faster AI Can Do for Your Business\n05:43 — Running Ornith + DFlash on One GPU\n06:02 — Running Ornith on Apple & Intel Hardware\n06:26 — Open AI Models Are Catching Up\n06:38 — Why Smart + Fast AI Matters\n06:54 — Turning Ornith & DFlash Into Business Workflows\n07:18 — AI Profit Boardroom: Tutorials & Coaching\n07:42 — AI Success Lab: Free AI Community\n08:06 — Final Thoughts on Ornith 1.5",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "7UnXkvdePUg",
+    "thumbnail": "https://i.ytimg.com/vi/7UnXkvdePUg/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 257,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "PHn2mOrkYqQ",
+    "slug": "new-claude-code-update-changes-PHn2mO",
+    "title": "NEW Claude Code Update Changes Everything!",
+    "description": "FREE AI SEO Course → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nFree SEO Strategy session → https://link.juliangoldie.com/widget/bookings/seo-gameplans3388j\n\nClaude Code just got a major upgrade: Mods\n\nAnthropic announced Claude Code Mods on October 1st, 2026, giving developers a new way to customize how Claude Code works, looks, and responds. Mods can rewrite prompts, block or modify tool calls, approve or deny permissions, hide private information, add UI elements, create new commands, and even replace built-in features.\n\n00:00 New Claude Code Update Changes Everything!\n00:35 What Are Claude Code Mods?\n00:43 Claude Code Is Now Moddable\n01:00 Why Mods Matter for SEO\n01:18 How Claude Code Mods Work\n02:59 What Claude Code Mods Can Actually Do\n03:22 SEO Prompt-Rewriting Mod\n03:58 Block Dangerous Commands\n04:18 Hide API Keys & Passwords\n04:33 Claude Can Build Its Own Mods\n04:58 Build a Tool-Call Counter\n05:12 Build an SEO Checklist Panel\n05:40 Claude Code's Built-In Mods\n06:13 Can You Stack Multiple Mods?\n06:22 Blast Radius & Replay Theater\n07:03 The BIG Security Warning\n07:22 Mods for Teams & Enterprise\n07:39 Free AI SEO Course\n08:16 Free SEO Strategy Session\n08:40 Final Thoughts",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "PHn2mOrkYqQ",
+    "thumbnail": "https://i.ytimg.com/vi/PHn2mOrkYqQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1153,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "0-YO1lPnmfU",
+    "slug": "new-google-gemini-skills-updat-0-YO1l",
+    "title": "NEW Google Gemini Skills Update is a Game Changer! 🤯",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\n00:00 – NEW Google Gemini Skills Update Explained\n00:52 – What Are Gemini Skills?\n01:09 – How Gemini Skills Work\n01:49 – Skills vs. Normal Prompts\n02:05 – A Real Gemini Skills Example\n02:27 – 30-Day Gemini Skills Roadmap\n03:44 – Gemini Can Automatically Use Skills\n04:25 – How to Manually Activate Skills\n04:40 – Stack Multiple Gemini Skills Together\n05:29 – Add Your Own Files to Gemini Skills\n06:17 – Do You Need Coding for Gemini Skills?\n06:45 – The Opportunity With Gemini Skills\n06:58 – Build Gemini Skills for Your Business\n07:30 – Gemini Skills Community & Resources\n08:01 – Final Thoughts on Gemini Skills",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "0-YO1lPnmfU",
+    "thumbnail": "https://i.ytimg.com/vi/0-YO1lPnmfU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 2225,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "jV82VNaDuMo",
+    "slug": "hermes-claude-codex-the-ai-sys-jV82VN",
+    "title": "Hermes + Claude + Codex — The AI System That Does EVERYTHING! 🤯",
+    "description": "Get the Agent OS & Hermes + Claude + Codex Masterclass 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\n00:00 — Hermes + Claude + Codex: The Agent OS\n00:14 — What Is an Agentic Operating System?\n00:42 — Hermes Oracle: AI Research Agent\n01:06 — Automating AI News & Content Ideas\n01:44 — From Idea to WordPress Automatically\n02:00 — Build Your 30-Day Agent OS Roadmap\n03:24 — Hermes Muse: Find What Content Works\n03:49 — Hermes Asteros: Analyze Competitors\n04:27 — AI Video Agent: Create Videos Automatically\n05:11 — AI Music Agent Powered by Suno\n05:43 — SEO Agent: 750K Search Impressions\n06:15 — Find Keywords & Generate Articles\n06:47 — The AI SEO Loop Explained\n07:04 — Why Connected AI Agents Matter\n07:20 — Automate Your Business With Agent OS\n07:51 — AI Success Lab + 100+ AI Use Cases\n08:39 — Final Thoughts on Agent OS",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "jV82VNaDuMo",
+    "thumbnail": "https://i.ytimg.com/vi/jV82VNaDuMo/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1070,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "2tb983REnck",
+    "slug": "hermes-agent-just-changed-ai-s-2tb983",
+    "title": "Hermes Agent Just Changed AI SEO Forever",
+    "description": "FREE AI SEO Course → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nFree SEO Strategy session → https://link.juliangoldie.com/widget/bookings/seo-gameplans3388j\n\nGoogle is already showing your site for keywords you've never targeted. You just don't have the page to win them yet. Here's how Hermes Agent turns those hidden keywords into articles, backlinks, and rankings on autopilot, then reviews its own work to get sharper every batch. Real results: 325+ clicks a day from Google, zero ads.\n\n00:00 Intro – The hidden keywords Google wants you to rank for\n00:48 Proof – 325 clicks/day on a DR 20 site\n01:05 Old SEO vs. Hermes Agent – Why manual SEO breaks\n02:03 Part 1 – Find impression-no-click keywords in Search Console\n03:15 Part 2 – 1 keyword + 1 case study = 5 ranking articles\n04:04 Part 3 – Automated backlink outreach with Hunter\n05:20 Part 4 – The self-improving SEO loop\n06:05 Reality Check – Sandbox, timing & \"AI content doesn't rank\"",
+    "toolName": "General AI Tools",
+    "toolCategory": "llm",
+    "youtubeId": "2tb983REnck",
+    "thumbnail": "https://i.ytimg.com/vi/2tb983REnck/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 845,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "mlnZapGAg9g",
+    "slug": "new-grok-hermes-agent-changes--mlnZap",
+    "title": "NEW Grok + Hermes Agent Changes Everything! 🤯",
+    "description": "Get the Agent OS & Hermes + Grok Masterclass  👉 https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\n00:00 — Grok 4.7 + Hermes Agent OS Changes Everything\n00:38 — Switch Between AI Models Instantly\n01:08 — Agent OS Memory + Obsidian Integration\n01:49 — Build Your 30-Day AI Automation System\n03:21 — Hermes Oracle: AI Research Agent\n03:59 — Grok 4.7 Benchmarks & Performance\n04:16 — Build Apps, Games & AI Skills\n04:46 — The Old Way vs. Agent OS\n05:04 — Is Grok 4.7 the Best AI Model?\n05:21 — Grok 4.8 Is Already Training\n05:37 — How to Actually Use Grok 4.7\n05:52 — Why AI Agent Systems Matter\n06:20 — Automate Your Business With Agent OS\n06:50 — AI Success Lab + 100+ AI Use Cases\n07:36 — Final Thoughts on Grok 4.7",
+    "toolName": "Grok",
+    "toolCategory": "agents",
+    "youtubeId": "mlnZapGAg9g",
+    "thumbnail": "https://i.ytimg.com/vi/mlnZapGAg9g/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1024,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "rFCoCESk5hU",
+    "slug": "claude-code-just-got-mods-this-rFCoCE",
+    "title": "Claude Code Just Got Mods... This Is HUGE!",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\n00:00 Intro – Claude Code Mods Just Launched\n01:09 What Mods Are – TypeScript Inside Claude Code\n01:46 4 Core Powers – Prompts, Commands, Permissions, Secrets\n02:54 Custom UI – Panes, Buttons & Real Use Cases\n03:45 How to Install – /plugin, Version & Built-in Mods\n04:25 Teams & Enterprise – Admin Controls\n05:24 Security Risks – What Mods Can Access\n06:19 5 Tips to Get Started Fast",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "rFCoCESk5hU",
+    "thumbnail": "https://i.ytimg.com/vi/rFCoCESk5hU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 3776,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "mwgT51KU5H8",
+    "slug": "new-gemini-4-argon-is-scary-go-mwgT51",
+    "title": "NEW Gemini 4 Argon is Scary Good! 😱",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "mwgT51KU5H8",
+    "thumbnail": "https://i.ytimg.com/vi/mwgT51KU5H8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1743,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "erEc0_oJn8Y",
+    "slug": "new-chatgpt-updates-are-absurd-erEc0_",
+    "title": "NEW ChatGPT Updates Are ABSURD!",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian",
+    "toolName": "ChatGPT",
+    "toolCategory": "agents",
+    "youtubeId": "erEc0_oJn8Y",
+    "thumbnail": "https://i.ytimg.com/vi/erEc0_oJn8Y/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1444,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Zdcx_VHAREI",
+    "slug": "deepseek-harness-can-now-build-Zdcx_V",
+    "title": "DeepSeek Harness Can Now Build Its Own Plugins",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\nDeepSeek Harness can now build its own plugins. Describe a tool in plain English, and Creator Mode writes, installs, and tests it for you in minutes. Here's how it works, what's new in V0.2, and how to start using it today, free and open source.\n\n00:00 Intro – DeepSeek Harness Builds Its Own Plugins\n00:40 What Is DeepSeek Harness? – Everything Is a Plugin\n01:20 Creator Mode – Build Plugins in Plain English\n01:45 Live Demo – Pomodoro Timer From One Prompt\n02:49 Slides, Web Pages & Scheduled Tasks\n03:16 Community Plugins – Install & Modify\n03:54 What's New in V0.2\n04:47 How to Install – Desktop App or Node\n05:43 Real Use Cases – Fill Your Workflow Gaps",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "Zdcx_VHAREI",
+    "thumbnail": "https://i.ytimg.com/vi/Zdcx_VHAREI/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 6578,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Oh1UqH9bJhg",
+    "slug": "5-insane-gpt-6-astra-use-cases-Oh1UqH",
+    "title": "5 INSANE GPT-6 Astra Use Cases You Need to See",
+    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\nI built dozens of AI automations. 90 days later I'd deleted all of them except five — and these five now run my entire day. I'll show you exactly how each one works (trend research, a self-building second brain, a site builder that actually ranks, an SEO gap engine, and an idea machine), all powered by GPT-6 Astra inside Agent OS. Start with the one that fixes your biggest bottleneck first.\n\n00:00 Why most AI automations are a waste\n00:26 The 90-day test: only 5 survived\n00:53 System 1 – Trend research agent\n01:19 Why systems beat tools\n03:23 System 2 – Self-building memory layer\n04:35 System 3 – Website builder that ranks\n05:48 System 4 – SEO gap engine\n06:32 System 5 – Idea system\n07:34 Start with one, not all five",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "Oh1UqH9bJhg",
+    "thumbnail": "https://i.ytimg.com/vi/Oh1UqH9bJhg/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1139,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Julian Goldie SEO",
+      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "NHl2kuRp4JU",
+    "slug": "chatgpt-just-added-features-no-NHl2ku",
+    "title": "ChatGPT Just Added Features Nobody Expected",
+    "description": "Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nChatGPT just got a \"co-worker\" that keeps working after you close your laptop. OpenAI Dev Day 2026 dropped 20+ announcements, and I break down the ones that matter in plain English, plus where to start. \n\n00:00 Intro – ChatGPT's New Co-Worker\n00:39 Dev Day Demo – 3D Solar System\n00:44 Dots – Always-On AI Agents\n01:13 Dots – Safety Rules & Plans\n01:48 ChatGPT Spaces & Pages\n02:59 Meetings Plugin – Auto Notes\n03:24 GPT-6.1 Sol – New Model\n03:47 Ultrafast – Faster Speeds\n04:13 Pro 500 – New Top Tier\n04:20 Codex Upgrades – Voice & Agents\n04:52 Codex Security – Auto Fixes\n05:17 Sign in with ChatGPT\n05:34 Shareable Profiles\n05:49 Collaborative Slides\n06:13 ChatGPT in Slack & Teams\n06:47 Plugin Automations\n07:09 Plugin Extensions\n07:25 Developer Updates – Agents & Decisions APIs\n07:42 Where to Start – Pick One Task\n08:06 Free AI Success Lab",
+    "toolName": "ChatGPT",
+    "toolCategory": "agents",
+    "youtubeId": "NHl2kuRp4JU",
+    "thumbnail": "https://i.ytimg.com/vi/NHl2kuRp4JU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 32,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Ava Does AI",
+      "avatar": "https://yt3.googleusercontent.com/okGCehUR32trwZTFsBiSL0M5XyOq2mJ9VcGiTJkCidOwr99DGrhhks5DBc9Yn7SSGvhnmeCoCA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCeKNYDvbHFQS7fA38GpoR-g",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "7GIJUZ7Fc3k",
+    "slug": "google-gemini-4-argon-is-here--7GIJUZ",
+    "title": "Google Gemini 4 Argon Is Here... And It’s MASSIVE!",
+    "description": "Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGoogle just jumped Gemini 4 Argon's output limit from 64K to 1 million tokens. Here's what it is, who gets it first, and the benchmark claims you should take with a grain of salt.\n\n00:00 Intro – Gemini 4 Argon Is Here\n00:39 What Google Announced\n01:12 1M Token Output Explained\n01:46 Who Gets Access First\n02:24 Free AI Success Lab\n02:56 How Google Uses Argon\n03:05 Memory Fixes at Google\n03:29 C++ to Rust Migration\n04:08 Benchmark Results\n04:58 Cybersecurity Findings\n05:31 Why Benchmarks Aren't Proof\n06:12 Prompt Tip for Long Tasks\n06:28 Safety Safeguards\n07:10 Big Picture and What to Watch\n07:33 Join the AI Success Lab",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "7GIJUZ7Fc3k",
+    "thumbnail": "https://i.ytimg.com/vi/7GIJUZ7Fc3k/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 99,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Ava Does AI",
+      "avatar": "https://yt3.googleusercontent.com/okGCehUR32trwZTFsBiSL0M5XyOq2mJ9VcGiTJkCidOwr99DGrhhks5DBc9Yn7SSGvhnmeCoCA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCeKNYDvbHFQS7fA38GpoR-g",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "H-oJARcHVTY",
+    "slug": "gemini-notebook-just-got-a-hug-H-oJAR",
+    "title": "Gemini Notebook Just Got a HUGE Upgrade",
+    "description": "Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGemini Notebook (formerly NotebookLM) just got a huge upgrade: you can now talk to your notes out loud. 🎙️ See every new feature, what you can use today, and the catch to know about. Free AI Success Lab link below.\n\n00:00 Intro – Talk to Your Notes\n00:36 What Is Gemini Notebook\n00:51 Live Voice Chat\n01:48 Audio Overviews – 4 Styles\n02:58 Built-In Audio Recorder\n03:26 Interactive Learning Overviews\n03:58 Smarter Quizzes\n04:33 60-Second Video Overviews\n04:57 Google Docs as Sources\n05:35 100,000+ Books Added\n06:31 The Catch – Rollout Limits\n07:02 What to Try Today\n07:34 Free AI Success Lab",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "H-oJARcHVTY",
+    "thumbnail": "https://i.ytimg.com/vi/H-oJARcHVTY/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 133,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Ava Does AI",
+      "avatar": "https://yt3.googleusercontent.com/okGCehUR32trwZTFsBiSL0M5XyOq2mJ9VcGiTJkCidOwr99DGrhhks5DBc9Yn7SSGvhnmeCoCA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCeKNYDvbHFQS7fA38GpoR-g",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "kMkFMtRx2VY",
+    "slug": "gemini-4-leaks-are-wild-2m-tok-kMkFMt",
+    "title": "Gemini 4 Leaks Are WILD... 2M Tokens, Agents & 3D Apps!",
+    "description": "Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGemini 4 leaks are everywhere, but what's actually real? A mystery model is building 3D games and flagship-level art under a fake name, and Google has only confirmed one thing. Get the facts vs. rumors, plus how to be ready on launch day.\n\n00:00 Intro – Gemini 4 Leaks\n00:35 What's Confirmed – Facts vs. Rumors\n01:00 Post-Training Explained\n01:49 Why Google Is Rushing\n03:25 Argon Code Name Leak\n03:52 Mystery Model on Arena\n05:03 2M Token Context Window\n05:44 Leaked Benchmarks – Real or Fake?\n06:26 Is Rushing the Right Move?\n06:54 Get Ready for Launch Day\n07:45 Final Takeaways",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "kMkFMtRx2VY",
+    "thumbnail": "https://i.ytimg.com/vi/kMkFMtRx2VY/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 122,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "Ava Does AI",
+      "avatar": "https://yt3.googleusercontent.com/okGCehUR32trwZTFsBiSL0M5XyOq2mJ9VcGiTJkCidOwr99DGrhhks5DBc9Yn7SSGvhnmeCoCA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCeKNYDvbHFQS7fA38GpoR-g",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "dHJRpuGQ9xA",
+    "slug": "kimi-just-turned-your-browser--dHJRpu",
+    "title": "Kimi Just Turned Your Browser Into an AI Agent",
+    "description": "Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nKimi just turned your browser into an AI agent that clicks buttons, fills forms, and pulls data from any site you're already logged into. The killer feature: record a task once and Kimi replays it forever as a reusable \"skill\" — no more repeating yourself. Full setup, the privacy details, and two real workflows to steal.\n\n00:00 Intro – Your browser, now an AI agent\n00:24 What It Is – Kimi Browser Extension (formerly WebBridge), explained\n02:11 Key Feature – \"Skills\": record a task once, replay it forever\n02:19 How To Build One – Record, save a session, or convert a web page\n04:15 Privacy – Runs locally; logins never leave your device\n04:44 Agent Setup – Works with Claude Code, Cursor & Kimi Work\n06:32 Real Workflows – SEO research + content briefs you can copy",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "dHJRpuGQ9xA",
+    "thumbnail": "https://i.ytimg.com/vi/dHJRpuGQ9xA/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 163,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Ava Does AI",
+      "avatar": "https://yt3.googleusercontent.com/okGCehUR32trwZTFsBiSL0M5XyOq2mJ9VcGiTJkCidOwr99DGrhhks5DBc9Yn7SSGvhnmeCoCA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCeKNYDvbHFQS7fA38GpoR-g",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "AutfckkBP80",
+    "slug": "exploring-the-new-openai-busin-Autfck",
+    "title": "Exploring the NEW OpenAI Business Ecosystem: Dots, Spaces, Pages",
+    "description": "🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join\n🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com\n\n💻 MY TECH STACK\nKylon (AIOS workspace): https://kylon.io/liam\nRailway (agent & web hosting): https://railway.com?referralCode=liam\nApify (web scraping): https://apify.com?fpr=makeover\nCodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw\nGlaido (voice transcription): https://get.glaido.com/liam-ottley\n\n📲 FOLLOW ME\nInstagram: https://instagram.com/liamottley\nLinkedIn: https://www.linkedin.com/in/liamottley\nX: https://twitter.com/liamottley_\n\nSome links above are affiliate links. Using them supports the channel at no extra cost.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "AutfckkBP80",
+    "thumbnail": "https://i.ytimg.com/vi/AutfckkBP80/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 6399,
+    "likes": 0,
+    "publishedAt": "2026-10-04",
+    "author": {
+      "name": "Liam Ottley",
+      "avatar": "https://yt3.googleusercontent.com/81YBrChz5qTRqj6J2rrzqJgD4y_n3SMkfVdQX66X7EhpfVwDh-xUJBEG5GaneiO5Bpr_km96VQ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCui4jxDaMb53Gdh-AZUTPAg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "2GPCo8gqyX8",
+    "slug": "openai-devday-2026-live-reacti-2GPCo8",
+    "title": "OpenAI DevDay 2026: LIVE Reaction w/ My Team",
+    "description": "🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join\n🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com\n\n💻 MY TECH STACK\nKylon (AIOS workspace): https://kylon.io/liam\nRailway (agent & web hosting): https://railway.com?referralCode=liam\nApify (web scraping): https://apify.com?fpr=makeover\nCodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw\nGlaido (voice transcription): https://get.glaido.com/liam-ottley\n\n📲 FOLLOW ME\nInstagram: https://instagram.com/liamottley\nLinkedIn: https://www.linkedin.com/in/liamottley\nX: https://twitter.com/liamottley_\n\nSome links above are affiliate links. Using them supports the channel at no extra cost.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "2GPCo8gqyX8",
+    "thumbnail": "https://i.ytimg.com/vi/2GPCo8gqyX8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 18473,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Liam Ottley",
+      "avatar": "https://yt3.googleusercontent.com/81YBrChz5qTRqj6J2rrzqJgD4y_n3SMkfVdQX66X7EhpfVwDh-xUJBEG5GaneiO5Bpr_km96VQ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCui4jxDaMb53Gdh-AZUTPAg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "hNLHEC-4okw",
+    "slug": "claude-code-prove-it-better-ai-hNLHEC",
+    "title": "Claude Code + /prove-it-better = AI That PROVES It's Better (FREE Skill)",
+    "description": "A new model comes out every few weeks and every one claims to be better. AI sounds just as confident when it's wrong. So how do you actually know a change made your code, your prompts or your app better?\n\nI built a free Claude Code skill for exactly that: /prove-it-better. It makes every change prove itself before it ships.\n\nHow it works:\n1. Checks it has access to everything it needs\n2. Researches the problem and the real data before touching anything\n3. Writes the ship rule first, then builds the new version behind a switch\n4. Runs old vs new on the same real inputs, with a blind judge: outputs labelled A and B, judged twice with the order swapped, and both verdicts must agree\n5. Hard checks too: do the links load, are the quotes real, is there real search demand\n6. Lost? It reads the judge's reasons, fixes, and tests again\n7. Ships only the winners, so you can undo in a second, then verifies it live\n8. Reports only what it measured\n\nI ran it on a /goal overnight and it worked for about 9 hours rebuilding Harbor, my AI SEO content tool. Keywords, clusters, Scout, Spy, landing pages, article statistics: all of it came out better. Then I pointed it at my Convex bill. It found 5 seats I didn't need and saved me $75 a month.\n\nInstall:\ngit clone https://github.com/IncomeStreamSurfer/prove-it-better\nThen run /prove-it-better in Claude Code.\n\nHarbor (founder pricing is back): €29/month, and 50% off your first month → \n\nhttps://harborseo.ai\n\nWork with us: https://incomestreamsurfer.com\n\n#ClaudeCode #ClaudeSkills #Opus55 #AICoding #HarborSEO\n\n## Chapters (approximate, check against the edit)\n0:00 Every model claims to be better. How do you know?\n0:33 The fix: make every change prove it's better\n0:46 Ground your agents in real data (Harbor)\n1:42 The blind judge: A vs B, judged twice\n2:09 I ran it on /goal for 9 hours overnight\n3:00 The results: better keywords and landing pages\n3:59 Harbor founder pricing is back\n4:46 How /prove-it-better works, step by step\n5:40 Verify it live, and how to install it\n6:13 It saved me $75 a month on Convex\n6:53 Why you can run it without breaking anything\n7:29 Outro\n\n## Tags\nclaude code, claude code skills, prove it better, /prove-it-better, claude code skill free, claude code tutorial, claude code opus 5.5, opus 5.5, ai blind test, llm as a judge, ai evals, prompt testing, claude code goal, ai seo, harbor seo, harborseo, convex, ai agents, claude code tips, income stream surfers",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "hNLHEC-4okw",
+    "thumbnail": "https://i.ytimg.com/vi/hNLHEC-4okw/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 5721,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Income stream surfers",
+      "avatar": "https://yt3.googleusercontent.com/AUEt_cJiPKRPTNKDgD46Q28IWo6Kr8hAWDUykDG6BWN1zfWUEWFtbBynsKYpsDpkJDtpaZEZPw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCctL30i8tVgSS9A37Q532eg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "EEcIwQpit0s",
+    "slug": "claude-code-just-become-fully--EEcIwQ",
+    "title": "Claude Code Just Become FULLY Custom (Claude Mods)",
+    "description": "Claude Code just got a brand new feature and almost nobody knows about it: mods. A mod is a few lines of TypeScript that changes how Claude Code behaves or looks, and you don't even have to write it. You just ask Claude to build it, it hot reloads into your session, and it's live.\n\nIn this video I'm on the latest Claude Code desktop app with Opus 5.5 and I ask it to make mods on the spot: • A live usage pane on the right so you can see how much usage you have left at all times (open it anytime with /usage-pane). If you're on the $20 plan, keep this open. • A session timeline, a project switcher, a files-touched panel, and a per-tool dashboard (Stripe, Resend, whatever you check most). • A full Excalidraw-style sketch pane inside Claude Code. Draw a wireframe, say \"look at my sketch\", and Claude reads it and builds it. Napkin to website.\n\nHow to try it: update to the latest Claude Code, then literally type \"can you make a mod?\" and describe what you want. Mods ship inside plugins, so you install and share them with /plugin.\n\nWant a website, SaaS, CRM or automation built? We're taking on a few more clients: https://incomestreamsurfer.com\n\nClaude Code mods docs: https://docs.claude.com/en/docs/claude-code\n\n#ClaudeCode #ClaudeCodeMods #Opus55 #Anthropic #AICoding\n\nChapters\n0:00 Nobody knows about this Claude Code feature 0:08 \"Can you make a mod?\" (Opus 5.5, desktop app) 0:25 What a Claude Code mod actually is 0:46 Changing the look and feel of the GUI 1:02 Building a live usage pane 1:18 Why the red usage bar gives me anxiety 1:56 Hot reloading the session 2:15 Need a website or automation built? Work with us 3:03 The usage pane is live: /usage-pane 3:45 More mod ideas: session timeline, project switcher 4:24 Files touched, subagent panels, Stripe and Resend dashboards 5:14 Notes, to-dos and a mini Excalidraw? 5:30 Building a sketch pane inside Claude Code 6:24 It works: drawing inside Claude Code 6:51 Draw a wireframe, Claude reads it and builds it 7:28 Why this update is so good 7:41 Outro\n\nTags\nclaude code mods, claude code mod, claude code new feature, claude code update, claude code plugins, claude code desktop, claude code gui, claude code usage pane, claude code opus 5.5, opus 5.5, claude code excalidraw, claude code sketch, claude code customize, claude code typescript, anthropic claude code, claude code tutorial, claude code tips, ai coding tools, claude code 2026, income stream surfers",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "EEcIwQpit0s",
+    "thumbnail": "https://i.ytimg.com/vi/EEcIwQpit0s/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 7496,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Income stream surfers",
+      "avatar": "https://yt3.googleusercontent.com/AUEt_cJiPKRPTNKDgD46Q28IWo6Kr8hAWDUykDG6BWN1zfWUEWFtbBynsKYpsDpkJDtpaZEZPw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCctL30i8tVgSS9A37Q532eg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "d_rczqhZmeE",
+    "slug": "gpt-61-sol-codex-the-ultimate--d_rczq",
+    "title": "GPT-6.1-Sol + Codex = The ULTIMATE Budget Coding Setup (INSANE)",
+    "description": "PT-6.1 Sol just dropped, and I built a full SaaS with it inside OpenAI Codex on the $20 ChatGPT Plus plan: Next.js, Vercel, Stripe payments, Neon database and auth, all set up from the Codex app with the Vercel CLI. The whole 30-minute /goal build used about 26% of my 5-hour limit and roughly 2% of my weekly usage.\n\nAt the same time, OpenAI is under fire on X over Codex usage limits. Tibo (@thsottiaux) announced the new plan multipliers (Plus = 1X, Pro 100 = 5X, Pro 200 = 10X), and the replies exploded. In this video I explain why I think most of the anger about Codex limits is misplaced, especially for $20 plan users, and how Codex usage compares to the Claude Code $20 plan.\n\nIn this video:\n• GPT-6.1 Sol first test in Codex\n• The Codex usage limits controversy, and Tibo's new Pro 200 plan explained\n• Codex $20 Plus plan vs Claude Code $20 plan: how much usage you really get\n• How to build SaaS foundations first: Next.js + Vercel CLI + Stripe + Neon + auth\n• Using /goal in Codex to build a complete SaaS in one prompt\n• GPT-6.1 Sol vs Opus 5.5 vs Sonnet 5.5: comparing the SaaS builds\n• Final usage: a full SaaS for 26% of a 5-hour limit\n\nWhy build foundations first: if you tell Codex (or Claude Code) your framework, database, auth and payment provider before you ask for features, it can build almost anything, and you don't need to know how to code.\n\nWant a high-quality website or SaaS built for you (booking systems, payments, anything)? Work with us: https://incomestreamsurfer.com\n\n#GPT61Sol #Codex #OpenAI #ChatGPT #VibeCoding #ClaudeCode #AICoding #SaaS\n\n## Chapters\n0:00 GPT-6.1 Sol is here, but OpenAI is fighting on X\n0:24 The Codex usage limits controversy explained\n0:50 Tibo's new $200 Pro plan: what changed\n1:09 Codex $20 Plus plan: 5-hour limit test\n1:22 Setting up a new Codex project with GPT-6.1 Sol\n2:04 Next.js + Vercel CLI + Stripe + Neon database setup\n2:21 Why I build everything inside Vercel now\n2:53 SaaS foundations: the key to building anything with AI\n3:16 Work with me\n3:49 Codex vs Claude Code $20 plan: usage compared\n4:23 Low thinking mode in Codex (why you don't need high)\n4:45 Why $20 plan users should use Codex\n5:15 Best ChatGPT plan for coding: Plus\n5:38 Why you must set up framework, database, auth and payments first\n6:41 Localhost boilerplate check: under 10% usage\n7:00 Using /goal to build a full SaaS\n7:08 GPT-6.1 Sol vs Sonnet 5.5 vs Opus 5.5 build test\n7:48 Deploying to Vercel\n8:14 Testing auth and Stripe payments live\n9:17 The /goal prompt: a billion-dollar AI thumbnail SaaS\n10:25 Why Codex limits are worth it on $20\n10:50 GPT-6.1 Sol final SaaS build results\n11:14 Full SaaS for 18% of the 5-hour limit\n11:45 GPT-6.1 Sol vs Opus 5.5: build quality\n13:04 Live on Vercel\n13:31 Final usage: 26% for the whole build\n13:55 Verdict: fair play, OpenAI\n\n## Tags\ngpt 6.1 sol, gpt-6.1 sol, gpt 6.1, openai codex, codex usage limits, codex limits, codex $20 plan, chatgpt plus codex, codex vs claude code, claude code vs codex, codex pro plan, openai $200 plan, tibo openai, codex app, codex /goal, build saas with ai, ai saas builder, vercel cli, nextjs stripe neon, vibe coding, ai coding, gpt 6.1 sol review, gpt 6.1 sol vs opus 5.5, sonnet 5.5, income stream surfers\n\n## Pinned comment\nCodex $20 plan → a full SaaS for about 26% of a 5-hour limit. Are the Codex limits really the problem? 👇\n\nWork with us → https://incomestreamsurfer.com",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "d_rczqhZmeE",
+    "thumbnail": "https://i.ytimg.com/vi/d_rczqhZmeE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 20205,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Income stream surfers",
+      "avatar": "https://yt3.googleusercontent.com/AUEt_cJiPKRPTNKDgD46Q28IWo6Kr8hAWDUykDG6BWN1zfWUEWFtbBynsKYpsDpkJDtpaZEZPw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCctL30i8tVgSS9A37Q532eg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "QpsTCKMWZVs",
+    "slug": "claude-cooked-sonnet-55-goal-a-QpsTCK",
+    "title": "Claude COOKED: Sonnet 5.5 + /goal = ABSOLUTELY INSANE",
+    "description": "This video shows the new Sonnet 5.5 model in action with /goal inside Claude Code - with a set up prompt where it has the ability to basically do everything through the Vercel CLI - with the final result being better than Opus 5.5 and Convex which is my usual benchmark\n\nThanks for watching and PEACE\n\nHamish\n\n\nWork with us:\n\nhttps://incomestreamsurfer.com\n\nTry Bright Data:\n\nhttps://brdta.com/iss25",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "QpsTCKMWZVs",
+    "thumbnail": "https://i.ytimg.com/vi/QpsTCKMWZVs/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 4493,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Income stream surfers",
+      "avatar": "https://yt3.googleusercontent.com/AUEt_cJiPKRPTNKDgD46Q28IWo6Kr8hAWDUykDG6BWN1zfWUEWFtbBynsKYpsDpkJDtpaZEZPw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCctL30i8tVgSS9A37Q532eg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "DFlELTiSPk8",
+    "slug": "every-codex-concept-explained--DFlELT",
+    "title": "Every Codex Concept Explained for Non-Coders",
+    "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=codex-18-concepts&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=codex-18-concepts&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nLearn the 18 core Codex concepts you need to start using it, even if you've never written a line of code. \n\nI walk through projects, skills, plugins, subagents, and more, with practical examples from my own setup. You'll learn how to give Codex context, turn repeat tasks into reusable workflows, and manage work from your desktop or phone.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Projects And AGENTS.md\n3:58 Agent Loop And Goals\n9:54 Local, Cloud, And Remote\n13:25 Worktrees And Codex Settings\n16:10 Models, Tokens, And Usage\n19:18 Effort And Permissions\n21:38 Skills And .agents\n25:03 Plugins And Browser Use\n27:05 Hosting With Sites\n28:18 Subagents And Scheduled Tasks\n31:41 Voice Mode\n34:19 Final Thoughts",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "DFlELTiSPk8",
+    "thumbnail": "https://i.ytimg.com/vi/DFlELTiSPk8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 41836,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "26rQLqoxBHA",
+    "slug": "claude-code-mods-are-game-chan-26rQLq",
+    "title": "Claude Code Mods Are Game Changers. This One Saves Me Money.",
+    "description": null,
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "26rQLqoxBHA",
+    "thumbnail": "https://i.ytimg.com/vi/26rQLqoxBHA/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 26926,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "9hetShMMp2s",
+    "slug": "claude-code-mods-are-game-chan-9hetSh",
+    "title": "Claude Code Mods Are Game Changers. Set Up These 5 NOW.",
+    "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=claude-5-mods&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=claude-5-mods&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nClaude Code mods let you customize the app by describing what you want in plain English. \n\nI walk through the mods I'm using to track context and usage, hide sensitive details while recording, follow long-running goals, and flag files another chat recently edited. You'll also see how to install mods and get mine for free.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 What Claude Code Mods Do\n0:35 Next Steps Mod\n1:55 Building Mods With Natural Language\n2:53 Cache Keeper\n5:30 Recording Mode\n7:23 Goal Meter\n9:11 Collision Guard\n10:35 Get the Free Mods",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "9hetShMMp2s",
+    "thumbnail": "https://i.ytimg.com/vi/9hetShMMp2s/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 134461,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "l8ywUsEJ2XQ",
+    "slug": "how-to-actually-build-sell-sof-l8ywUs",
+    "title": "How to Actually Build & Sell Software with AI as a Non-Techie",
+    "description": "FREE 14 day CodeRabbit trial: https://coderabbit.link/ad-nate-herk-001\nFREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=dave-podcast-oct-2&sl=yt_dave-podcast-oct-2\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI sat down with Dave Ebbelaar to talk about building software with AI, even if you have no coding experience. \n\nWe cover his workflow with Claude Code and Codex, how to test whether your app actually works, and what changes when you start building for other people. Dave also shares the architecture mistakes he’s made and the security basics to understand before you scale.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro\n1:28 A solid 10X\n8:19 Sponsor: CodeRabbit\n12:42 The four-rung ladder\n21:05 Building with agents\n27:04 First Client SOP\n42:44 Shipping it safely",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "l8ywUsEJ2XQ",
+    "thumbnail": "https://i.ytimg.com/vi/l8ywUsEJ2XQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 52948,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "NWd86IwfnrU",
+    "slug": "i-tested-codexs-new-500mo-ultr-NWd86I",
+    "title": "I Tested Codex's NEW $500/mo Ultrafast mode",
+    "description": null,
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "NWd86IwfnrU",
+    "thumbnail": "https://i.ytimg.com/vi/NWd86IwfnrU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 3585,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "amPNRy6EMmM",
+    "slug": "i-tested-opus-55-vs-sonnet-55-amPNRy",
+    "title": "I Tested Opus 5.5 vs Sonnet 5.5",
+    "description": null,
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "amPNRy6EMmM",
+    "thumbnail": "https://i.ytimg.com/vi/amPNRy6EMmM/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 14161,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "pY5_Ux_YJjo",
+    "slug": "i-tested-codexs-500mo-ultrafas-pY5_Ux",
+    "title": "I Tested Codex's $500/mo Ultrafast. What You Need to Know.",
+    "description": "FREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=ultrafast-gpt-6-astra&sl=yt_ultrafast-gpt-6-astra\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=ultrafast-gpt-6-astra&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=ultrafast-gpt-6-astra&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI tested Codex Ultrafast against Standard with GPT-6 Astra on two tasks: editing a reel from my Google trip and creating a YouTube resource guide. We compare how long each took, the quality of the outputs, and how much weekly usage they burned through so you can decide when the extra speed is worth it.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Codex Ultrafast Explained\n1:09 Google Reel Test\n2:10 Watching Both Video Edits\n4:10 Quality, Speed, and Usage\n5:12 Resource Guide Test\n6:35 Comparing the Resource Guides\n8:12 When I'd Use Ultrafast",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "pY5_Ux_YJjo",
+    "thumbnail": "https://i.ytimg.com/vi/pY5_Ux_YJjo/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 37786,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "iafsAWrB8GQ",
+    "slug": "claude-can-now-run-your-entire-iafsAW",
+    "title": "Claude Can Now Run Your Entire Email Platform",
+    "description": "AI used to just give email advice. Now it does the work. Omnisend runs on Claude and ChatGPT. Go to my Instagram, DM me \"OMNI\" for my special code. Link's in bio. #ad",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "iafsAWrB8GQ",
+    "thumbnail": "https://i.ytimg.com/vi/iafsAWrB8GQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 13521,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "CrUbhlugt2U",
+    "slug": "do-this-every-time-you-get-pai-CrUbhl",
+    "title": "Do This EVERY Time You Get Paid (2026 Paycheck Routine)",
+    "description": "In this video, I go through the EXACT routine to do when you get your paycheck. Useful resources below:\n\n➡️ Invest in yourself!! Join My First Client, my completely free 8-week program for starting and growing a service-based business:\nhttps://myfirstclient.co/\n\n🏦 Top HYSAs for 2026 (SoFi $400 bonus, Barclays, Synchrony, CIT & more): https://bit.ly/top-hysa-2026\n\n💰 Get a bonus with Webull Investing here:\nhttps://bit.ly/webull-bonus\n^Easy way to buy stocks and ETFs\n\n📊 Start investing with Public:\nhttps://bit.ly/public-free\n^One of my favorite beginner-friendly investing platforms\n \nMost people get paid and somehow the money is gone a few days later. Bills, food, random purchases, subscriptions, and before you know it, you’re waiting for the next paycheck. The biggest change for me was building a system where I already knew where every dollar was going before I had the chance to spend it.\n\nIn this video, I’m breaking down the exact system I use for saving, investing, paying off debt, and deciding how much I can actually spend. The goal is to make as much of this automatic as possible so you are not relying on motivation every month.\n\n► Join our free AI Community (templates, workflows, AI news, making money with AI, etc):\nhttps://www.skool.com/ai-os/\n \n► Get access to my FREE side hustle courses: \nhttps://www.sidehustlemastery.com\n \nMy favorite finance + business products:\n💳 My favorite credit cards: https://yourbestcreditcards.com/card-finder/?ccid=2004\n🏦 Favorite online savings accounts: https://bit.ly/top-hysa-2026\nGet a bonus with WeBull Investing: https://bit.ly/webull-bonus\n🖥️ Best AI website builder (Less than $3/month using code CHARLIECHANG): https://hostinger.com/charliechang\n🥇 Hire the top 1% of overseas talent: https://paired.so/charlie\n \n► Join my FREE newsletter:\nhttps://buildabetterbusiness.co/subscribe\n \nI’ve been managing my own money for over a decade, and these simple habits have helped me build my net worth to over $10 million. A lot of it comes down to having a system and staying consistent with it.\n\nYou don't need to be making a ton of money to start doing this. The important part is creating a system you can actually stick with every paycheck and letting those small decisions compound over time.\n \nIf you want to see more videos like this, check out my other videos:\n \n12 Daily Habits That Made Me $15.7 Million (for Entrepreneurs)\nhttps://youtu.be/QSGriHNUrO0 \n\nThe 8 Tiers of Investing in 2026 (If You Want to Get RICH)\nhttps://youtu.be/aWNQZGsVsn4\n \nI hope you guys found this video helpful, and if you did, please SHARE it with a friend or family member who you think could benefit and also LIKE and subscribe for more videos like this in the future!\n \nThank you for watching, and I hope you have a wonderful rest of your day!\n \n– Charlie\n \n#PersonalFinance #MoneyManagement #Investing\n \nTimeline:\n0:00 - Introduction\n0:51 - Pay Yourself First\n1:30 - The 50/20/30 Budget Rule\n2:25 - Why You Need a High-Yield Savings Account\n3:46 - $10,000: $10 vs. $400\n4:33 - Building an Emergency Fund\n6:01 - Paying Off High-Interest Debt\n7:05 - A 20% Guaranteed Return\n8:15 - Start Investing Your Extra Money\n9:14 - Investing in Yourself\n10:56 - The Power of Long-Term Investing\n12:04 - Index Funds and ETFs\n12:52 - Get Your 401(k) Match\n14:02 - Budget for Fun\n15:33 - Your 5-Minute Money Check\n16:12 - Track Your Net Worth\n16:32 - Conclusion\n  \nDisclaimer: Some of the links above may be affiliate links, which means that if you click on them, I may receive a small commission. The retailers and financial services companies pay the commission at no cost to you, and this helps to support our channel and keep our videos free. Thank you!   \n \nIn addition, I am not a financial advisor. Charlie Chang does not provide tax, legal or accounting advice. The ideas presented in this video are for entertainment purposes only. Please do your own due diligence before making any financial decisions.\n \n► My Instagram: https://www.instagram.com/charlie__chang/",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "CrUbhlugt2U",
+    "thumbnail": "https://i.ytimg.com/vi/CrUbhlugt2U/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 9739,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "Charlie Chang",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k2sF5SlCpadrWwaJ_0yxTyO7WM0afGaQhXPWCYm2v-i5Y=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCTQuKo8v0PaPCvk5aRxc_Yg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "q1IwR88mhaA",
+    "slug": "the-only-grok-bot-tutorial-you-q1IwR8",
+    "title": "The ONLY Grok Bot Tutorial You Need 2026 - How To Use Grok Bot For Beginners",
+    "description": "In this video, I show you how to use Grok Bot for beginners! This is a full tutorial where we'll cover setup, creating bots, my tips and tricks, and more.\n\nGrok Bot: https://x.ai/bot\n\n➡️ Join our free AI Community (templates, workflows, AI news, making money with AI, etc):\nhttps://www.skool.com/ai-os/\n\n➡️ Get access to Grok, ChatGPT Plus, Claude Pro, and Gemini all in one plan for just $20/month with Bluehost AI All Access:\nhttps://charliechang.com/bluehostallaccess\n^you’ll save a bunch of money if you want to use the latest AI models\n \nI’ve been using Grok Bot pretty heavily across my businesses and honestly, it’s one of the most beginner-friendly AI agent tools I’ve tried. Instead of feeling like you’re constantly prompting an AI, it feels more like you’re building an actual team of people who can work for you 24/7.\n\nWhat makes Grok Bot different is that your agents can actually use a computer, log into your accounts, browse the web, send emails, research things, and complete real tasks for you. You can also connect tools like Gmail, Slack, QuickBooks, Notion, and more, then put your bots on routines so they’re getting work done even when you’re not there.\n \nMy favorite finance + business products:\n💳 My favorite credit cards: https://yourbestcreditcards.com/card-finder/?ccid=2004\n🏦 Favorite online savings accounts: https://bit.ly/top-hysa-2026\n📈 Get up to 12 Free Stocks on WeBull: https://bit.ly/webull12stocks\n🖥️ Best AI website builder (Less than $3/month using code CHARLIECHANG): https://hostinger.com/charliechang\n🥇 Hire the top 1% of overseas talent: https://paired.so/charlie\n \n► Join my FREE newsletter:\nhttps://buildabetterbusiness.co/subscribe\n \nRight now, I use different bots for things like executive assistant work, finance, newsletter research, content strategy, LinkedIn outreach, and general research. I’ll show you how I set these up, how I get my bots talking to each other, and some of the real tasks I’ve already had them handle inside my businesses.\n\nIf you’re completely new to AI agents, this should give you everything you need to get started with Grok Bot without overcomplicating it. By the end, you’ll know how to build your first bot, connect your tools, give it real responsibilities, and start turning it into something that actually saves you time.\n \nIf you want to see more videos like this, check out our other videos:\n \nAI Agents, Explained for Beginners\nhttps://youtu.be/u2CePpp03ls \n\nThe ONLY ChatGPT Work Tutorial You Need (AI Agents Do All Your Work)\nhttps://youtu.be/DQ_2omv3c4E \n \nI hope you guys found this video helpful, and if you did, please SHARE it with a friend or family member who you think could benefit and also LIKE and subscribe for more videos like this in the future!\n \nThank you for watching, and I hope you have a wonderful rest of your day!\n \n– Charlie\n \n#GrokBot #GrokAI #AIAgents\n \nTimeline:\n0:00 - Introduction\n0:42 - Downloading Grok Bot\n1:20 - Creating New Bot\n2:36 - Settings\n3:03 - Connecting to Your Accounts\n3:39 - MCP\n4:20 - Bot's screens\n5:12 - How to Teach Bot\n6:00 - Multi-task Bots\n6:37 - Bot Communication\n7:16 - Routines\n8:15 - Useful Types of Bots\n9:37 - Apps Marketplace\n10:41 - Group bots\n11:38 - Example of work\n12:15 - Similarities and Differences With Other AI Platforms\n13:19 - Conclusion\n \nDisclaimer: Some of the links above may be affiliate links, which means that if you click on them, I may receive a small commission. The retailers and financial services companies pay the commission at no cost to you, and this helps to support our channel and keep our videos free. Thank you!   \n \nIn addition, I am not a financial advisor. Charlie Chang does not provide tax, legal or accounting advice. The ideas presented in this video are for entertainment purposes only. Please do your own due diligence before making any financial decisions.\n \n► My Instagram: https://www.instagram.com/charlie__chang/",
+    "toolName": "ChatGPT",
+    "toolCategory": "agents",
+    "youtubeId": "q1IwR88mhaA",
+    "thumbnail": "https://i.ytimg.com/vi/q1IwR88mhaA/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 54713,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Charlie Chang",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k2sF5SlCpadrWwaJ_0yxTyO7WM0afGaQhXPWCYm2v-i5Y=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCTQuKo8v0PaPCvk5aRxc_Yg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "pSsKXxAfNYU",
+    "slug": "your-story-is-your-best-market-pSsKXx",
+    "title": "Your story is your best marketing tool #marketing #storytelling",
+    "description": "Stop pretending to be someone else and start telling your own brand story.\n\nMost marketing fails because you are blending into the background instead of being memorable. I will show you how to craft a repeatable narrative that makes your marketing strategy effortless for business growth.\n\nSubscribe for more personal branding insights, and tell us your biggest storytelling struggle below.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "pSsKXxAfNYU",
+    "thumbnail": "https://i.ytimg.com/vi/pSsKXxAfNYU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 4215,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "The Futur",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nMoHSipNGFS_Uw9P3Rp69VUaDKBIqPY3-rmCJdHQwXTpw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC-b3c7kxa5vU-bnmaROgvog",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "FMkDpAvKrKQ",
+    "slug": "why-playing-it-safe-destroys-y-FMkDpA",
+    "title": "Why playing it safe destroys your brand",
+    "description": "Playing it safe is the fastest way to kill your brand positioning.\n\nIf you aren't choosing extreme brand attributes, you are blending into the background. I will show you how to map your business on a graph to ensure you actually stand out from the competition.\n\nSubscribe for more marketing strategy insights, and tell us your biggest branding struggle below.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "FMkDpAvKrKQ",
+    "thumbnail": "https://i.ytimg.com/vi/FMkDpAvKrKQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 4240,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "The Futur",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nMoHSipNGFS_Uw9P3Rp69VUaDKBIqPY3-rmCJdHQwXTpw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC-b3c7kxa5vU-bnmaROgvog",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  }
+]
