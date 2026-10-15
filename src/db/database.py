@@ -33,7 +33,7 @@ class Database:
     async def _init_table(self):
         """Creates the videos table if it does not already exist."""
         query = """
-        CREATE TABLE IF NOT EXISTS "YouTubeVideoRecord" (
+        CREATE TABLE IF NOT EXISTS "Videos" (
             "id" TEXT PRIMARY KEY,
             "slug" TEXT NOT NULL,
             "title" TEXT NOT NULL,
@@ -62,7 +62,7 @@ class Database:
         if not self.pool or not video_ids:
             return set()
         query = """
-        SELECT "id" FROM "YouTubeVideoRecord"
+        SELECT "id" FROM "Videos"
         WHERE "id" = ANY($1::text[]);
         """
         async with self.pool.acquire() as conn:
@@ -75,7 +75,7 @@ class Database:
             return 0
 
         query = """
-        INSERT INTO "YouTubeVideoRecord" (
+        INSERT INTO "Videos" (
             "id", "slug", "title", "description", "toolName", "toolCategory",
             "youtubeId", "thumbnail", "durationSeconds", "views", "likes",
             "publishedAt", "author", "channelId", "tags", "accent", "updatedAt"
