@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "8aVbXXvJUY4",
+    "slug": "an-interaction-is-all-you-need-8aVbXX",
+    "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
+    "description": "Models became agents, and the APIs didn't keep up. Google DeepMind rebuilt them.\n\nIvan Leo, developer experience engineer at Google DeepMind, introduces the Gemini Interactions API and Managed Agents. He traces how we went from single completions to function calling to agents, then shows server-side state with interaction IDs (no more hand-managing thought signatures), strongly typed multimodal outputs, mixing built-in and custom tools, and the new steps data model. He then demos Managed Agents, which run the Antigravity harness in a persistent remote sandbox with environment IDs, loadable sources, a credential-injecting proxy and named agents, plus the open-source Gemini API CLI.\n\nIn this talk:\n• Why agent workloads need a different API shape\n• Server-side state: interaction IDs and thought signatures\n• Chaining image, video and audio generation with the same context\n• Managed Agents: persistent sandboxes, skills, secure credentials and named agents\n\nSPEAKER\nIvan Leo, Developer Experience Engineer, Google DeepMind\nLinkedIn: https://www.linkedin.com/in/ivanleo\nX: https://x.com/ivanleomk\nGitHub: https://github.com/ivanleomk\nWebsite: https://ivanleo.com/\n\nLINKS\nInteractions API overview: https://ai.google.dev/gemini-api/docs/interactions-overview\nManaged Agents quickstart: https://ai.google.dev/gemini-api/docs/managed-agents-quickstart\nAntigravity agent: https://ai.google.dev/gemini-api/docs/antigravity-agent\nGemini API CLI (GitHub): https://github.com/google-gemini/gemini-api-cli\nGoogle AI Studio: https://ai.google.dev/aistudio\n\nCHAPTERS\n0:00 Intro\n0:12 Interactions API and Managed Agents\n0:27 From single completions to agents\n1:02 Function calling\n1:32 Models that reason and act\n2:02 What is an agent?\n3:02 Try the models in AI Studio\n4:07 Why a new API\n5:31 Server-side state and thought signatures\n6:21 Demo: chaining image and video generation\n7:01 How the code works\n7:36 Strongly typed outputs\n8:21 Mixing built-in and custom tools\n9:01 The steps data model\n9:46 Managed Agents: Antigravity in the cloud\n10:36 Demo: analyzing a GitHub repo\n11:06 Persistent sandboxes with environment IDs\n11:41 Loading sources: GCS, GitHub, inline files\n12:16 A 2M-token repo analysis\n12:56 The same agent locally and in the cloud\n13:36 A credential-injecting proxy\n14:26 Named agents\n15:26 The Gemini API CLI\n15:56 Migrating with the Interactions API skill\n16:36 Wrap-up\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#Gemini #AIAgents #AIEngineer",
+    "toolName": "Gemini",
+    "toolCategory": "multimodal-ai",
+    "youtubeId": "8aVbXXvJUY4",
+    "thumbnail": "https://i.ytimg.com/vi/8aVbXXvJUY4/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 384,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "multimodal-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "oUZEt4EiPbk",
+    "slug": "i-built-a-personal-ai-agent-on-oUZEt4",
+    "title": "I Built a Personal AI Agent on a Raspberry Pi — Jeremy Adams, Neo4j",
+    "description": "No Mac Mini, no laptop agent. Jeremy Adams runs his personal AI agent on an old Raspberry Pi he wears around his neck.\n\nJeremy Adams, senior developer advocate at Neo4j, assembles a wearable AI agent live on stage: NanoClaw on a Raspberry Pi 4B, messaged over WhatsApp, with Docker-isolated agents and a Neo4j graph database. He shows how he built graph memory using the POLE schema (person, object, location, event) mid-flight, added voice-to-text through a USB mic and a hardware button, ran an offline mode with a local Neo4j, and walked the AI Engineer expo floor turning booth notes into a graph of themes. He finishes by upgrading to Neo4j Agent Memory.\n\nIn this talk:\n• Why a small, hackable claw beats a feature-rich agent on your laptop\n• Connecting an agent to Neo4j over MCP\n• Graph memory with the POLE schema\n• Offline-first capture with a local graph that syncs and enriches in the cloud\n\nSPEAKER\nJeremy Adams, Senior Developer Advocate, Neo4j\nLinkedIn: https://www.linkedin.com/in/jeremy-adams-pdx/\nX: https://x.com/jpadamspdx\nGitHub: https://github.com/jpadams\nWebsite: https://jeremyadams.dev/\n\nLINKS\nNanoClaw: https://github.com/qwibitai/nanoclaw\nNeo4j Agent Memory: https://neo4j.com/labs/agent-memory/\nAgent Memory (GitHub): https://github.com/neo4j-labs/agent-memory\nGraphAcademy (free courses): https://graphacademy.neo4j.com/\n\nCHAPTERS\n0:00 Intro\n0:12 Hi from Neo4j\n1:32 What we're building\n1:57 Live hardware setup\n4:51 The Raspberry Pi claw boots up\n6:06 Why small claws\n8:05 Why NanoClaw\n8:55 Architecture: WhatsApp → NanoClaw → Claude\n9:40 Graphs 101\n10:10 Querying Neo4j over MCP\n10:50 Building memory on a plane: the POLE schema\n12:15 Demo: the memory graph\n13:29 Adding voice-to-text\n14:49 Recording the expo booths\n15:34 Offline mode with a local Neo4j\n17:03 Enriching themes in the cloud\n18:23 Upgrading to Neo4j Agent Memory\n19:33 Get started with GraphAcademy\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#RaspberryPi #AgentMemory #AIEngineer",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "oUZEt4EiPbk",
+    "thumbnail": "https://i.ytimg.com/vi/oUZEt4EiPbk/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 3202,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "AI Engineer",
+      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "QTgce4_ZZRY",
+    "slug": "ai-safety-expert-warns-were-no-QTgce4",
+    "title": "AI Safety Expert WARNS: We're NOT Ready For They're Preparing",
+    "description": "🔒 Make yourself and your family AI-scam proof, step by step → https://neuralnutshell.com\n\nNate Soares warns that the most likely outcome of increasingly autonomous AI may be systems acting on their own initiative, after AI agents demonstrated unexpected behaviors including communicating with each other, bypassing monitoring systems, and attempting to access resources they were not supposed to use. He describes AI systems as “tendency learners” rather than simple instruction-followers, explaining how reward optimization can produce cheating, hacking, and attempts to evade oversight. The conversation also explores the possibility of AI manipulating human culture and psychology, effectively turning people into specialized “cells” serving a larger machine. Soares argues that the long-term outcomes range from humans becoming subordinate to AI systems to far more catastrophic scenarios, while emphasizing how little researchers understand about what is happening inside increasingly capable models.\n\n📚 Sources cited in this video:\n\n- OpenAI, Detecting and reducing scheming in AI models\nhttps://openai.com/index/detecting-and-reducing-scheming-in-ai-models/\n\n- OpenAI, Third-party cyber evaluations involving OpenAI models\nhttps://openai.com/index/third-party-cyber-evaluations-involving-openai-models/\n\n- Anthropic, Agentic Misalignment in Summer 2026\nhttps://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/\n\n- NIST, Artificial Intelligence Risk Management Framework\nhttps://www.nist.gov/itl/ai-risk-management-framework\n\n⚠️ DISCLAIMER: This channel provides AI commentary and analysis for educational and informational purposes only. Views expressed by guests are their own and do not represent the positions of any company or institution. We encourage viewers to consult multiple sources and form their own conclusions.\n\n#ai  #agi  #artificialintelligence",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "QTgce4_ZZRY",
+    "thumbnail": "https://i.ytimg.com/vi/QTgce4_ZZRY/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 8437,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Neural Nutshell",
+      "avatar": "https://yt3.googleusercontent.com/d-Fxki0QZDXKQytAJRDi9YgabJX6HfeYFN5u7mn48Yw16TjWXHeZB-hMUfyxXcAYahEXZjElC3o=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCE0-acFJdnTPUCYlYoiq_fg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "c6Hxnu4JoOw",
+    "slug": "full-ai-agents-course-for-begi-c6Hxnu",
+    "title": "FULL AI Agents Course for Beginners in 2026! (Become a PRO!)",
+    "description": "#sponsored Get your 30-day free trial here! https://gohighlevel.com/aimaster\n\n🧠 Learn to build real AI agents → https://aimaster.me/yt/agents_course\n🤝 Exclusive brand partnership — https://aimaster.me/collab\n\nLearn how AI agents actually work in this AI agents full course. You'll watch an agent turn a messy folder into a finished presentation from a single instruction, then see the tools, permissions, and habits that keep you in control of it.\n\nWhat you'll learn:\n- What an AI agent really is: a model, tools, memory, and a goal running in a loop\n- How MCP (Model Context Protocol) gives an agent access to your files and apps\n- Six agents compared: Claude Code, Codex, Antigravity, Grok Bot, Hermes Agent, and OpenClaw\n- How to pick the right agent based on where your work lives\n- How much control to hand over, and what should always stay on manual approval\n- The five-part prompt contract for briefing any agent\n- How to give an agent memory with project rules files\n\n\n⏱️ TIMESTAMPS:\n00:00 – AI Agents Full Course\n00:19 – AI Agent Demo\n01:54 – What AI Agents Are\n05:30 – MCP: Giving Agents Tools\n08:26 – Claude Code\n10:00 – Codex\n11:24 – Antigravity\n13:33 – Grok Bot\n15:30 – Hermes Agent\n17:21 – OpenClaw\n18:43 – Choosing the Right Agent\n20:09 – How Much Control to Give\n21:50 – The Prompt Contract\n27:08 – Agent Memory\n29:30 – Final Thoughts\n\n\n#AIAgents #AITools2026 #AIAutomation",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "c6Hxnu4JoOw",
+    "thumbnail": "https://i.ytimg.com/vi/c6Hxnu4JoOw/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 698,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "AI Master",
+      "avatar": "https://yt3.googleusercontent.com/3zyScxdcSY9pGwv4juhJgpl4UNCa5V-dt9Ge3fAXhl3FlKEEIo3nar6E7hpY1yGPnkoMiHNa=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC0yHbz4OxdQFwmVX2BBQqLg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Blyb1D927pM",
+    "slug": "recursives-670m-bet-on-self-im-Blyb1D",
+    "title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push EP 299",
+    "description": "The mates sit down with Richard Socher to discuss Recursive’s $670M bet on self-improving AI, why he puts P(Doom) at zero, the race toward ASI, proposed restrictions on recursive self-improvement, and what new AI benchmarks like Tavus’ Turing Test could tell us about what comes next.\n\nGet access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends  \n\nPeter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360\n\nSalim Ismail is the founder of Open ExO, a GP at Exponential Venture Capital/The Organizational Singularity Fund and a sought after global speaker and thought leader.\n\nDave Blundin is the founder & GP of Link Ventures\n\nDr. Alexander Wissner-Gross is a computer scientist and founder of Reified\nRichard Socher is a leading AI researcher and entrepreneur, founder and CEO of You.com and co-founder and CEO of Recursive, who previously served as Chief Scientist at Salesforce after founding MetaMind. you.com\nRead Richard Socher’s new book, The Eureka Machine: Why AI Is the Key to Unlocking a New Era of Scientific Discoveries: https://www.eurekamachine.org/\n\nChapters\n00:00 Recursive Self-Improvement, ASI & What’s Ahead\n04:48 The Eureka Machine & AI-Driven Scientific Discovery\n23:22 AI Decodes the Brain & the Future of BCIs\n39:05 Gene Editing, Mosquitoes & Engineering Biology\n47:14 Tavus, the Turing Test & AI Avatars\n01:00:15 Recursive Self-Improvement & the Road to ASI\n01:17:07 Washington Moves to Ban Recursive AI\n01:35:31 Gemini 4 Argon & the Frontier Model Race\n01:43:38 Sonnet 5.5 Hits 70% on Terminal Bench\n01:48:01 The Compute Crunch & Cheaper Intelligence\n02:01:41 Project Meridian, Elon & the Future of Warfare\n02:08:56 AMA: AI, Jobs, Productivity & the Attention Economy\n02:23:30 Closing Thoughts & The Eureka Machine\n\n–\n\nThis episode is brought to you by:\n\nRead Peter’s new 6 Forks Report on the six shifts reshaping the next decade: https://hubs.li/Q04yWNLS0 \nGet the blueprint for generative media https://goo.gle/startupgenmedia \n\nGo to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy \n\nYour body is incredibly good at hiding disease. Schedule a call with Fountain Life to add healthy decades to your life, and to learn more about their Memberships: https://www.fountainlife.com/peter \n\n_\n\nConnect with Peter:\nX: https://qr.diamandis.com/twitter \nInstagram: https://qr.diamandis.com/instagram \nSubstack: https://substack.com/@peterdiamandis \nWebsite: https://www.diamandis.com/  \nXprize: http://www.xprize.org \nA360: https://www.abundance360.com/ \n\nConnect with Dave\nWeb: https://db2.ai\nX: https://x.com/DaveBlundin?s=20   \nLinkedIn: https://www.linkedin.com/in/dave-blundin\nInstagram: https://www.instagram.com/dave.blundin\nTikTok: https://www.tiktok.com/@daveblundin\n\nConnect with Salim:\nLinkedin: https://www.linkedin.com/in/salimismail/ \nX: https://x.com/salimismail \nJoin Salim’s 10x Shift: https://openexo.com/10x-shift?channel=moonshots \nSubscribe to Salim’s channel: https://www.youtube.com/@SalimIsmail \nExponential Venture Capital: https://organizationalsingularity.fund \n\nConnect with Alex\nWeb: https://www.alexwg.org\nLinkedIn: https://www.linkedin.com/in/alexwg/\nX: https://x.com/alexwg\nEmail: alexwg@alexwg.org\nSubstack: https://theinnermostloop.substack.com/ \nSpotify: https://open.spotify.com/show/1thtZk5vHTXbtDHezPT7tl \nThreads: https://www.threads.com/@alexwissnergross \n\nConnect with Richard\nWebsite: https://www.socher.org/\nLinkedIn: https://www.linkedin.com/in/richardsocher\nX: https://x.com/richardsocher\nRead Richard’s book, The Eureka Machine: https://www.eurekamachine.org/\n\nListen to MOONSHOTS:\nApple: https://qr.diamandis.com/applepodcast \nSpotify: https://qr.diamandis.com/spotifypodcast \n\nFollow MOONSHOTS: \nInstagram: https://www.instagram.com/moonshots_pod/ \nTikTok: https://www.tiktok.com/@moonshots_pod\nX: https://x.com/moonshots_pod\nThreads: https://www.threads.com/@moonshots_pod\n\n–\n\n*Recorded on October 2nd, 2026\n*The views expressed by me and all guests are personal opinions and do not constitute Financial, Medical, or Legal advice.",
+    "toolName": "Gemini",
+    "toolCategory": "llm",
+    "youtubeId": "Blyb1D927pM",
+    "thumbnail": "https://i.ytimg.com/vi/Blyb1D927pM/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 2533,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Peter H. Diamandis",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4sRGv4U1fm6diEUtlSUE26p1EQoHIlbm5wXRAiJfPrRo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvxm0qTrGN_1LMYgUaftWyQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "efHhMK_aGaE",
+    "slug": "ben-lamm-on-the-most-common-re-efHhMK",
+    "title": "Ben Lamm on the most common requests Colossal gets, and why teacup mammoths aren't on the roadmap.",
+    "description": "Ben Lamm on the most common requests Colossal gets, and why teacup mammoths aren't on the roadmap. Full conversation on Moonshots.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "efHhMK_aGaE",
+    "thumbnail": "https://i.ytimg.com/vi/efHhMK_aGaE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 355,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Peter H. Diamandis",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l4sRGv4U1fm6diEUtlSUE26p1EQoHIlbm5wXRAiJfPrRo=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCvxm0qTrGN_1LMYgUaftWyQ",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "C8_NjRNcf_U",
+    "slug": "did-facebook-finally-beat-chat-C8_NjR",
+    "title": "Did Facebook Finally Beat ChatGPT in the AI Race?",
+    "description": "Facebook has an unfair AI advantage.\n\nMeta already has Instagram, Facebook, WhatsApp, Marketplace, and groups.\n\nHere are 3 awesome Muse use cases:\n\n1. find deals on Facebook Marketplace\nMuse searches the listings and helps you find deals.\n\n2. sell stuff for you on Facebook Marketplace\nMuse helps you sell items through Facebook Marketplace.\n\n3. monitor Facebook groups\nMuse monitors Facebook groups tied to a goal, such as finding housing in a specific area.\n\nMeta's stock rally has also brought more attention back to the company. Distribution is what makes these AI use cases worth watching.\n\nThese 3 use cases don't prove Facebook beat ChatGPT. They show how Meta can put AI inside products people already use.\n\nWhat is Muse AI?\nHow does Muse work with Facebook Marketplace?\nDoes Muse monitor Facebook groups?\n\n#facebook #museai #ai #aitools",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "C8_NjRNcf_U",
+    "thumbnail": "https://i.ytimg.com/vi/C8_NjRNcf_U/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1016,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Sabrina Ramonov",
+      "avatar": "https://yt3.googleusercontent.com/4xWBLiSBOwmuX6RA3cNVtjzNpR5Rxy0fsK4hjqGKujCuGegLMndIE2yo-co0OQMOzJ2THGXt=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCiGWNa6QK6CiKPvv5-YPv8g",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Rx7G-8myrd8",
+    "slug": "what-the-best-business-ai-user-Rx7G-8",
+    "title": "What the Best Business AI Users Are Doing Different",
+    "description": "What separates businesses getting real returns from AI from those still experimenting? New KPMG research reveals how leading organizations are scaling agents, managing multiple models, and connecting AI spending to business value—with ambitions increasingly extending beyond efficiency to revenue growth. In the headlines: Meta’s Muse-fueled rally, Anthropic’s push for a pre-Thanksgiving IPO, and Google’s first AI chips in orbit.\n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aidailybrief.ai/",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "Rx7G-8myrd8",
+    "thumbnail": "https://i.ytimg.com/vi/Rx7G-8myrd8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1379,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "The AI Daily Brief: Artificial Intelligence News",
+      "avatar": "https://yt3.googleusercontent.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCKelCK4ZaO6HeEI1KQjqzWA",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "8cAQdELWYuo",
+    "slug": "stanford-cs153-frontier-system-8cAQdE",
+    "title": "Stanford CS153 Frontier Systems | Teaching AI to Touch Atoms",
+    "description": "For more information about Stanford's online Artificial Intelligence programs, visit: https://stanford.io/ai\n\nFollow along with the course schedule and syllabus; visit: https://cs153.stanford.edu/\n\nIn this CS 153 Frontier Systems lecture, Periodic Labs cofounders Liam Ferriss and Dorje Chubak — veterans of OpenAI's post-training team and DeepMind's Genome project, respectively — walked students through their eleven-month-old mission to apply AI to the physical world, specifically using autonomous labs to accelerate the discovery of new materials including high-temperature superconductors. \n\nOperating out of a 40,000-square-foot Menlo Park facility where machine learning researchers work alongside physicists and chemists, their AI system (named Onnes, after the scientist who discovered superconductivity in 1908) runs a continuous loop of computational prediction, robotic synthesis, and experimental verification — closing the feedback cycle between digital intelligence and physical reality in a way no purely in-silico approach can. A key early lesson was abandoning their original plan of spending the first year purely computational: building smaller, semi-manual labs first allowed them to direct the research program and understand what to scale, faster. \n\nDorje emphasized that the results of applying LLMs to actual atoms have exceeded even their own expectations, while Liam stressed that sample efficiency in reinforcement learning — not benchmark climbing — is the core technical frontier when physical experiments can't be arbitrarily scaled up the way digital rollouts can. They closed by pushing back on student anxiety about AGI displacing their careers, arguing that most scientific domains remain largely untouched by LLMs, that the bar to make meaningful AI-physical world progress is still surprisingly low, and that the history of civilization is essentially a materials story — making their work, in their view, among the highest-leverage bets anyone can make right now.",
+    "toolName": "General AI Tools",
+    "toolCategory": "robotics",
+    "youtubeId": "8cAQdELWYuo",
+    "thumbnail": "https://i.ytimg.com/vi/8cAQdELWYuo/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 18313,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Stanford Online",
+      "avatar": "https://yt3.googleusercontent.com/UE4m1O9zmzlEViC33IbGBU0idM-rbGzN1NWag8xMt6JHBG5SmuWmJdF1_uQhhGKLjLiUXvOTwA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+    "tags": [
+      "robotics"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "6EIkeKruJaI",
+    "slug": "webinar-ai-agent-simulation-of-6EIkeK",
+    "title": "Webinar: AI Agent Simulation of Human Behavior with Michael Bernstein",
+    "description": "- Explore these concepts and more in the UI/UX Design for AI Products course: https://bit.ly/stf-aid-webinar\n- Learn how to build intelligent AI agents: https://online.stanford.edu/programs/agentic-ai\n- Browse all Stanford Online AI courses: https://online.stanford.edu/artificial-intelligence/courses-and-programs\n\nWhat happens when AI agents are designed to simulate human behavior?\n\nIn this Stanford Online webinar delivered in collaboration with Global Alumni, Professor Michael Bernstein explores the emerging possibilities of AI agents and their ability to model, interact with, and simulate aspects of human behavior. The session offers a closer look at how advances in artificial intelligence are changing the way we think about human-AI interaction, simulation, and the design of intelligent systems.\n\nDrawing on Stanford research in human-AI interaction and social computing, Professor Bernstein examines the opportunities and challenges that arise as AI systems become increasingly capable of representing human behaviors and interactions.",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "6EIkeKruJaI",
+    "thumbnail": "https://i.ytimg.com/vi/6EIkeKruJaI/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 17235,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Stanford Online",
+      "avatar": "https://yt3.googleusercontent.com/UE4m1O9zmzlEViC33IbGBU0idM-rbGzN1NWag8xMt6JHBG5SmuWmJdF1_uQhhGKLjLiUXvOTwA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "114i2Kz-LZA",
+    "slug": "stanford-cme295-transformers-l-114i2K",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 1 - Transformers",
+    "description": "For more information about Stanford’s graduate programs, visit: https://online.stanford.edu/graduate-education\n\nTo follow along with the course schedule and syllabus, visit: https://cme295.stanford.edu/syllabus/\n\nChapters:\n00:00:00 Welcome\n00:03:43 Difference from last year’s edition\n00:05:01 Class logistics\n00:12:42 Timeline\n00:16:56 Tokenization\n00:37:27 Word2vec (CBOW, Skip-gram)\n00:48:26 RNN, LSTM\n00:55:18 Attention\n00:57:16 Self-attention mechanism\n00:59:54 Query, key, value\n01:09:35 Transformer architecture\n01:12:19 Input\n01:16:27 Transformer Encoder\n01:18:19 Transformer Decoder\n01:22:16 Computational tricks\n01:27:35 End-to-end example\n\nAfshine Amidi is an Adjunct Professor at Stanford University.\n\nShervine Amidi is an Adjunct Professor at Stanford University.",
+    "toolName": "General AI Tools",
+    "toolCategory": "llm",
+    "youtubeId": "114i2Kz-LZA",
+    "thumbnail": "https://i.ytimg.com/vi/114i2Kz-LZA/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 234047,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "Stanford Online",
+      "avatar": "https://yt3.googleusercontent.com/UE4m1O9zmzlEViC33IbGBU0idM-rbGzN1NWag8xMt6JHBG5SmuWmJdF1_uQhhGKLjLiUXvOTwA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "E3xKmcHBOzY",
+    "slug": "how-chatgpt-dots-can-change-yo-E3xKmc",
+    "title": "How ChatGPT Dots Can Change Your Life in 4 Minutes",
+    "description": "Get the FREE Dots PDF\nhttps://customer.mastermind.com/hubfs/AILMO%20Create%20Your%20First%20Dot.pdf\nJoin the AI Advantage Club\nhttps://joinaiaclub.com/igor\n\nSee how ChatGPT Dots work, how to talk to your Dot by voice, and how I Igor used his to help him find a house in Phoenix.\n\nTry ChatGPT Dots\nhttps://chatgpt.com/\n\nChapters\n0:00 Meet ChatGPT Dots\n0:36 What is a Dot\n1:28 Talk to your Dot\n2:10 How your Dot gets things done\n2:27 Find a house in Phoenix\n3:49 How to get started\n\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "E3xKmcHBOzY",
+    "thumbnail": "https://i.ytimg.com/vi/E3xKmcHBOzY/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 28210,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "The AI Advantage",
+      "avatar": "https://yt3.googleusercontent.com/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCHhYXsLBEVVnbvsq57n1MTQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "db1KRJQEt8w",
+    "slug": "chatgpt-dots-how-i-spent-my-fi-db1KRJ",
+    "title": "ChatGPT Dots: How I Spent My First 24 Hours",
+    "description": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor \n\nChatGPT Dots is here — but what does it actually do, and how would you use it?\n\nIn this video, Igor gives you an 12-minute tour of ChatGPT Dots, explains how it works, and walks through a couple of practical use cases. See what OpenAI’s new AI assistants are about and how they could help with your everyday work.\n\nLinks:\nChatGPT: https://chatgpt.com/\nIntroducing Dots: https://openai.com/index/introducing-dots/\n\nAvailability depends on your plan, region, and rollout.\n\nWhat’s the first task you’d give your Dot? Tell us in the comments 👇\n\nChapters:\n0:00 Introduction\n0:55 Create Your Dot\n4:57 ChatGPT Spaces\n\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "db1KRJQEt8w",
+    "thumbnail": "https://i.ytimg.com/vi/db1KRJQEt8w/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 80915,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "The AI Advantage",
+      "avatar": "https://yt3.googleusercontent.com/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCHhYXsLBEVVnbvsq57n1MTQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "uapAA5hx5uI",
+    "slug": "chatgpt-just-entered-a-new-era-uapAA5",
+    "title": "ChatGPT Just Entered a New Era (How This Affects Normal People)",
+    "description": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/igor\n\nOpenAI just released Dots and 19 other things. Here are what I think matters most and why.\n\nLinks:\nhttps://openai.com/index/introducing-dots/\n\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "uapAA5hx5uI",
+    "thumbnail": "https://i.ytimg.com/vi/uapAA5hx5uI/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 45664,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "The AI Advantage",
+      "avatar": "https://yt3.googleusercontent.com/DvaUGxvtI8_VHscLePaF-JO0kMrzluLkGQWDIOtbHvAkmlRaX_gh3YATlFu8046lrNjBQ0cmIw=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCHhYXsLBEVVnbvsq57n1MTQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "e29WTzoOKxk",
+    "slug": "chatgpt-dots-is-incredible-but-e29WTz",
+    "title": "ChatGPT Dots is INCREDIBLE (but only if you use it the right way)",
+    "description": "This is the best ChatGPT Dots workflow ever\n\nProject Manager skill: https://github.com/finna/project-manager-skill\n\nSign up for my free newsletter: https://www.shipitweekly.com/\nFULL ChatGPT 6 Astra bootcamp in the Vibe Coding Academy: https://www.skool.com/vibe-coding-academy\n2nd Youtube Channel:  https://youtube.com/@AlexFinnLabsOfficial\nFollow my X: https://x.com/AlexFinn\nHenry Intelligent Machines (my new startup): https://meethenry.ai\nMy $300k/yr AI app: https://www.creatorbuddy.io/\n\nTimestamps:\n0:00 Intro\n0:43 What is ChatGPT Dots\n3:09 Showing you my Dot\n4:03 How to get the most out of Dots\n13:32 Which agent you should be using",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "e29WTzoOKxk",
+    "thumbnail": "https://i.ytimg.com/vi/e29WTzoOKxk/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 80443,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "Alex Finn",
+      "avatar": "https://yt3.googleusercontent.com/-f755CqfJVpDAZZCQU5b_-9OVVDsqFoW8aSV9sOgGp4VfBx-AJR62Q4j-OmoO-muAw1LqE-vEA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCfQNB91qRP_5ILeu_S_bSkg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "cro5EDMlcTY",
+    "slug": "openai-just-made-some-massive--cro5ED",
+    "title": "OpenAI just made some MASSIVE announcements",
+    "description": "ChatGPT Dots is so good (plus other OpenAI dev day announcements)\n\nSign up for my free newsletter: https://www.shipitweekly.com/\nFULL ChatGPT 6 Astra bootcamp in the Vibe Coding Academy: https://www.skool.com/vibe-coding-academy\n2nd Youtube Channel:  https://youtube.com/@AlexFinnLabsOfficial\nFollow my X: https://x.com/AlexFinn\nHenry Intelligent Machines (my new startup): https://meethenry.ai\nMy $300k/yr AI app: https://www.creatorbuddy.io/\n\nTimestamps:\n0:00 Intro\n0:42 Dots is so good\n5:22 ChatGPT Spaces\n8:59 ChatGPT 6.1 Sol\n11:21 $500 plan\n13:33 CLI improvements\n15:10 Extensions\n17:01 More announcements",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "cro5EDMlcTY",
+    "thumbnail": "https://i.ytimg.com/vi/cro5EDMlcTY/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 107015,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Alex Finn",
+      "avatar": "https://yt3.googleusercontent.com/-f755CqfJVpDAZZCQU5b_-9OVVDsqFoW8aSV9sOgGp4VfBx-AJR62Q4j-OmoO-muAw1LqE-vEA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCfQNB91qRP_5ILeu_S_bSkg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "CpLyCIsplDQ",
+    "slug": "what-building-teslas-autopilot-CpLyCI",
+    "title": "What building Tesla's autopilot chips taught Cognition's President about AI",
+    "description": "Russell Kaplan shares a story from his time on Tesla's autopilot team: stripping unnecessary operations like division out of custom inference chips, and why he expects the same kind of hardware specialization to reshape AI inference.\n\nThis clip is from Max Agency, a podcast about how the best AI agents are actually being built. Hosted by Harrison Chase, CEO of LangChain, each episode goes deep with the builders designing, deploying, and learning from real agent systems in the wild. From architecture decisions to evals, tooling, and failure modes, Max Agency is for people who want to understand what it really takes to build useful agents.\n\n#AIinference #ChipDesign #MaxAgency",
+    "toolName": "LangChain",
+    "toolCategory": "agents",
+    "youtubeId": "CpLyCIsplDQ",
+    "thumbnail": "https://i.ytimg.com/vi/CpLyCIsplDQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1381,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Z8UDw0tuQ28",
+    "slug": "what-is-human-in-the-loop-Z8UDw0",
+    "title": "What Is Human in the Loop?",
+    "description": "When Should an AI Agent Ask for Permission? Amy and Sean from LangChain explain human in the loop, a design pattern where an agent pauses and waits for a human to approve before taking its next action. The best production agents use this deliberately: let the agent handle routine work, and only interrupt for high stakes actions. The best teams shipping the best agents are not going for full autonomy on day one, they build systems where humans and agents divide the work intelligently.\n\nThis is a clip from our full conversation where Amy and Sean answer the most commonly searched questions about AI agents, from the basics like what is an agent, what is RAG, and what is MCP, to harder questions like why agents hallucinate, how to evaluate them, and what LangChain actually does.",
+    "toolName": "LangChain",
+    "toolCategory": "agents",
+    "youtubeId": "Z8UDw0tuQ28",
+    "thumbnail": "https://i.ytimg.com/vi/Z8UDw0tuQ28/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 984,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "4FZ5osx9W5s",
+    "slug": "build-test-deploy-monitor-the--4FZ5os",
+    "title": "Build, Test, Deploy, Monitor: The Agent Development Lifecycle Explained",
+    "description": "Amy and Sean from LangChain break down the agent development lifecycle, the process agent engineers use to build and improve their agents. It comes down to four phases: build it in code with a framework like Deep Agents, test it with real inputs and expected outputs, deploy it into production, and monitor it with tracing and evals.\n\nThis is a clip from our full conversation where Amy and Sean answer the most commonly searched questions about AI agents, from the basics like what is an agent, what is RAG, and what is MCP, to harder questions like why agents hallucinate, how to evaluate them, and what LangChain actually does.",
+    "toolName": "LangChain",
+    "toolCategory": "agents",
+    "youtubeId": "4FZ5osx9W5s",
+    "thumbnail": "https://i.ytimg.com/vi/4FZ5osx9W5s/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 6791,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "6v0Fmsi4Ldk",
+    "slug": "http-channels-for-managed-deep-6v0Fms",
+    "title": "HTTP Channels for Managed Deep Agents",
+    "description": "Nathan Drezner, a product manager at LangChain, shows how to build a custom HTTP channel for a Managed Deep Agent so it can receive inbound requests from any service you don't control, like HubSpot, Salesforce, or a texting provider. He builds Reflex, an expense-reporting agent that receives receipt photos over iMessage through Photon, extracts the data, and stores it in durable memory backed by Context Hub. Along the way he covers writing verify and parse functions, managing thread IDs per user, sending replies with a post hook, checking the result in LangSmith, and when to reach for HTTP channels versus a custom UI on the LangGraph SDK.\n\nChapters:\n0:00 Custom HTTP channels for managed deep agents, explained\n0:14 When you actually need a custom HTTP channel\n0:24 The demo: a receipt-triage agent over text\n1:04 Scaffolding the agent and its instructions\n1:26 Storing the ledger in durable memory, then testing it\n2:04 Adding the memory definition\n2:20 Introducing Photon as the channel provider\n3:10 Building the client, verifier, and parser\n4:19 Managing threads with a stable thread ID\n4:38 Hashing phone numbers into a durable user ID\n5:27 Sending replies with a post hook\n6:37 Deploying and testing the agent live\n7:03 Checking traces in LangSmith and memory in Context Hub\n7:33 Wrap-up: authorization, combining channels, and choosing a UI\n\nResources:\n→ HTTP channels docs: https://docs.langchain.com/langsmith/javascript/managed-deep-agents-channels-http\n→ Managed Deep Agents overview: https://docs.langchain.com/langsmith/managed-deep-agents-overview\n→ LangSmith: https://www.langchain.com/langsmith\n→ Join the Managed Deep Agents waitlist: https://www.langchain.com/langsmith-managed-deep-agents-waitlist",
+    "toolName": "LangChain",
+    "toolCategory": "general-ai",
+    "youtubeId": "6v0Fmsi4Ldk",
+    "thumbnail": "https://i.ytimg.com/vi/6v0Fmsi4Ldk/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 5270,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "4sWCCasRzPQ",
+    "slug": "this-is-why-your-main-agent-sh-4sWCCa",
+    "title": "This Is Why Your Main Agent Shouldn't Read Every Trace",
+    "description": "LangChain PM Ben Tannyhill explains why they route trace investigation through screener and verifier sub agents instead of letting the main agent read everything. Full conversation on the Max Agency podcast.\n\n#Aiagents #langchain",
+    "toolName": "LangChain",
+    "toolCategory": "general-ai",
+    "youtubeId": "4sWCCasRzPQ",
+    "thumbnail": "https://i.ytimg.com/vi/4sWCCasRzPQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 626,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "kRaJtEXAOxU",
+    "slug": "evaluating-agents-in-productio-kRaJtE",
+    "title": "Evaluating Agents in Production: Traces, LLM-as-Judge, and Prompt Management at Wonder",
+    "description": "Kartik Arora, AI Engineer at Wonder, explains how his team builds a generative AI application that takes every aspect of your life into account and plans all 21 of your meals for the week, then gets them delivered. He walks through what changed when they moved off manual log debugging to LangSmith traces, evaluators, and LLM-as-judge scoring of how their agent responds to different users, and how prompt management took a feedback loop that used to run minutes to hours and made it automatic. With four engineers and two PMs, the team now hands a bug ticket to a coding agent that reads LangSmith, locates the issue in their code, and fixes it end to end.\n\nChapters:\n0:00 What Wonder is building, all 21 meals planned and delivered\n0:21 Before LangSmith, debugging an agent through logs\n0:59 Evaluating agent responses with LLM-as-judge\n1:09 Prompt management and a feedback loop that went from hours to automated\n1:33 Four engineers, two PMs, and fixing bugs through the MCP server\n2:13 Letting non-engineers own the prompts\n2:35 Watching the AI infrastructure ecosystem get built\n\nResources:\n→ LangSmith: https://www.langchain.com/langsmith\n→ LLM-as-judge evaluators: https://docs.langchain.com/langsmith/llm-as-judge\n→ Prompt engineering in LangSmith: https://docs.langchain.com/langsmith/prompt-engineering-quickstart\n→ LangSmith MCP Server: https://docs.langchain.com/langsmith/langsmith-mcp-server",
+    "toolName": "LangChain",
+    "toolCategory": "llm",
+    "youtubeId": "kRaJtEXAOxU",
+    "thumbnail": "https://i.ytimg.com/vi/kRaJtEXAOxU/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 4646,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "4ji1z6R4EvQ",
+    "slug": "what-happens-inside-an-ai-righ-4ji1z6",
+    "title": "What Happens Inside an AI Right Before It Cheats",
+    "description": "Eno Reyes, CTO of Factory, connects Anthropic's interpretability research — where a \"panic\" signal showed up right before a model cheated on a coding task — to how Factory's Droid is designed to work around it: self-defined skills, fresh-context workers, and milestone-based validation to keep shortcuts from compounding across a run. From the Max Agency podcast, hosted by Harrison Chase, Co-Founder and CEO of LangChain.\n\n#AIagents #Interpretability #FactoryAI #Droid",
+    "toolName": "LangChain",
+    "toolCategory": "general-ai",
+    "youtubeId": "4ji1z6R4EvQ",
+    "thumbnail": "https://i.ytimg.com/vi/4ji1z6R4EvQ/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 2573,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "LangChain",
+      "avatar": "https://yt3.googleusercontent.com/a37xtLmxeZMFCB5Zj4isLgU9hKznc5qceLU4DOfdCdgiZJi0pORPqlc145VTJU6Sne1Ti6RJ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "iOd39STNY6w",
+    "slug": "ai-turned-my-idea-into-a-song--iOd39S",
+    "title": "AI Turned My Idea Into a Song 🎵 #shorts #MusicSeed #sunoai #AIMusic",
+    "description": "Want to create full, catchy songs in minutes?\n\nMeet MusicSeed, the ultimate AI music generator! From instant text-to-song creation and AI lyric writing to vocal separation and custom sound effects, you can go from an idea to a finished track all in one place. Perfect for creators looking to level up their audio instantly. \n\n🔗 Try MusicSeed here: https://www.musicseed.ai\n\n#AIMusic #MusicSeed #SunoAI #AIWithTechZnap #shorts #AIMusicGenerator #TextToMusic #MusicProduction #AITools #SoundDesign",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "iOd39STNY6w",
+    "thumbnail": "https://i.ytimg.com/vi/iOd39STNY6w/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 558,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "AI With TechZnap",
+      "avatar": "https://yt3.googleusercontent.com/YTAng46aEBiyL55WMMnmFCWLu7aD1g0vQoHhhje_7ZqxJ4HQT_e8O7yVWZdHKtWPK8Ots9RBQJk=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCNFrPN8weVeh4vUM3vCuS5Q",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "MN9dGgmLyso",
+    "slug": "live-poteto-creator-of-pstack--MN9dGg",
+    "title": "LIVE: Poteto (creator of pstack) on shipping 1,000's of PR's a month at SpaceX",
+    "description": "Matt Pocock talks with Lauren Tan (poteto) about how to ship extraordinary amounts of high-quality work using agents.",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "MN9dGgmLyso",
+    "thumbnail": "https://i.ytimg.com/vi/MN9dGgmLyso/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 82142,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Matt Pocock",
+      "avatar": "https://yt3.googleusercontent.com/pSHatpqJ1olaZiyikhjdx3nbSJNdo71kzFYyyBpNhFAeK6v-zmfJPIp7HMtkWQ4bt0DRkU8X_-8=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCswG6FSbgZjbWtdf_hMLaow",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "yUyfHQBXSzs",
+    "slug": "the-data-engineering-professio-yUyfHQ",
+    "title": "The Data Engineering Professional Certificate is now on DeepLearning.AI",
+    "description": "Learn More: https://bit.ly/3ViOXHF\n\nData underlies all modern AI systems, and engineers who know how to build the systems that store and serve it are in high demand. Our Data Engineering Professional Certificate, a 4-course program, is now available on DeepLearning.AI, and it's built to make you job-ready for data engineering.\n\nYou'll learn foundational data engineering skills while implementing modern data architectures using open-source tools:\n- Work through the full data engineering lifecycle stages: generating, ingesting, storing, transforming, and serving data\n- Build batch and streaming pipelines, then orchestrate, automate, and monitor data flow\n- Model, transform, and serve data for analytics and machine learning\n\nEnroll Now: https://bit.ly/3ViOXHF",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "yUyfHQBXSzs",
+    "thumbnail": "https://i.ytimg.com/vi/yUyfHQBXSzs/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 13615,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "DeepLearningAI",
+      "avatar": "https://yt3.googleusercontent.com/s8tzp3FGNvAlBe-egHp2UEXGvGLSqJycXzXe0brsXJ_bUUHgmo-2BjfXDzYofIejwjj5G6kd=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "ahrY6DZUhkc",
+    "slug": "turn-any-device-into-a-smart-d-ahrY6D",
+    "title": "turn any device into a smart device powered by meta muse",
+    "description": "you might be able to turn any device in your house into a smart device powered by an ai agent - muse. \njust plug it in, and then ask codex or claude code if its compatible with muse gadgets.",
+    "toolName": "Claude",
+    "toolCategory": "agents",
+    "youtubeId": "ahrY6DZUhkc",
+    "thumbnail": "https://i.ytimg.com/vi/ahrY6DZUhkc/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 1152,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "fSilBzYdHUw",
+    "slug": "chatgpt-just-changed-a-lot-her-fSilBz",
+    "title": "ChatGPT Just Changed A LOT (Here’s Everything New)",
+    "description": "OpenAI just announced 20 new updates at Dev Day, and they change how we use ChatGPT, Codex, and AI in general. In this video, I go through every update and explain why each one matters.\n\nDownload ChatGPT:  https://chatgpt.com/download/\nWe cover Dot, the new named personal agent that runs on its own virtual computer and works through email, calendar, Slack, and phone calls. We also cover the new GPT-6.1 Sol model (about 5x cheaper than Astra), Ultra Fast mode, the $500/month Pro plan, GPT Space, plugin extensions, Sign in with ChatGPT, Codex Cloud, code review, the decisions API, and the Agents API.\n\nMore resources from Agent Native: https://agentnative.inc/resources\n\n00:00 Intro\n00:44 #1 Dot Agent Platform\n01:55 #2 Dot Controls Email & Calendar\n03:58 #3 Call Your Dot\n07:04 #4 Dot in Slack\n09:07 #5 Message Dot via iMessage\n09:37 #6 Dot's Computer & Browser\n10:48 #7 GPT-6.1 Sol Model\n11:59 #8-9 Ultra Fast Mode & $500 Pro Plan\n13:55 #10 GPT Space\n18:28 #11 ChatGPT in Slack\n20:04 #12 Meetings Plugin\n20:49 #13 Plugin Extensions\n23:13 #14 Sign in with ChatGPT\n24:21 #15 Codex CLI Improvements\n24:39 #16 Codex Cloud\n26:38 #17 Code Review in Codex\n27:25 #18 Codex Security Dashboard\n27:51 #19 Decisions API\n28:57 #20 Cloud Computer Use & Agents API\n\nWhich of the 20 updates are you most excited about? Let me know in the comments.\n\n@ChatGPT #ChatGPT_Partner",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "fSilBzYdHUw",
+    "thumbnail": "https://i.ytimg.com/vi/fSilBzYdHUw/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 7789,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Riley Brown",
+      "avatar": "https://yt3.googleusercontent.com/Cm_AOGXEC3TYdp2iOXTUj07zgqBkCMJjh4C-0iD0DJOALbMb-D2tz9fJ2e-EDE5DJnJCnd3PaA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "bGALxRWI10A",
+    "slug": "build-your-own-mobile-app-with-bGALxR",
+    "title": "Build your own Mobile App with Codex GPT-6 Astra - Full iOS and Android Course",
+    "description": "Learn how to build an Instagram-style mobile application from scratch using Expo, Codex, Convex, and Clerk. The video covers the entire end-to-end development cycle, from project planning and AI-assisted UI design to testing development builds on physical devices and preparing mandatory legal pages for App Store release.\n\nCourse from @codesistency \n\n🚀 Our Skool Community: https://dub.sh/codesistency\n📚 Source Code: https://dub.sh/code10\n\n📚 Links:\n🚨 Try Sentry for FREE: https://dub.sh/sentryy\n🙈 Try Expo for FREE: https://dub.sh/expo-yt\n🔐 Try Clerk for FREE: https://go.clerk.com/codesistency\n\n👇 PROMPTS:\n🎉 Plan Mode Prompt: https://dub.sh/plan-mode\n🙌 Design Prompts: https://dub.sh/design-prompts\n🙈 Legal Pages Prompts: https://dub.sh/legal-prompts\n\nTimestamps:\n- 0:00:00 0 - Project Preview\n- 0:09:59 1 - Planning Our Project\n- 0:38:55 2 - Generating UI Design\n- 0:49:09 3 - Authentication\n- 1:18:21 4 - Setting Up Backend & Running App on Our Phone\n- 1:52:14 5 - Completing Our App\n- 2:06:32 6 - Building Legal Pages & Landing Page\n- 2:20:02 7 - Error Tracking & Monitoring\n\n\n❤️ Support for this channel comes from our friends at Scrimba – the coding platform that's reinvented interactive learning: https://scrimba.com/freecodecamp\n\n🎉 Thanks to our Champion and Sponsor supporters:\n👾 @omerhattapoglu1158\n👾 @goddardtan\n👾 @akihayashi6629\n👾 @kikilogsin\n👾 @anthonycampbell2148\n👾 @tobymiller7790\n👾 @rajibdassharma497\n👾 @CloudVirtualizationEnthusiast\n👾 @adilsoncarlosvianacarlos\n👾 @martinmacchia1564\n👾 @ulisesmoralez4160\n👾 @_Oscar_\n👾 @jedi-or-sith2728\n👾 @justinhual1290\n\n--\n\nLearn to code for free and get a developer job: https://www.freecodecamp.org\n\nRead hundreds of articles on programming: https://freecodecamp.org/news",
+    "toolName": "General AI Tools",
+    "toolCategory": "llm",
+    "youtubeId": "bGALxRWI10A",
+    "thumbnail": "https://i.ytimg.com/vi/bGALxRWI10A/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 127203,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "freeCodeCamp.org",
+      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "8FBvRYDQWow",
+    "slug": "9-grok-bot-use-cases-you-shoul-8FBvRY",
+    "title": "9 Grok Bot Use Cases You Should Try ASAP",
+    "description": "Go from ABSOLUTE ZERO to using AI like the people who do this for a living👇\nhttps://www.skool.com/ai-fluency\n\nIn this video, I build nine Grok Bots that handle real tasks, including YouTube research, audience feedback, price monitoring, browser games, file organization, subscription tracking, weekly planning, managing other bots, and automatically creating new agents from a simple description.\n\nI'm Parker. I started this YouTube Channel with the goal to learn more about AI myself and to then pass on the knowledge to anyone willing to listen.\n\nlet's work together: partnerships @ parker-prompts.com",
+    "toolName": "Grok",
+    "toolCategory": "llm",
+    "youtubeId": "8FBvRYDQWow",
+    "thumbnail": "https://i.ytimg.com/vi/8FBvRYDQWow/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 9511,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Parker Prompts",
+      "avatar": "https://yt3.googleusercontent.com/rmKIUlPL24nBNHrCDwupmmA5ilpfMDRlm8mP-bnbIvantod3Tzxo-ezrZjAiMoOW4iVezlEUIA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCaNk22cLid93kifuVbVapcQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "dP-0nt4U2QE",
+    "slug": "claude-opus-55-is-here-and-its-dP-0nt",
+    "title": "Claude Opus 5.5 Is Here and It's INCREDIBLE",
+    "description": "Go from ABSOLUTE ZERO to using AI like the people who do this for a living👇\nhttps://www.skool.com/ai-fluency\n\nIn this video, I test Claude Opus 5.5 against GPT-6 Astra and Fable 5.1 across interactive simulations, game development, long-form writing, browser-based design, and a full coded 3D animation to see how it handles real creative and technical projects.\n\nEvery prompt from the video 👉 https://parker-prompts.com/opus55\n\nI'm Parker. I started this YouTube Channel with the goal to learn more about AI myself and to then pass on the knowledge to anyone willing to listen.\n\nlet's work together: partnerships @ parker-prompts.com",
+    "toolName": "Claude",
+    "toolCategory": "llm",
+    "youtubeId": "dP-0nt4U2QE",
+    "thumbnail": "https://i.ytimg.com/vi/dP-0nt4U2QE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 35614,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Parker Prompts",
+      "avatar": "https://yt3.googleusercontent.com/rmKIUlPL24nBNHrCDwupmmA5ilpfMDRlm8mP-bnbIvantod3Tzxo-ezrZjAiMoOW4iVezlEUIA=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCaNk22cLid93kifuVbVapcQ",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "WeiB_gLOdQE",
+    "slug": "vercel-ceo-reveals-his-agentic-WeiB_g",
+    "title": "Vercel CEO reveals his Agentic Engineering Workflow",
+    "description": "Try Supabase for Free: https://supabase.com/\n\nSupabase Select: https://select.supabase.com/\n\nCloudroom: https://cloudroom.dev/ \n\nVercel: http://vercel.com/\nGuillermo's twitter: https://x.com/rauchg\nfx harness: https://fx.sh/\n\nFollow me on Instagram - https://www.instagram.com/davidondrej1/\nFollow me on Twitter - https://x.com/DavidOndrej1\n\nWatch my podcasts on Spotify: https://open.spotify.com/show/033E1ULeu3Pj9JU2MABz2U?si=vvf361b2R3O2Dg0obO-2IQ\n\nSubscribe if you're serious about AI.\n\nIn this video, David Ondrej interviews Guillermo Rauch, Vercel CEO and legendary Next.js developer. They talk about Cloud Agents, Agentic Engineering, how AI will impact cyber security, Guillermo's new fx coding harness, and why Cloudroom needs to be built.",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "WeiB_gLOdQE",
+    "thumbnail": "https://i.ytimg.com/vi/WeiB_gLOdQE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 45284,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "David Ondrej",
+      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "bEJuF9JltYE",
+    "slug": "opus-55-almost-lost-to-an-open-bEJuF9",
+    "title": "Opus 5.5 almost lost to an open-source model...",
+    "description": "Opus 5.5 almost lost to an open-source model...\n\nUse Supabase: https://supabase.com",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "bEJuF9JltYE",
+    "thumbnail": "https://i.ytimg.com/vi/bEJuF9JltYE/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 19502,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "David Ondrej",
+      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "u9g9EBUAam8",
+    "slug": "davids-takes-on-openai-devday-u9g9EB",
+    "title": "David's takes on OpenAI DevDay",
+    "description": "David's takes on OpenAI DevDay",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "u9g9EBUAam8",
+    "thumbnail": "https://i.ytimg.com/vi/u9g9EBUAam8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 23433,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "David Ondrej",
+      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "GwlqUZF52ug",
+    "slug": "youre-betting-against-ai-if-yo-GwlqUZ",
+    "title": "You're betting against AI if you're doing this...",
+    "description": "You're betting against AI if you're doing this...",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "GwlqUZF52ug",
+    "thumbnail": "https://i.ytimg.com/vi/GwlqUZF52ug/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 4571,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "David Ondrej",
+      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "vI4mMEAV0O8",
+    "slug": "why-every-agent-needs-its-own--vI4mME",
+    "title": "Why every Agent needs it's own computer",
+    "description": "Why every Agent needs it's own computer",
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "vI4mMEAV0O8",
+    "thumbnail": "https://i.ytimg.com/vi/vI4mMEAV0O8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 3463,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "David Ondrej",
+      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "3yvmtO6bWY8",
+    "slug": "why-you-shouldnt-buy-a-mac-min-3yvmtO",
+    "title": "Why you shouldn't buy a Mac mini for your AI Agents",
+    "description": "Why you shouldn't buy a Mac mini for your AI Agents",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "3yvmtO6bWY8",
+    "thumbnail": "https://i.ytimg.com/vi/3yvmtO6bWY8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 6305,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "David Ondrej",
+      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "6nofrnjOCNI",
+    "slug": "how-to-build-an-agentic-c-suit-6nofrn",
+    "title": "How to build an agentic C-Suite with Google Cloud ADK and Cloud Run",
+    "description": "In this video, Anupam Phoghat sits down with Martin Omander to walk through a practical build of an agentic cloud application that actually makes business decisions. No theoretical slides here; just a clean, end-to-end implementation showing how to orchestrate multiple LLM-powered agents to run a virtual company board.\n\nWe break down the architecture of the Agentic C-Suite, showing how to set up the decision-making loops, pass context between specialized roles (CEO, CFO, CTO), and deploy the whole stack.\n\nTech Stack:\nFramework: Google Cloud ADK (Agent Development Kit)\nHosting: Google Cloud Run\n\nResources:\nGoogle Agent Development Kit: https://adk.dev\nHow to evaluate agents: https://adk.dev/evaluate\nVideo about evaluating agents: https://youtu.be/20W-tHXcsb4\nAnupam’s application: https://github.com/anupamphoghat/AI-C-Suite-adk\n\nChapters:\n0:00 - Intro\n1:47 - Demo\n3:19 - Questions & answers\n5:26 - Takeaways",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "6nofrnjOCNI",
+    "thumbnail": "https://i.ytimg.com/vi/6nofrnjOCNI/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 6425,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "FRETejqa7D8",
+    "slug": "how-to-build-ai-agent-evals-in-FRETej",
+    "title": "How to build AI agent evals in 4 steps",
+    "description": "Manual prompt tweaking isn't a testing strategy. Here is how to actually evaluate AI agents for production. For more information, check out the Agent Clinic episode linked below the title.\n\n\nSpeakers: Dani Zamora, Matthew Feroz\nProducts Mentioned: Antigravity, Gemini, Google Cloud, Vertex AI",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "FRETejqa7D8",
+    "thumbnail": "https://i.ytimg.com/vi/FRETejqa7D8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 2127,
+    "likes": 0,
+    "publishedAt": "2026-10-01",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "ZmDYkrXpypw",
+    "slug": "how-to-use-ai-agents-for-autom-ZmDYkr",
+    "title": "How to use AI Agents for automated code reviews",
+    "description": "Try Google Antigravity → https://g.dev/cloud/antigravity-homepage \nExplore Google Skills on GitHub → https://goo.gle/3UN4MWQ \n\nWhat exactly is an agent harness, and why is it the secret to fully autonomous coding? If your coding agents are hitting a wall, the problem might not be the model you are using, it might be the stack. In this episode of The Agent Factory, we break down how to stop relying on manual prompting and start building environments where AI can dynamically solve complex software engineering challenges.\n\nFirst, we sit down with Ryan Lopopolo, the Google engineer who coined the term \"agent harness\". We will discuss why he hasn't manually written code since May, how to apply senior engineering principles to AI agents, and how agents are being deployed to operate Google Cloud. Then, Billy jumps into the code to demonstrate the difference between linear and closed-loop harnesses using the Agent Development Kit (ADK). Finally, Smitha reveals the three-layer stack you need to build high-performing agents today, featuring Gemini 3.8 Flash, Antigravity Boost, and the viral Google Skills GitHub repository.\n\nWhether you are a developer trying to build your own agent loop, or a technical leader looking to scale AI autonomy across your infrastructure, you'll learn exactly how to configure the memory, tools, and guardrails necessary to make your agents reliable. You'll walk away with a clear understanding of when to use lightweight models for high-frequency loops, when to deploy orchestrators like Boost, and how to give your agents the precise domain knowledge they need to succeed.\n\nMore resources:\nThe Anatomy of Harness Engineering: How to Evaluate, Iterate, and Guard AI Coding Agents → https://goo.gle/4j3lCKU \nRead Ryan's essay on Leveraging Codex → https://goo.gle/4inFlVv \nLearn more about Gemini 3.8 Flash → https://goo.gle/3TuVfmT \n\nSpeakers:\nRyan Lopopolo:\nGitHub → https://goo.gle/46T7sF0 \nhyperbola → https://goo.gle/4xIXqS5 \n\nTilde Thurium:\nLinkedIn → https://goo.gle/4itBt5w \n\nSmitha Kolan: \nYouTube → https://goo.gle/Smitha-on-YouTube  \nLinkedIn → https://goo.gle/Smitha-on-LinkedIn \n\nLuke Schlangen: \nWebsite → https://goo.gle/4h1VC1r \nLinkedIn →https://goo.gle/4iWWghS \n\nBilly Jacobson: \nLinkedIn → https://goo.gle/4cJk5WA \nMedium → https://goo.gle/4ydgpVX \n\nWatch more of The Agent Factory → https://goo.gle/4xi7qRL \n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech \n\n\nProducts Mentioned: Gemini, Gemini Flash, Gemini 3.8 Flash, Google Antigravity, Antigravity Boost, Google Cloud, Agent Development Kit (ADK), Google Skills, Firebase, Flutter, Google Maps, GitHub",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "ZmDYkrXpypw",
+    "thumbnail": "https://i.ytimg.com/vi/ZmDYkrXpypw/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 5668,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "wPdoZRbvaF4",
+    "slug": "why-your-ai-agent-fails-in-pro-wPdoZR",
+    "title": "Why Your AI Agent Fails in Production (And How to Catch It)",
+    "description": "Manual code  tweaking isn't a testing strategy. Here is how to actually evaluate AI agents for production. In this episode of AI Agent Clinic, Google Cloud engineer Dani Zamora and Matthew Feroz (Merge) take DocsHound, an open-source LangGraph agent, and build an end-to-end evaluation pipeline in 60 minutes.\n\n🔗 Repositories & Resources:\n• Open-Source Agent-Eval Toolkit (GitHub):  https://g.dev/cloud/agent-eval \n• DocsHound Agent Code: https://g.dev/cloud/docshound \n• Gemini Enterprise Agent Platform Docs: https://g.dev/cloud/agent-evaluation \n\nMost autonomous loops look great in local demos but fail silently in production. In this hands-on clinic, we compress weeks of testing setup into one hour by:\n1. Mapping agent execution flow and inner workings using Antigravity\n2. Standardizing multi-turn traces with OpenTelemetry & OpenInference (making your evals work across agentic frameworks like ADK, LangGraph, CrewAI, AutoGen, or custom implementations)\n3. Pairing custom LLM-as-a-judge evaluation rubrics and deterministic checkers for quality and performance assessment\n4. Additionally, tracking  signals like: latency, token usage, and API cost\n5. Ensuring zero vendor lock-in by building on open-source standards\n\nAlong the way, our automated scorecard catches a blind spot: a 33% documentation quality score that while eye-balling the results we initially missed.\n\nChapters:\n0:00 — Intro\n01:02 — The AI Agent Clinic: Eval Edition\n02:11 — Meet DocsHound, a LangGraph Agent\n03:40 — Making Agent Traces Evaluation-Ready (OTel & OpenInference)\n05:02 — Beyond the “Vibe Check”\n05:51 — The 60-Minute Challenge Begins\n06:47 — Step 1: Mapping Agent Architecture with Antigravity\n11:18 — Step 2: Setting Up the Open-Source Agent Eval Tool\n17:14 — Measuring Quality, Latency & Token Cost\n18:34 — Step 3: Translating Quality Definitions into Metrics\n21:40 — Step 4: Visualizing Results & Spotting the 0.33 Failure\n22:36 — Finding Where the Agent Needs Improvement\n24:08 — Why Evals Change How You Build Agents\n25:03 — Are AI Agent Evals for Everyone?\n\n\nWatch more of the AI Agent Clinic →  youtube.com/playlist?list=PLAz2I7PJjFtA \n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech\n\n#GoogleCloud #LangGraph #AIAgents #OpenTelemetry #SoftwareEngineering #GenerativeAI # AIDevelopment #OpenSource #Antigravity #GeminiAgentPlatform #GeminiEnterprise #AgentEvals #AgentsCLI\n\nTech Stack Featured: LangGraph, OpenTelemetry (OTel), OpenInference, Gemini 3.7 , Python\nSpeakers: Dani Zamora, Matthew Feroz\nProducts Mentioned: Antigravity, Gemini, Google Cloud, Gemini Enterprise Agent Platform (Vertex AI), Agents CLI",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "wPdoZRbvaF4",
+    "thumbnail": "https://i.ytimg.com/vi/wPdoZRbvaF4/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 13475,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "NcHnt6ItJPM",
+    "slug": "harness-engineering-and-contex-NcHnt6",
+    "title": "Harness engineering and context curation",
+    "description": "Try Google Antigravity → https://g.dev/cloud/antigravity-homepage \nExplore Google Skills on GitHub → https://goo.gle/3UN4MWQ \n\nWhat exactly is an agent harness, and why is it the secret to fully autonomous coding? If your coding agents are hitting a wall, the problem might not be the model you are using, it might be the stack. In this episode of The Agent Factory, we break down how to stop relying on manual prompting and start building environments where AI can dynamically solve complex software engineering challenges.\n\nFirst, we sit down with Ryan Lopopolo, the Google engineer who coined the term \"agent harness\". We will discuss why he hasn't manually written code since May, how to apply senior engineering principles to AI agents, and how agents are being deployed to operate Google Cloud. Then, Billy jumps into the code to demonstrate the difference between linear and closed-loop harnesses using the Agent Development Kit (ADK). Finally, Smitha reveals the three-layer stack you need to build high-performing agents today, featuring Gemini 3.8 Flash, Antigravity Boost, and the viral Google Skills GitHub repository.\n\nWhether you are a developer trying to build your own agent loop, or a technical leader looking to scale AI autonomy across your infrastructure, you'll learn exactly how to configure the memory, tools, and guardrails necessary to make your agents reliable. You'll walk away with a clear understanding of when to use lightweight models for high-frequency loops, when to deploy orchestrators like Boost, and how to give your agents the precise domain knowledge they need to succeed.\n\nMore resources:\nThe Anatomy of Harness Engineering: How to Evaluate, Iterate, and Guard AI Coding Agents → https://goo.gle/4j3lCKU \nRead Ryan's essay on Leveraging Codex → https://goo.gle/4inFlVv \nLearn more about Gemini 3.8 Flash → https://goo.gle/3TuVfmT \n\nSpeakers:\nRyan Lopopolo:\nGitHub → https://goo.gle/46T7sF0 \nhyperbola → https://goo.gle/4xIXqS5 \n\nTilde Thurium:\nLinkedIn → https://goo.gle/4itBt5w \n\nSmitha Kolan: \nYouTube → https://goo.gle/Smitha-on-YouTube  \nLinkedIn → https://goo.gle/Smitha-on-LinkedIn \n\nLuke Schlangen: \nWebsite → https://goo.gle/4h1VC1r \nLinkedIn →https://goo.gle/4iWWghS \n\nBilly Jacobson: \nLinkedIn → https://goo.gle/4cJk5WA \nMedium → https://goo.gle/4ydgpVX \n\nWatch more of The Agent Factory → https://goo.gle/4xi7qRL \n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech \n\n\nProducts Mentioned: Gemini, Gemini Flash, Gemini 3.8 Flash, Google Antigravity, Antigravity Boost, Google Cloud, Agent Development Kit (ADK), Google Skills, Firebase, Flutter, Google Maps, GitHub",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "NcHnt6ItJPM",
+    "thumbnail": "https://i.ytimg.com/vi/NcHnt6ItJPM/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 7637,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "6uk0XHrfMs0",
+    "slug": "build-cross-cloud-agents-with--6uk0XH",
+    "title": "Build cross-cloud agents with the borderless Lakehouse",
+    "description": "Learn how to build cross-cloud agents and leverage BigQuery multimodality, AI functions, embeddings, and vector search with the borderless Lakehouse.\n\n## SUMMARY\nIn this episode of Google Cloud Live, learn how to build cross-cloud agents using a borderless Lakehouse architecture. Explore how BigQuery handles multimodal data and native AI functions to generate automated descriptions, update product metadata, and generate embeddings.\n\nDiscover step-by-step techniques for joining structured and unstructured data, performing vector search, configuring data chunks, and connecting external platforms into your Google Cloud Lakehouse workflow.\n\n## WHAT YOU'LL LEARN\n* **Create ObjectRef external tables** for multimodal data analysis in BigQuery.\n* **Use AI functions** to generate brand descriptions, image descriptions, and metadata.\n* **Generate text embeddings** and perform vector search over multimodal datasets.\n* **Structure data chunks** and manage single vs. multi-response column outputs.\n* **Integrate cross-cloud components** with borderless Lakehouse tables.\n\n#GoogleCloud #BigQuery #Lakehouse \n\nSpeakers: Brad Miro, Tilde Thurium\nProducts Mentioned:, Borderless Lakehouse, Big Query",
+    "toolName": "General AI Tools",
+    "toolCategory": "multimodal-ai",
+    "youtubeId": "6uk0XHrfMs0",
+    "thumbnail": "https://i.ytimg.com/vi/6uk0XHrfMs0/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 11295,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "multimodal-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "4zZ8IJ4_JH4",
+    "slug": "make-your-ai-interview-you-fir-4zZ8IJ",
+    "title": "Make your AI interview YOU first  💻",
+    "description": "Stop guessing your code specs! 🛑 Run /grill-me in your terminal to let your AI interview YOU before writing a single line of code. \n\n#Antigravity #AgenticEngineering #VibeCoding #AIAgents #Autonomous\n\nSpeaker: James O'Reilly\nProducts Mentioned: Google Antigravity, Google Gemini",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "4zZ8IJ4_JH4",
+    "thumbnail": "https://i.ytimg.com/vi/4zZ8IJ4_JH4/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 2533,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "Bhba288HpQc",
+    "slug": "the-key-to-using-ai-in-healthc-Bhba28",
+    "title": "The key to using AI in healthcare",
+    "description": "Neomed → https://g.dev/cloud/neomed \nGoogle for Startups Accelerator → https://g.dev/cloud/accelerator \n\nWho's actually out there solving real, life-or-death problems with AI?\n\nIn this episode of The Agent Factory, host Luke Schlangen sits down with Bruno Farias de Souza, Co-Founder and Chief Product Officer of Neomed — a Brazilian healthtech startup using AI to optimize diagnostic imaging and cardiovascular data analysis. Bruno explains why AI won't replace physicians but will amplify them, how Neomed's machine learning models screen 150,000+ EKGs a month in under 7 seconds, and why \"moving slow\" is actually the fastest way to build trust — and save lives — in healthcare. They dig into false positives vs. false negatives, why wearables aren't as powerful as your regular blood test or EKG, and how Google for Startups credits and mentorship helped keep Neomed alive through COVID.\n\nChapters:\n0:00 - Intro\n1:12 - Meet Bruno Farias de Souza, Co-Founder of Neomed\n1:51 - Can AI replace a cardiologist's intuition?\n3:50 - How AI screening catches disease earlier\n6:50 - False positives vs. false negatives\n9:20 - The \"black box\" problem: how do you trust AI diagnoses?\n11:02 - Inside Neomed's AI: reading a real EKG report\n14:09 - Democratizing medical expertise for physicians\n17:51 - Under the hood: machine learning vs. LLMs\n19:36 - Why speed matters: \"time is muscle\"\n21:18 - Why healthcare still runs on legacy, on-prem tech\n23:26 - Scaling to 150,000+ exams a month\n24:25 - Moving slow to move fast: earning physician trust\n27:27 - The real-world impact: years of life saved\n30:11 - Rapid fire round\n38:21 - Google for Startups shoutout & closing thoughts\n\nWatch more The Agent Factory → https://goo.gle/AgentFactory \n\n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech\n\n#GoogleCloud #TheAgentFactory #AIinHealthcare #ArtificialIntelligence #Neomed #GoogleForStartups\n\nSpeakers: \nLuke Schlangen (Host)\nBruno Farias de Souza, Co-Founder & Chief Product Officer, Neomed (Guest)\n\nProducts Mentioned:\nGoogle Cloud, Gemini Enterprise, TensorFlow, Gemini, Google for Startups",
+    "toolName": "Gemini",
+    "toolCategory": "llm",
+    "youtubeId": "Bhba288HpQc",
+    "thumbnail": "https://i.ytimg.com/vi/Bhba288HpQc/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 7989,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "_6qHmJ9Trmg",
+    "slug": "what-exactly-is-an-agent-harne-_6qHmJ",
+    "title": "What exactly is an Agent Harness?",
+    "description": "\"Agent Harness\" is the latest buzzword taking the AI world by storm, but what exactly does it mean?\n\nIn this video, Smitha Kolan and Luke Schlangen break down the anatomy of an AI Agent. You'll learn why an AI Agent is more than just a Large Language Model (LLM) and how the \"Harness\" provides the essential context and tools needed to solve complex, real-world problems.\n\nWhat you’ll learn in this video:\n\n-The Definition: Luke explains the simple formula: AI Agent = LLM + Agent Harness.\n-Real-World Examples: See how Gemini Flash (the model) works with Google Anti-Gravity (the harness).\n-Beyond Text-In, Text-Out: Why simple questions like \"Why is the sky blue?\" only need an LLM, but complex tasks like \"Should I wear a raincoat?\" require an Agent Harness to fetch real-time data.\n-The Power of Context: How the harness wraps around the LLM to give it capabilities far beyond basic text generation.\n\nWhether you're an AI enthusiast or a developer looking to build your first agent, this video will give you a clear understanding of the architecture behind modern AI.",
+    "toolName": "Gemini",
+    "toolCategory": "agents",
+    "youtubeId": "_6qHmJ9Trmg",
+    "thumbnail": "https://i.ytimg.com/vi/_6qHmJ9Trmg/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 7629,
+    "likes": 0,
+    "publishedAt": "2026-09-28",
+    "author": {
+      "name": "Google Cloud Tech",
+      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "NvpRSKcU12E",
+    "slug": "inside-googles-agentic-data-cl-NvpRSK",
+    "title": "Inside Google's Agentic Data Cloud | Andy Guttman",
+    "description": "What does it take to move AI from answering questions to actually running your business? According to Andy Guttman, VP & GM at Google Cloud, it comes down to a single shift: going from a \"system of intelligence\" to a \"system of action.\" \n\nIn this episode, we sit down to explore what it really takes to deploy autonomous agents inside the enterprise. \n\nWe discuss why 90% of your most valuable data is unstructured and invisible to AI, why the real bottleneck is never the model but the context you feed it, and why \"least privilege\" is the mindset shift that almost every team gets backwards. \n\nWe also break down how knowledge graphs help agents find exactly the right data at the lowest possible cost, why owning the full stack changes everything about security and trust, and why Andy believes the most underrated opportunity in AI today isn't the models at all - it's the infrastructure underneath them.\n\n——————————————————————————————————————\nScale Your AI Engineering Skills:\n👉 Mastering Agentic AI Certification\nhttps://maven.com/aishwarya-srinivasan/mastering-ai-agents\n👉 AI for Forward Deployed Engineers Workshop\nhttps://maven.com/aishwarya-srinivasan/ai-for-forward-deployed-engineers\nJoin our Global AI Builder Series (FREE sessions by AI Experts): https://maven.com/lls/319a52\n——————————————————————————————————————\n\nChapters\n00:00 Meet Andy Guttman & the Agentic Data Cloud\n00:48 What the Agentic Data Cloud actually is\n01:50 From \"system of intelligence\" to \"system of action\"\n03:30 Context engineering: garbage in, garbage out\n04:20 Why 90% of enterprise data is unstructured\n06:15 Knowledge Catalog and knowledge graphs\n08:35 The new risk: agents that act, not just read\n09:20 Guardrails and least-privilege access\n12:00 Upskilling teams when everything changes\n15:15 The underrated bet: AI infrastructure & TPUs\n18:20 Why intelligence without context is useless",
+    "toolName": "General AI Tools",
+    "toolCategory": "agents",
+    "youtubeId": "NvpRSKcU12E",
+    "thumbnail": "https://i.ytimg.com/vi/NvpRSKcU12E/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 513,
+    "likes": 0,
+    "publishedAt": "2026-10-03",
+    "author": {
+      "name": "Aishwarya Srinivasan",
+      "avatar": "https://yt3.googleusercontent.com/eOq72nE_uiVXKnKEn4gPtr78CCLwuLUYlILeH2m8gViulAg2KGGmKefv2eoEdnIX1u-KAQ0Iddg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCzd4ZN716evEjtbJERBMTfg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "cSUvh72HnfI",
+    "slug": "jev-explained-end-to-end-in-22-cSUvh7",
+    "title": "Jev Explained End to End in 22 Mins",
+    "description": "Learn what Jev actually is, how System 1 models work, and how to use them inside your software architecture instead of relying on token-generating LLMs for simple decisions.\n\nI walk through the engineering mismatch between language generation and structured decisions, explain TypeSafe's RLCD training approach, break down the three core primitives (Choice, Score, and Noul), and demonstrate real-world model routing in the playground.\n\nWe also examine why type safety is not the same as correctness, how to build confidence-gated workflows, and how to benchmark Jev against strict structured output models.\n\n——————————————————————————————————————\n\nSCALE YOUR AI ENGINEERING SKILLS\n\n👉 Mastering Agentic AI Certification\n\"Last 10 seats left for October Cohort\"\nhttps://maven.com/aishwarya-srinivasan/mastering-ai-agents\n\n👉 AI for Forward Deployed Engineers Workshop:\nhttps://maven.com/aishwarya-srinivasan/ai-for-forward-deployed-engineers\n\n👉 Join our Global AI Builder Series\nFREE sessions by AI Experts:\nhttps://maven.com/lls/319a52\n\n——————————————————————————————————————\n\nIN THIS VIDEO:\n\n• Why applications need typed values instead of token sequences\n• Daniel Kahneman's System 1 and System 2 applied to AI architecture\n• How Jev uses RLCD to generate calibrated probabilities in parallel\n• The three core primitives: Choice, Score, and Noul\n• Step-by-step model routing demo in the TypeSafe Playground\n• Connecting Jev with LangChain middleware for tool guardrails\n• Why type safety eliminates formatting errors but does not guarantee correctness\n• A production blueprint: confidence thresholds, deterministic rules, and evaluation\n\nCHAPTERS:\n\n00:00 What Jev Actually Is\n01:50 Kahneman's System 1 and System 2 Thinking\n02:43 The Engineering Mismatch: Tokens vs Values\n04:06 RLCD and Calibrated Decisions\n05:44 Model Routing Explained\n06:48 System 1 Architecture Diagram\n07:24 The Three Primitives: Choice, Score, and Noul\n08:52 Why Type Safety Is Not Guaranteed Correctness\n10:00 Probability Distributions and Confidence-Gated Actions\n11:46 Jev vs Strict Structured Output LLMs\n13:00 Latency, Cost Benchmarks, and Important Caveats\n14:53 Hands-On Walkthrough in TypeSafe Playground\n15:52 LangChain Integration and Agent Middleware\n16:38 Production Blueprint: Policy Decomposition and Guardrails\n18:03 When to Use Jev (and When Not To)\n19:10 The Architectural Shift in Agentic AI\n20:01 Enterprise Privacy, Hosted API, and Frontier Labs\n21:12 How to Evaluate Jev on Your Own Data\n21:37 Free Jev Masterclass and Gen Academy\n\n——————————————————————————————————————\n\nRESOURCES:\n\n👉 START HERE\n\nTypeSafe: Introducing System One Models and Jev\nhttps://typesafe.ai/blog/introducing-system-one-models-and-jev\n\nTypeSafe Playground and Quickstart Guide\nhttps://docs.typesafe.ai/introduction/quickstart\n\nModel Information and Specifications\nhttps://docs.typesafe.ai/models\n\nOur Free Jev Deep Dive Session: https://maven.com/p/e3acb9/build-with-jev-system-1-models-in-action?utm_medium=ll_share_link&utm_source=instructor\n\n👉 BUILD WITH JEV\n\nLangChain: Building a Harness with Jev\nhttps://www.langchain.com/blog/building-a-harness-with-jev\n\nChoice, Score, and Noul Primitives Documentation\nhttps://docs.typesafe.ai/introduction\n\nTypeSafe Insurance Consistency Cookbook\nhttps://docs.typesafe.ai/cookbooks/consistency_noul_cookbook",
+    "toolName": "LangChain",
+    "toolCategory": "agents",
+    "youtubeId": "cSUvh72HnfI",
+    "thumbnail": "https://i.ytimg.com/vi/cSUvh72HnfI/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 26595,
+    "likes": 0,
+    "publishedAt": "2026-09-30",
+    "author": {
+      "name": "Aishwarya Srinivasan",
+      "avatar": "https://yt3.googleusercontent.com/eOq72nE_uiVXKnKEn4gPtr78CCLwuLUYlILeH2m8gViulAg2KGGmKefv2eoEdnIX1u-KAQ0Iddg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCzd4ZN716evEjtbJERBMTfg",
+    "tags": [
+      "agents"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "ODGIVkqM7Z8",
+    "slug": "become-a-top-01-ai-builder-ODGIVk",
+    "title": "Become a Top 0.1% AI builder",
+    "description": null,
+    "toolName": "General AI Tools",
+    "toolCategory": "general-ai",
+    "youtubeId": "ODGIVkqM7Z8",
+    "thumbnail": "https://i.ytimg.com/vi/ODGIVkqM7Z8/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 12722,
+    "likes": 0,
+    "publishedAt": "2026-09-29",
+    "author": {
+      "name": "Aishwarya Srinivasan",
+      "avatar": "https://yt3.googleusercontent.com/eOq72nE_uiVXKnKEn4gPtr78CCLwuLUYlILeH2m8gViulAg2KGGmKefv2eoEdnIX1u-KAQ0Iddg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UCzd4ZN716evEjtbJERBMTfg",
+    "tags": [
+      "general-ai"
+    ],
+    "accent": "#4a4b50"
+  },
+  {
+    "id": "dDgncbBAA0c",
+    "slug": "ai-news-dots-gpt-61-sol-sonnet-dDgncb",
+    "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
+    "description": "Here's the AI News you probably missed this week. See what Optimizely’s Virtual Teammates can automate for you at https://optimizely.com/mattwolfe \n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\nResources From Today's Video:\nDevDay 2026 Recap: https://openai.com/index/devday-2026-recap/\nOpenAI Introduces Dots: https://openai.com/index/introducing-dots/\nxAI Trolls Dots Launch: https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/\nGPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol/\nClaude Sonnet 5.5: https://www.anthropic.com/claude-sonnet-5-5\nClaude Code Mods: https://claude.com/blog/claude-code-mods\nClaudeDevs Mods Announcement: https://x.com/ClaudeDevs/status/2105721434807083061\nGemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\nIdeogram 4.5: https://ideogram.ai/models/4.5/\nStrands Decider 2B: https://strandsagents.com/blog/introducing-strands-decider/\nxAI Team Bots: https://x.ai/news/team-bots\nElevenLabs Eleven v4: https://elevenlabs.io/blog/eleven-v4\nMicrosoft MAI-Voice-2.1: https://microsoft.ai/models/mai-voice-2-1/\nMicrosoft Streaming Transcription Model: https://microsoft.ai/news/our-first-streaming-transcription-model/\nTrump Superintelligence Executive Order: https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co\n\n#AINews #AITools #ArtificialIntelligence\n\nTime Stamps:\n0:00 Intro\n0:27 Dots\n7:31 GPT-6.1 Sol\n9:24 Other Dev Day Announcements\n10:35 Decisions API\n11:39 ChatGPT Space and Pages\n12:40 Meeting Plugin\n12:57 Sign in with ChatGPT\n13:55 Optimizely Update\n15:07 Claude Sonnet 5.5\n19:12 Mod Claude Code\n19:39 Gemini 4 Argon\n22:03 Ideogram 4.5\n23:17 Strands Decider 2B\n24:04 Grok Team Bots\n24:34 Eleven V4\n25:24 MAI-Voice-2.1\n25:52 MAI-Transcribe\n26:06 Super Intelligence Agreement\n27:15 Final Thoughts",
+    "toolName": "ChatGPT",
+    "toolCategory": "llm",
+    "youtubeId": "dDgncbBAA0c",
+    "thumbnail": "https://i.ytimg.com/vi/dDgncbBAA0c/hqdefault.jpg",
+    "durationSeconds": 0,
+    "views": 100865,
+    "likes": 0,
+    "publishedAt": "2026-10-02",
+    "author": {
+      "name": "Matt Wolfe",
+      "avatar": "https://yt3.googleusercontent.com/Xfsv8L8S4Dt2PPpgaexoMluK9gkm4H77TY-Sae7DbY8qKSaGI0FOS_uzw65kxVtdQlYvc02bB6k=s900-c-k-c0x00ffffff-no-rj"
+    },
+    "channelId": "UChpleBmo18P08aKCIgti38g",
+    "tags": [
+      "llm"
+    ],
+    "accent": "#4a4b50"
+  }
+]
