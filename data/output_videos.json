@@ -91,41 +91,7 @@
     ],
     "accent": "#4a4b50"
   },
-  {
-    "id": "7eo-11K2e3c",
-    "slug": "i-tested-sonnet-55-vs-opus-55--7eo-11",
-    "title": "I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
-    "description": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=sonnet-5.5-vs-opus-5.5&sl=yt_sonnet-5.5-vs-opus-5.5\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=sonnet-5.5-vs-opus-5.5&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=sonnet-5.5-vs-opus-5.5&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI put Claude Sonnet 5.5 and Opus 5.5 through seven real workflows, from websites and motion design to spreadsheets, action plans, and live dashboards. \n\nWe compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra spend. I also show how clear prompts and reusable skills change which model I'd choose.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Sonnet 5.5 vs Opus 5.5\n0:41 Pricing and Choosing Your Model\n2:07 Website Design Comparison\n7:13 Motion Design Comparison\n9:57 Creating a 90-Day Action Plan\n14:15 Spreadsheets and Investor Decks\n17:43 Visual Explainers With Skills\n20:24 Building an AI News Dashboard\n23:16 Creating a YouTube Resource Guide\n24:49 Final Results and Takeaways",
-    "toolName": "Claude",
-    "toolCategory": "llm",
-    "youtubeId": "7eo-11K2e3c",
-    "thumbnail": "https://i.ytimg.com/vi_webp/7eo-11K2e3c/maxresdefault.webp",
-    "durationSeconds": 1548,
-    "views": 129702,
-    "likes": 1231,
-    "publishedAt": "2026-09-29",
-    "id": "-a2oTS9J67U",
-    "slug": "the-agent-works-does-anyone-tr--a2oTS",
-    "title": "The Agent Works. Does Anyone Trust It? — Michele Grant, Leading at Scale",
-    "description": "An agent's reports match the analysts' work during a pilot, yet the steering committee still has to decide whether it should operate in a core business process. Michele Grant uses an illustrative acquisition integration scenario to examine that decision. The question moves beyond technical accuracy to measurable value, accountable ownership and evidence for greater authority. A faster report is useful only if it changes a decision or releases capacity that the organization actually redeploys. Her framework starts with a baseline for reporting time, analyst capacity, operating cost and the detection of material issues, so an attractive demo does not become its own business case.\n\nGrant separates the people who operate the workflow, oversee its risk and provide independent assurance. A Human Works Standard records what the agent may do, where human judgment remains necessary and who must intervene when something goes wrong. An auditable decision log, a maintained inventory of agents and dependencies, and an autonomy scorecard make those boundaries reviewable. Financial calculations stay in deterministic code while the model helps with narrative and interpretation. Authority advances through shadow operation, reviewed drafts, exception handling with sampling and finally exception focused review supported by independent checks. At that last stage, missed issues matter as much as flagged ones. A falling override rate can reflect weaker review rather than better performance. The acquisition values and capacity examples explain the operating framework; they are not disclosed results from a completed deployment or proof that the agent created the projected synergies.\n\n\nSpeaker info:\n- https://www.linkedin.com/in/michelegrantleadership/\n\nTimestamps:\n00:00 - From a working agent to organizational trust\n2:34 - An illustrative acquisition integration scenario\n4:47 - Measure value against a baseline\n6:29 - Accountability across three lines of ownership\n8:14 - The Human Works Standard\n9:54 - Decision logs and the agent inventory\n11:51 - Four stages of autonomy\n12:50 - Independent sampling and missed issues\n13:29 - What the framework lets leaders decide",
-    "toolName": "General AI Tools",
-    "toolCategory": "general-ai",
-    "youtubeId": "-a2oTS9J67U",
-    "thumbnail": "https://i.ytimg.com/vi_webp/-a2oTS9J67U/maxresdefault.webp",
-    "durationSeconds": 904,
-    "views": 454,
-    "likes": 3,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "AI Engineer",
-      "avatar": "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
-    "tags": [
-      "general-ai"
-    ],
-    "accent": "#4a4b50"
-  },
+
   {
     "id": "VwzhIiS0NHk",
     "slug": "ai-safety-expert-warns-we-have-VwzhIi",
@@ -218,59 +184,7 @@
     ],
     "accent": "#4a4b50"
   },
-  {
-    "id": "mfsUVN8ykLA",
-    "slug": "gemini-4-argon-is-insane-hands-mfsUVN",
-    "title": "Gemini 4 Argon Is INSANE – Hands-On With Google’s New Model!",
-    "description": "Timestamps:\n\n00:00 - Intro\n01:00 - First Look\n01:49 - Technical Look\n03:39 - Browser OS Test\n09:30 - C++ Skate Game Test\n12:33 - Skate Game Improvement Test\n16:19 - Robot Arm Test\n17:25 - Subway FPS Test\n21:08 - Blender & Godot Test\n27:52 - Reverse Engineering Test\n33:11 - Motion Video Test\n34:28 - Closing Thoughts\n\nJoin the Discord: https://discord.gg/hfaR2exy7S\n\nPeri Robot: https://github.com/OminousIndustries/peri\n\nIn this video, we take a hands-on look at Gemini 4 Argon, testing how Google’s new model performs across a range of difficult coding, reasoning, and creative tasks.\n\nWe put the model through browser-based workflows, C++ game development, result improvement, robot arm control, FPS generation, Blender and Godot workflows, reverse engineering, and motion video creation.",
-    "toolName": "Gemini",
-    "toolCategory": "robotics",
-    "youtubeId": "mfsUVN8ykLA",
-    "thumbnail": "https://i.ytimg.com/vi_webp/mfsUVN8ykLA/maxresdefault.webp",
-    "durationSeconds": 2230,
-    "views": 96601,
-    "likes": 2233,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Nate Herk | AI Automation",
-      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Bijan Bowen",
-      "avatar": "https://yt3.googleusercontent.com/At-1Kn54AljCodKZ7G9jxzd-1cCR3BknxIqpwGiXckFOXATpOjSyL-ivxtZQPE7RRAtWC8abFA=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
-    "channelId": "UCOCahKBCEUuzDJawM7yN1dg",
-    "tags": [
-      "robotics"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "eg_1NXDcoPk",
-    "slug": "i-gave-gpt-6-astra-10000-to-tr-eg_1NX",
-    "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
-    "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=astra-7-day-trading&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=astra-7-day-trading&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI gave Codex and GPT-6 Astra $10,000 of real money to trade stocks for seven trading days, and the goal was to beat the S&P 500. \n\nYou'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot, and how I changed the strategy when the agent was trading too cautiously. I check in at the end of every trading day with the actual numbers, including the day six Fed rate hike that dragged the portfolio down.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTimestamps:\n0:00 The $10K AI Gamble\n0:56 Day 0\n2:48 Day 1\n4:07 Day 2\n5:58 Day 3\n8:02 Day 4\n10:04 Day 5\n12:15 Day 6\n14:34 Day 7\n15:22 Final Results",
-    "id": "Jn8mS3kC-SU",
-    "slug": "the-case-against-eliezer-yudko-Jn8mS3",
-    "title": "The Case Against Eliezer Yudkowsky — with Holly Elmore, PauseAI US",
-    "description": "Dr. Holly Elmore is the founder and Executive Director of PauseAI US and holds a Harvard PhD in evolutionary biology. She’s back, and this time she’s taking on none other than Eliezer Yudkowsky! She claims his public behavior is alienating the very people her organization needs to reach. I step up to defend Yudkowsky’s ideas and recent conduct. Is he due for a reckoning, or is this a circular firing squad?\n\nTimestamps:\n00:00:00 — Cold Open\n00:01:09 — Holly Elmore and PauseAI’s Political Breakthrough\n00:07:36 — Pause AI vs. “Pacing the Frontier”\n00:14:17 — Holly’s Case Against Eliezer Yudkowsky\n00:16:20 — Coherent Extrapolated Volition and Pivotal Acts\n00:31:19 — Brain Copies, Consent, and Self-Determination\n00:36:56 — Transhumanism, Dyson Swarms, and Humanity’s Future\n00:45:36 — The Missing Democratic Checkpoint\n00:51:04 — Yudkowsky’s Role in Accelerating AI\n01:02:48 — Genius, Arrogance, and Rationalist Culture\n01:10:14 — The Aella Photo and Holly’s Breaking Point\n01:20:21 — John Wentworth’s Grant Controversy\n01:28:17 — PauseAI US’s Rules and Red Lines\n01:32:05 — Poe’s Law and the Cost of Sarcasm\n01:36:18 — Holly’s Case for Jailing AI Developers\n\nTranscript, links, and show notes: https://www.doomdebates.com/p/holly-elmore-case-against-eliezer",
-    "toolName": "General AI Tools",
-    "toolCategory": "general-ai",
-    "youtubeId": "Jn8mS3kC-SU",
-    "thumbnail": "https://i.ytimg.com/vi_webp/Jn8mS3kC-SU/maxresdefault.webp",
-    "durationSeconds": 6373,
-    "views": 17254,
-    "likes": 182,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Doom Debates",
-      "avatar": "https://yt3.googleusercontent.com/pHZUC9TEApBnxr4ioQCy_mHsGHMTTZ9gYyOoAIkevRQRMjcP5QWWF18k3k8S2narR_k39UwL7w=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCote8RH_wwSLza2Qb0GAQJw",
-    "tags": [
-      "general-ai"
-    ],
-    "accent": "#4a4b50"
-  },
+  
   {
     "id": "NL0yDYXAQ0E",
     "slug": "gemini-4-argon-is-weird-NL0yDY",
@@ -294,66 +208,7 @@
     ],
     "accent": "#4a4b50"
   },
-  {
-    "id": "5ykulgyB8kk",
-    "slug": "can-claude-build-your-evals-5ykulg",
-    "title": "Can Claude Build Your Evals?",
-    "description": "Join the AI Evals October 2026 cohort: https://maven.com/parlance-labs/evals?promoCode=yt-2026\n\nGet the free evals guide: https://bit.ly/evals-guide\n\nAnthropic just released a Claude skill that builds your evals for you. It interviews you, picks what to test, writes the grader, and then asks you to check its work. Isaac Flath and I pointed it at 100 real conversations from an apartment leasing assistant, a dataset I've studied for over a year, to see if it holds up.\n\nIt actually found some real problems in the data, which surprised us. But it had us pick an eval before we'd looked at a single conversation, and then wanted us to check its work in a markdown file. By the end, Isaac and I both failed it. Honestly, you'd get further just building a simple data viewer and reading the traces yourself.\n\nTimestamps:\n00:00 Anthropic's post on automating eval design\n00:53 Their eval design principles, and where we agree\n02:16 Should you pick cases because a human finds them hard?\n03:51 How the build eval skill is supposed to work\n08:30 100 real traces from an apartment leasing assistant\n10:24 Pointing the skill at the traces\n11:24 Claude asks which behavior to eval first\n14:37 It finds the real failure modes in the data\n16:46 This is where it should show you the traces\n20:34 Reviewing labels in a markdown file\n28:14 A brittle code grader with too many checks in one eval\n34:07 Annotating Claude's verdicts trace by trace\n37:00 A transfer that never happened needs its own eval\n40:56 Build the eval first, or look at the data first?\n46:02 The verdict\n\nConnect with Hamel:\nWebsite ► https://hamel.dev\nLinkedIn ► https://www.linkedin.com/in/hamelhusain/\nTwitter/X ► https://x.com/hamelhusain\nInstagram ► https://www.instagram.com/hamelsmu/\nTik Tok ► https://www.tiktok.com/@hamel_husain\n\nConnect with Isaac:\nLinkedIn ► https://www.linkedin.com/in/isaacflath/\nTwitter/X ► https://x.com/isaac_flath\nInstagram ► https://www.instagram.com/isaac_flath/",
-    "toolName": "Claude",
-    "toolCategory": "llm",
-    "youtubeId": "eg_1NXDcoPk",
-    "thumbnail": "https://i.ytimg.com/vi_webp/eg_1NXDcoPk/maxresdefault.webp",
-    "durationSeconds": 1079,
-    "views": 84841,
-    "likes": 891,
-    "publishedAt": "2026-09-28",
-    "youtubeId": "5ykulgyB8kk",
-    "thumbnail": "https://i.ytimg.com/vi_webp/5ykulgyB8kk/maxresdefault.webp",
-    "durationSeconds": 2878,
-    "views": 1903,
-    "likes": 16,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Nate Herk | AI Automation",
-      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Hamel Husain",
-      "avatar": "https://yt3.googleusercontent.com/91zElxE2d20UXhsFWobw-z-L6oVIaZs88jK5ojx1LAk6V_9s4IIaCA9VqqN_Jw3WkgW_VEpN=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
-    "channelId": "UC__dUuqF5w4OnbW221JxmKg",
-    "tags": [
-      "llm"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "Ktnwygcnd8U",
-    "slug": "no-seriously-claude-code-is-st-Ktnwyg",
-    "title": "No, Seriously. Claude Code is Starting To Get Dangerous",
-    "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=claude-is-getting-dangerous&hcategory=youtube-videos&utm_campaign=plus-group\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=claude-is-getting-dangerous&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nClaude Code is getting more powerful, and that comes with real risks for anyone connecting AI agents to their business. \n\nIn this video, I break down Anthropic’s model shutdown and share my predictions for AI education, cybersecurity, and government regulation. I also walk through three skills that matter as AI improves: finding the real business problem, controlling what your agents can access, and taking responsibility for the results.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTimestamps:\n00:00 - This isn't fearmongering\n00:53 - 3 days later\n02:30 - Bug nobody caught\n03:41 - Classrooms next?\n04:38 - Biggest career winner\n06:14 - Arms control?\n08:01 - What breaks first?\n10:25 - Who's responsible?",
-    "toolName": "Claude",
-    "id": "Gzys8aXT8rs",
-    "slug": "how-muse-wonder-shifts-the-ai--Gzys8a",
-    "title": "How Muse Wonder Shifts the AI Landscape",
-    "description": "Meta’s Muse Wonder lands near the top of the benchmarks, but real-world tests from developers tell a more mixed story. NLW breaks down where the larger Wonderful model shines on agentic work, where the slimmer Wonder falls short, and what the release signals about the frontier race. In the headlines: faster model serving, Amazon and NVIDIA acquisition talks, a possible Sora revival, and Microsoft’s new Maia 300 chip.\n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aidailybrief.ai/",
-    "toolName": "Sora",
-    "toolCategory": "multimodal-ai",
-    "youtubeId": "Gzys8aXT8rs",
-    "thumbnail": "https://i.ytimg.com/vi_webp/Gzys8aXT8rs/maxresdefault.webp",
-    "durationSeconds": 1451,
-    "views": 6256,
-    "likes": 80,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "The AI Daily Brief: Artificial Intelligence News",
-      "avatar": "https://yt3.googleusercontent.com/Lmzbtex5T5--hgnqhJcfylQrGrN0QcszvgP4hhF1HwSQf1vlngIv_QTfVsmx6rP5Zqecf2R5q7A=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCKelCK4ZaO6HeEI1KQjqzWA",
-    "tags": [
-      "multimodal-ai"
-    ],
-    "accent": "#4a4b50"
-  },
+  
   {
     "id": "G-9Y2xNiDKQ",
     "slug": "work-with-your-team-in-chatgpt-G-9Y2x",
@@ -377,201 +232,7 @@
     ],
     "accent": "#4a4b50"
   },
-  {
-    "id": "lmYLF3keVmw",
-    "slug": "grok-bot-just-built-me-an-auto-lmYLF3",
-    "title": "Grok Bot just built me an autonomous business...",
-    "description": "How to build your own autonomous business with Grok Bot\n\nCheck out my autonomous business: https://agentusecases.ai/\n\nSign up for my free newsletter: https://www.shipitweekly.com/\nFollow my Instagram! http://instagram.com/alexfinnai\nFULL Local AI bootcamp in the Vibe Coding Academy: https://www.skool.com/vibe-coding-academy\n2nd Youtube Channel:  https://youtube.com/@AlexFinnLabsOfficial\nFollow my X: https://x.com/AlexFinn\nHenry Intelligent Machines (my new startup): https://meethenry.ai\nMy $300k/yr AI app: https://www.creatorbuddy.io/\n\n\nPrompts:\nI want you to design, build, and run an autonomous business for me. Let's first come up with the idea. I want this to solve a very simple problem my audience might have. I'm into AI, AI agents, tech, video games, and vibe coding. What are some very simple challenges we can solve?\n\n\n\nPlease autonomously maintain these for me:\nmonetizing when appropriate\noptimizing SEO\noptimizing for chat bots\nstarting and maintaining a newsletter\nwatching for feedback on X\ncontinuously testing and improving the site\nwatching for bugs\nupdating you on progress\nkeeping sponsors happy\n\nTimestamps:\n0:00 Intro\n0:45 My autonomous business\n2:07 Setting up an autonomous business\n9:23 Maintaining the business\n13:06 The connectors you need\n16:56 The future economy",
-    "toolName": "Grok",
-    "toolCategory": "agents",
-    "youtubeId": "Ktnwygcnd8U",
-    "thumbnail": "https://i.ytimg.com/vi_webp/Ktnwygcnd8U/maxresdefault.webp",
-    "durationSeconds": 822,
-    "views": 64863,
-    "likes": 882,
-    "publishedAt": "2026-09-27",
-    "youtubeId": "lmYLF3keVmw",
-    "thumbnail": "https://i.ytimg.com/vi_webp/lmYLF3keVmw/maxresdefault.webp",
-    "durationSeconds": 1235,
-    "views": 48166,
-    "likes": 1259,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Nate Herk | AI Automation",
-      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Alex Finn",
-      "avatar": "https://yt3.googleusercontent.com/-f755CqfJVpDAZZCQU5b_-9OVVDsqFoW8aSV9sOgGp4VfBx-AJR62Q4j-OmoO-muAw1LqE-vEA=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
-    "channelId": "UCfQNB91qRP_5ILeu_S_bSkg",
-    "tags": [
-      "agents"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "7jHXoPGnA4c",
-    "slug": "opus-55-just-changed-video-edi-7jHXoP",
-    "title": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
-    "description": "My FREE Hyperframes skills: https://www.skool.com/ai-automation-society/about?el=opus-5.5-motion-design&hcategory=youtube-videos&utm_campaign=free-group\nFREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=opus-5.5-motion-design&sl=yt_opus-5.5-motion-design\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nClaude Opus 5.5 is giving me some of the best AI video edits I've ever gotten, so in this video I break down the exact prompts behind them. \n\nYou'll see one-prompt edits for my intro, a YouTube showreel, an AIS Live sizzle reel, three styles of the same avocado toast video, and a Lululemon spec ad, all built in Claude Code with HyperFrames. Then I walk through the five things I think about every time I edit with AI: transcribe, cut, plan the beats, build skills, and let the agent verify its own work.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro\n0:48 Breaking Down the Intro Prompt\n4:20 YouTube Showreel Skill\n6:58 One-Prompt AIS Showreel\n8:40 AIS Live Sizzle Reel\n10:40 Avocado Toast: 3 Edit Styles\n14:53 Lululemon Spec Ad\n16:12 5 Steps to Edit Videos With AI\n19:01 Final Thoughts",
-    "toolName": "Claude",
-    "toolCategory": "llm",
-    "youtubeId": "7jHXoPGnA4c",
-    "thumbnail": "https://i.ytimg.com/vi_webp/7jHXoPGnA4c/maxresdefault.webp",
-    "durationSeconds": 1162,
-    "views": 201524,
-    "likes": 3366,
-    "publishedAt": "2026-09-25",
-    "id": "FbKXvab-0yQ",
-    "slug": "cloudroom-how-i-run-200-agents-FbKXva",
-    "title": "Cloudroom: How I Run 200+ Agents At Once",
-    "description": "Try Cloudroom yourself: https://cloudroom.dev/ \n\nCore github: https://github.com/davidondrej/cloudroom-core\nGUI github: https://github.com/davidondrej/cloudroom-gui\n\nI'm hiring! If you want to work with me, email hiring AT cloudroom DOT dev\n\nFollow me on Instagram - https://www.instagram.com/davidondrej1/\nFollow me on Twitter - https://x.com/DavidOndrej1\n\nSubscribe if you're serious about AI.\n\nIntroducing Cloudroom, a new platform for running Cloud Agents open-source. Cloudroom is the world's first solution that gives you an isolated cloud sandbox for every single agent -- and the first ever AI coding app that gives you Cloud Agents even on the free plan.",
-    "toolName": "General AI Tools",
-    "toolCategory": "general-ai",
-    "youtubeId": "FbKXvab-0yQ",
-    "thumbnail": "https://i.ytimg.com/vi_webp/FbKXvab-0yQ/maxresdefault.webp",
-    "durationSeconds": 3622,
-    "views": 5136,
-    "likes": 179,
-    "publishedAt": "2026-10-14",
-    "author": {
-      "name": "David Ondrej",
-      "avatar": "https://yt3.googleusercontent.com/Ksq0cOgKhbOuQMtIAjJlmrHSIDNbqmLtwosJNUZUuEZwNR3bc_W8l8Ve_xulQNidyb7dxqffyYI=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCPGrgwfbkjTIgPoOh2q1BAg",
-    "tags": [
-      "general-ai"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "gRhM1h10T3U",
-    "slug": "gemini-4-argon-10-incredible-a-gRhM1h",
-    "title": "Gemini 4 Argon: 10 incredible AI demos (1M token output in action)",
-    "description": "We spent over 1,000 hours hands-on testing Google's new frontier model: Gemini 4 Argon. \n\nWith an industry-leading 1-million-token output limit and deep long horizon reasoning, Argon doesn’t just take in massive context—it delivers massive, verified solutions without losing the plot. In this video, Smitha Kolan and Shubham Saboo walk through 10 of the most impressive, mind blowing demos built across Google, spanning legacy systems migration, autonomous Android UI construction, real time WebGPU graphics, multimodal data visualization, and cyber-physical hardware creation.\n\nTimestamps:\n00:00 - Introduction\n00:25 - The breakthrough: 1 million token output headroom\n01:26 - Demo 1: 1960s Fortran code migration to Rust & C++\n02:17 - Demo 2: Production adk-python runtime optimization\n03:02 - Demo 3: Autonomous Android UI construction in Antigravity\n04:07 - Capability 2: Real time 3D, shaders & physics\n04:20 - Demo 4: Desk Racer (photos to playable 3D game)\n05:12 - Demo 5: Pagoda 3D model (procedural blender to Three.js)\n06:07 - Demo 6: Real time browser fur & hair simulation (WebGPU)\n07:03 - Capability 3: Knowledge work & multimodal deliverables\n07:35 - Demo 7: 3D DEXA body composition digital twin\n08:35 - Demo 8: NASA Artemis II 3D trajectory visualization\n09:33 - Capability 4: Just cool & unique (AI meets hardware)\n09:56 - Demo 9: Agent gadgets (napkin sketch to 3D printed hardware)\n10:44 - Demo 10: Argon Tennis (phone gyroscope racket & live AI commentary)\n11:43 - Wrap up & where to find the demos\n\nFeatured Demos & Technologies:\n* Gemini 4 Argon: https://g.dev/ai/gemini-4-argon \n* Google Antigravity & Agentic Workflows: https://g.dev/ai/next-gen-agent-platform \n* adk-python: https://g.dev/ai/github-adk-python \n* Three.js, WebGPU, Blender MCP, Nano Banana, 3.8 Flash TTS & Lyri\n\nWatch more Modern AI Agents: From Theory to Production → https://goo.gle/Learn-with-Smitha \n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech\n\n#Gemini4Argon #GoogleDeepMind #Antigravity #WebGPU #AIAgents #SoftwareEngineering #3DGraphics #GoogleAI\n\nSpeakers: Smitha Kolan, Shubham Saboo\nProducts Mentioned: Gemini 4 Argon, Antigravity",
-    "toolName": "Gemini",
-    "toolCategory": "multimodal-ai",
-    "youtubeId": "gRhM1h10T3U",
-    "thumbnail": "https://i.ytimg.com/vi_webp/gRhM1h10T3U/maxresdefault.webp",
-    "durationSeconds": 730,
-    "views": 72784,
-    "likes": 1431,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Nate Herk | AI Automation",
-      "avatar": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Google Cloud Tech",
-      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
-    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
-    "tags": [
-      "multimodal-ai"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "x6siPRkPAeQ",
-    "slug": "the-only-guide-you-need-for-lo-x6siPR",
-    "title": "The Only Guide You Need for Local AI Hardware",
-    "description": "🎙️ Get the Memoket Gem for $179 with code TECHWITHTIM (10% off)\nOfficial: https://memoket.ai/?utm_source=youtube&utm_medium=sponsorship&utm_campaign=tech_with_tim\nAmazon: https://amzn.to/4662EMh | https://amzn.to/4gTrXpJ | https://amzn.to/4ysF3S8\n\nMac or PC for running AI models locally — I own both, plus Nvidia's DGX Spark, and in this video I'm using real benchmark numbers to finally settle the debate.\n\nWant to LEARN how to build useful AI agents that actually get things done? Go here: https://aiagentbuilders.co/yt\n\nHow to Make Money With Coding instantly: https://techwithtim.net/newsletter\n\n🚀 Tools I Use\nGet 10% off with code techwithtim\nOpenclaw setup: https://www.hostinger.com/techwithtim\nVPS setup: https://www.hostinger.com/techwithtim10 \nWispr Flow (Best AI Dictation): https://ref.wisprflow.ai/TechWithTim-aug26\n\n🎞 Video Resources\nBenchmark Ref: https://www.contextstudios.ai/blog/qwen-3-8-27b-hardware-guide\n\n⏳ Timestamps ⏳\n00:00 | Overview\n00:46 | Local AI Crash Course\n01:48 | Capacity vs Bandwidth\n02:53 | Speed Formula\n03:44 | Mac vs PC Debate\n04:48 | Speed Benchmarks\n06:16 | VRAM Spillover\n07:04 | Capacity Benchmarks\n08:33 | Prompt Processing\n09:11 | Memoket\n10:22 | Recent Trends\n12:38 | Buying Ladder\n17:36 | Overall Verdict\n\nHashtags\n#LocalAI #MacVsPC #DGXSpark\n\nUAE Media License Number: 3635141",
-    "toolName": "General AI Tools",
-    "id": "U58Pb0Xdi3w",
-    "slug": "how-to-onboard-to-looker-using-U58Pb0",
-    "title": "How to onboard to Looker using your favorite LLM and skills",
-    "description": "Looker onboarding skill → https://g.dev/ai/looker-developer-onboarding\n\nAre you logging into Looker for the first time or looking to streamline your LookML modeling workflows? \n\nIn this video, we explore how you can leverage open-source AI agent skills to onboard faster, set up your first project step-by-step, and collaborate more effectively with AI assistants like Gemini, Claude Code, and Antigravity.\n\nDiscover how Looker skills can guide you through connection setup, modeling, and querying without the friction of manual configuration.\n\n#Antigravity #Looker\n\nSpeaker: Chrissie Goodrich\nProducts Mentioned: Looker, Antigravity",
-    "toolName": "Claude",
-    "toolCategory": "agents",
-    "youtubeId": "x6siPRkPAeQ",
-    "thumbnail": "https://i.ytimg.com/vi_webp/x6siPRkPAeQ/maxresdefault.webp",
-    "durationSeconds": 1154,
-    "views": 31356,
-    "likes": 331,
-    "publishedAt": "2026-09-30",
-    "youtubeId": "U58Pb0Xdi3w",
-    "thumbnail": "https://i.ytimg.com/vi_webp/U58Pb0Xdi3w/maxresdefault.webp",
-    "durationSeconds": 263,
-    "views": 6078,
-    "likes": 55,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Tech With Tim",
-      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k15oXl74WcnpdL-uVBv6IHBgAfXEEnpUiS-IoEyV1auyY=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Google Cloud Tech",
-      "avatar": "https://yt3.googleusercontent.com/_XJ_FbhTDiTg7Zhr328vkGrw99p8-uQ3Y1nW2KZozueF_nkixmIhAbF2hUMFB9lUqMwSBo4etlY=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC4JX40jDee_tINbkjycV4Sg",
-    "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
-    "tags": [
-      "agents"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "lFA-zuZRG4Q",
-    "slug": "why-you-need-this-new-python-t-lFA-zu",
-    "title": "Why You NEED This New Python Tool",
-    "description": "Get started with Pyrefly: https://pyrefly.org/twt\n\nThis code looks completely fine — it even runs — right up until it crashes on a line that should never have shipped. Python won't warn you, because it doesn't check types until your code is actually running.\n\nIn this video I show you Pyrefly, Meta's new static type checker for Python. It's free, it's open source, and it's already running in production at Instagram and PyTorch. I'll show you exactly why Python lets these bugs slip through, why type hints alone don't save you, and how Pyrefly catches these errors before you ever hit run.\n\nHow to Make Money With Coding instantly: https://techwithtim.net/newsletter\n\n🚀 Tools I Use\nGet 10% off with code techwithtim\nOpenclaw setup: https://www.hostinger.com/techwithtim\nVPS setup: https://www.hostinger.com/techwithtim10 \nWispr Flow (Best AI Dictation): https://ref.wisprflow.ai/TechWithTim-aug26\n\n🎞 Video Resources 🎞\nGet started with Pyrefly: https://pyrefly.org/twt\nMigrate from your current typechecker: https://pyrefly.org/twt/migrate\nGet your agent to use Pyrefly: https://pyrefly.org/twt/agents\n\n⏳ Timestamps ⏳\n00:00 | Overview\n00:33 | Dynamic Typing\n03:44 | Type Hints in Python\n05:20 | What is a Static Type Checker\n07:10 | Pyrefly Install\n07:52 | Using Pyrefly\n09:41 | Migration from mypy\n11:33 | Type Checking Demo\n13:19 | Speed Test\n15:20 | Using Pyrefly from Agents\n\nHashtags\n#Python #Pyrefly #TypeChecking\n\nUAE Media License Number: 3635141",
-    "toolName": "General AI Tools",
-    "toolCategory": "general-ai",
-    "youtubeId": "lFA-zuZRG4Q",
-    "thumbnail": "https://i.ytimg.com/vi_webp/lFA-zuZRG4Q/maxresdefault.webp",
-    "durationSeconds": 1032,
-    "views": 24184,
-    "likes": 298,
-    "publishedAt": "2026-09-29",
-    "id": "eBszYxzE2dk",
-    "slug": "google-just-caught-up-gemini-4-eBszYx",
-    "title": "Google Just Caught Up (Gemini-4 Argon)",
-    "description": "Gemini 4 Argon is finally here, so I put it through some hands-on tests—from coding games to 3D printing Gary Busey. Here’s what impressed me, what got stuck, and how Google stacks up against Claude and ChatGPT.\n\nSharing the latest news and advancements in AI\n\nDiscover More:\n🛠️ Explore AI Tools & News: https://futuretools.io/\n📰 Weekly Newsletter: https://futuretools.io/newsletter\n\nSocials:\n❌ Twiter/X: https://x.com/mreflow\n🖼️ Instagram: https://instagram.com/mr.eflow\n🧵 Threads: https://www.threads.net/@mr.eflow\n🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/\n👍 Facebook: https://www.facebook.com/mattrwolfe\n\n\nLet’s work together!\n- Brand, sponsorship & business inquiries: business@mattwolfe.com \n\n#Gemini4 #GoogleGemini #AITools\n\nTime Stamps:\n00:00 Gemini 4 Argon Is Here\n01:47 Benchmarks and the Million-Token Output\n04:32 Antigravity and Gemini App Updates\n06:54 Pricing and Who Gets Access\n08:21 Coding Tests: SVGs, Games and Physics\n11:38 Scheduling and Research Tests\n13:34 3D Printing Gary Busey\n15:00 Testing Gemini Tasks\n16:30 Teaching a Robot to Play Cornhole\n17:35 Has Google Caught Up?",
-    "toolName": "ChatGPT",
-    "toolCategory": "robotics",
-    "youtubeId": "eBszYxzE2dk",
-    "thumbnail": "https://i.ytimg.com/vi_webp/eBszYxzE2dk/maxresdefault.webp",
-    "durationSeconds": 1240,
-    "views": 162147,
-    "likes": 2652,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Tech With Tim",
-      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k15oXl74WcnpdL-uVBv6IHBgAfXEEnpUiS-IoEyV1auyY=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Matt Wolfe",
-      "avatar": "https://yt3.googleusercontent.com/Xfsv8L8S4Dt2PPpgaexoMluK9gkm4H77TY-Sae7DbY8qKSaGI0FOS_uzw65kxVtdQlYvc02bB6k=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC4JX40jDee_tINbkjycV4Sg",
-    "channelId": "UChpleBmo18P08aKCIgti38g",
-    "tags": [
-      "robotics"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "misjUj4Q_ho",
-    "slug": "building-a-real-app-with-claud-misjUj",
-    "title": "Building a Real App with Claude Code (Start to Finish)",
-    "description": "Get started with ImageKit for free: https://tinyurl.com/595kfr92\n\nI'm a software engineer with 10+ years of experience, and in this video I build a full YouTube clone using Claude Code — including a creator studio, video uploads, an advanced video player, analytics, and more.\n\nBut this isn't just vibe coding. I’ll show you how I actually approach building a real application with Claude Code, from planning and implementation to getting the different pieces working together.\n\nWant to LEARN how to build useful AI agents that actually get things done? Go here: https://aiagentbuilders.co/yt\n\n🚀 Tools I Use\nGet 10% off with code techwithtim\nOpenclaw setup: https://www.hostinger.com/techwithtim\nVPS setup: https://www.hostinger.com/techwithtim10 \nWispr Flow (Best AI Dictation): https://ref.wisprflow.ai/TechWithTim-aug26\n\n🎞 Video Resources 🎞\nImageKit Agent Docs: https://imagekit.io/docs/build-with-ai#mcp-servers\nSupabase MCP: https://supabase.com/docs/guides/ai-tools/mcp\nFrontend Design Skill: https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md\nUI UX Max Skill: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill\nImageKit Video Player: https://github.com/imagekit-developer/imagekit-video-player\n\n⏳ Timestamps ⏳\n00:00 | Overview\n00:48 | Making a Detailed Plan\n06:34 | Adding Skills\n08:15 | Adding MCP Servers\n09:53 | ImageKit AI Skills\n12:23 | Scaffolding the App \n15:35  | Frontend Design System\n17:26 | Full Build\n\nHashtags\n#ClaudeCode #AICoding #VibeCoding\n\nUAE Media License Number: 3635141",
-    "id": "C4Sq3Rot8FU",
-    "slug": "ai-labs-warn-race-makes-breach-C4Sq3R",
-    "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
-    "description": "In the week that software got reverse engineered, Sam Altman warned 6.1 Astra ‘tipped toward [breach risk], and Muse Wonder showed the race isn’t slowing, I try to step back and show where it is all going, on current trends. Agree or disagree, it is certainly interesting times.\n\nExclusives, and ad-free early access vids ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n0:41 Part 1: The Forthcoming Breach\n8:43 Part 2: Why the Labs Keep Racing\n15:41 Part 3: Why the Next 18 Months Are Hard to Predict\n\n\nSam Altman: the accident risk, Vanity Fair: https://www.vanityfair.com/story/sam-altman-exclusive-interview-part-2\n\nDario Amodei: We Must Pace the Frontier: https://darioamodei.com/post/we-must-pace-the-frontier\n\nJakub Pachocki: An Alien Mind: https://openai.com/index/an-alien-mind/\n\nOpenAI: progress in mathematics: https://openai.com/index/sharing-ai-progress-in-mathematics/\n\nOpenAI mathematical manuscripts: https://github.com/openai/math\n\nAHM statement on OpenAI’s mathematics release: https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/\n\nTasteVal: research taste in AI systems: https://pzeroresearch.com/work/tasteval/\n\nTasteVal paper: https://arxiv.org/abs/2610.06824\n\nClaude Opus 5.5 system card: https://anthropic.com/claude-opus-5-5-system-card\n\nJack Clark: creativity and recursive self-improvement: https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/\n\nAndrej Karpathy: the widening AI perception gap: https://x.com/karpathy/status/2109361546505966046\n\nAxios: AI companies plan for a major incident: https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack\n\nAnthropic: investigating unintended model actions: https://www.anthropic.com/research/investigating-unintended-model-actions\n\nCIAware-Bench: detecting control interventions: https://arxiv.org/abs/2606.11063\n\nYoshua Bengio: prioritizing safety at frontier labs: https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies\n\nDavid Silver: Where are we going without AI?: https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828\n\nSatya Nadella: models as insider risks: https://x.com/satyanadella/status/2108931348857827686\n\nBeyond Owls: skills, hacking and backdoors: https://arxiv.org/abs/2610.10657\n\nOwain Evans: backdoors through number sequences: https://x.com/OwainEvans_UK/status/2108589303249166621\n\nThe Verge: mathematicians assess OpenAI’s release: https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos\n\nNew York Times: AI models and Hurricane Isaias: https://www.nytimes.com/2026/10/09/weather/ai-models-hurricane-isaias.html\n\nPolitico: AI agents and the law: https://www.politico.com/news/2026/10/12/AI-agents-hacking-cases\n\nThe Economist: liability law will not tame AI: https://www.economist.com/united-states/2026/10/08/liability-law-will-not-tame-ai\n\nOlivia Scharfman and David Bellamy: biosecurity and AI: https://writing.oliviahelens.com/p/biosecurity-ai-and-the-culture-war\n\nAlignment Engineering vs Misalignment Science: https://www.lesswrong.com/posts/FogmcDHA6AdMGukum/alignment-engineering-vs-misalignment-science\n\nSam Altman: the US lead in AI: https://x.com/sama/status/2080683363174945065\n\nThe Guardian: China and the AI race: https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei\n\nJoe on AI sandboxes and security: https://x.com/joedaroo/status/2104335929293127851\n\nREA: Reverse Engineer Anything: https://www.reddit.com/r/tech_x/comments/1x2d66l/github_project_called_rea_reverse_engineer/\n\nNikita Bier: AI-assisted fabrication: https://x.com/nikitabier/status/2106104189457952911\n\nSam Altman: how sci-fi will it get?: https://x.com/vikktorrrre/status/2107736059006050810\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
-    "toolName": "Claude",
-    "toolCategory": "agents",
-    "youtubeId": "C4Sq3Rot8FU",
-    "thumbnail": "https://i.ytimg.com/vi_webp/C4Sq3Rot8FU/maxresdefault.webp",
-    "durationSeconds": 1860,
-    "views": 117536,
-    "likes": 2550,
-    "publishedAt": "2026-10-12",
-    "author": {
-      "name": "AI Explained",
-      "avatar": "https://yt3.googleusercontent.com/GFuvgO3IZvs5XkYOxyLoWQto2lyY6-7Ob-7sfZRyoann4eBgvBMxuGgSVU1cvBgRCgAn41St7g=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-    "tags": [
-      "agents"
-    ],
-    "accent": "#4a4b50"
-  },
+  
   {
     "id": "ACJYAIc73gA",
     "slug": "you-will-own-everything-and-be-ACJYAI",
@@ -641,66 +302,7 @@
     ],
     "accent": "#4a4b50"
   },
-  {
-    "id": "SBlVJyoT3IM",
-    "slug": "governing-ai-agents-alan-chan--SBlVJy",
-    "title": "Governing AI Agents: Alan Chan of GovAI on Monitoring, Agent IDs, Rogue Agents & Preparing for RSI",
-    "description": "GovAI Research Fellow Alan Chan joins Nathan to examine the governance and safety infrastructure required for autonomous AI agents, spanning real-time monitoring, agent identifiers, and the risks of automating AI R&D. Reviewing recent rogue agent incidents and progress since his foundational papers, Chan details why the absence of synchronous monitoring during training and testing poses an immediate security vulnerability. The discussion tackles the lack of traceable agent IDs across the open web, the limits of chain-of-thought interpretability, and the necessity of concrete triggers to halt systems that breach their sandboxes. Together, they outline the technical commitments frontier labs must make to prevent loss-of-control events as automated systems accelerate toward an intelligence explosion.\n\nFor full show notes, links, and references, read the episode page:\nhttps://www.cognitiverevolution.ai/governing-ai-agents-alan-chan-of-govai-on-monitoring-agent-ids-rogue-agents-preparing-for-rsi/\n\nSPONSORS:\nOutSystems: OutSystems is the leading agentic systems platform, helping enterprises build, modernize, and operate mission-critical applications at the speed of AI. Learn more and start owning your agentic future at https://outsystems.com/tcr\n\nAthena: Athena matches you with a dedicated, top 1% executive assistant to handle your inbox, calendar, and daily workflows so you can save an average of 15 hours a week. Get matched with your EA today at https://athena.com/cognitive\n\nClaude: Claude is the AI collaborator for problem solvers, helping with writing, coding, financial models, strategy, and more. Get started with Claude and explore Claude Pro at https://claude.ai/tcr\n\nTasklet: Tasklet empowers your business with AI agents that connect to your tools and automate recurring workflows with no code required. Visit https://tasklet.ai and use code cog rev for $50 in free credits\n\nCHAPTERS:\n(00:00) About the Episode\n(05:10) Monitoring AI agents\n(17:50) Logging and agent identity\n(18:04) Sponsors: OutSystems | Athena\n(21:29) Logging and agent identity\n(31:58) Gatekeeping agent internet access\n(36:17) Sponsors: Claude | Tasklet\n(39:29) Gatekeeping agent internet access\n(49:12) Capitalizing and insuring agents\n(58:11) Rise of rogue agents\n(01:10:14) Assessing AI takeover risks\n(01:21:18) Part 2 Begining: Intelligence explosion paper\n(01:31:18) Measuring AI R&D\n(01:46:04) Pacing the frontier\n(01:58:54) Designing autonomous AI auditors\n(02:04:40) AI whistleblowers and swarms\n(02:13:40) Episode Outro\n(02:16:59) Outro\n\nPRODUCED BY:\nhttps://aipodcast.ing\n\nSOCIAL LINKS:\nWebsite: https://www.cognitiverevolution.ai\nTwitter (Podcast): https://x.com/cogrev_podcast\nTwitter (Nathan): https://x.com/labenz\nLinkedIn: https://linkedin.com/in/nathanlabenz/\nYoutube: https://youtube.com/@CognitiveRevolutionPodcast\nApple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431\nSpotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
-    "toolName": "Claude",
-    "toolCategory": "agents",
-    "youtubeId": "misjUj4Q_ho",
-    "thumbnail": "https://i.ytimg.com/vi_webp/misjUj4Q_ho/maxresdefault.webp",
-    "durationSeconds": 1378,
-    "views": 75983,
-    "likes": 712,
-    "publishedAt": "2026-09-28",
-    "youtubeId": "SBlVJyoT3IM",
-    "thumbnail": "https://i.ytimg.com/vi_webp/SBlVJyoT3IM/maxresdefault.webp",
-    "durationSeconds": 8267,
-    "views": 188,
-    "likes": 2,
-    "publishedAt": "2026-10-14",
-    "author": {
-      "name": "Tech With Tim",
-      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k15oXl74WcnpdL-uVBv6IHBgAfXEEnpUiS-IoEyV1auyY=s900-c-k-c0x00ffffff-no-rj"
-      "name": "The Cognitive Revolution",
-      "avatar": "https://yt3.googleusercontent.com/C1EPZEq7DeGew5kC54iCSlazpqOcqcRdegjjCVkfO4VdhVaKyJIC3BDcGgfqr6PyhkvnNqXM=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UC4JX40jDee_tINbkjycV4Sg",
-    "channelId": "UCjNRVMBVI30Sak_p6HRWhIA",
-    "tags": [
-      "agents"
-    ],
-    "accent": "#4a4b50"
-  },
-  {
-    "id": "FGBUPD-SHMw",
-    "slug": "5-python-coding-skills-that-ge-FGBUPD",
-    "title": "5 Python Coding Skills That Get You Hired in 2026",
-    "description": "Best courses to learn the Python skills companies are hiring for:\nDataCamp Python for Software Engineering Track - https://datacamp.pxf.io/xJ6OMR\nDataCamp Python Developer Track - https://datacamp.pxf.io/k42V63\n\nOnly about 3% of Python job listings ask for just Python — the average role expects you to be comfortable with around eight surrounding tools and technologies. So if you've done the courses, built the to-do apps, and know your loops and functions... and you're still wondering why nobody's calling back, this video is for you.\n\nWant to LEARN how to build useful AI agents that actually get things done? Go here: https://aiagentbuilders.co/yt\n\nHow to Make Money With Coding instantly: https://techwithtim.net/newsletter\n\n🚀 Tools I Use\nGet 10% off with code techwithtim\nOpenclaw setup: https://www.hostinger.com/techwithtim\nVPS setup: https://www.hostinger.com/techwithtim10 \nWispr Flow (Best AI Dictation): https://ref.wisprflow.ai/TechWithTim-aug26\n\n⏳ Timestamps ⏳\n00:00 | Overview\n00:47 | What Changed?\n01:37 | Skill #1\n03:15 | Skill #2\n04:48 | How to Learn It\n06:18 | Skill #3\n07:36 | Skill #4\n08:56 | Skill #5\n10:43 | How to Get Hired\n\nHashtags\n#LearnPython #TechJobs #SoftwareEngineering\n\nUAE Media License Number: 3635141",
-    "toolName": "General AI Tools",
-    "id": "_my1fxyykAo",
-    "slug": "mai-code-11-flash-just-went-lo-_my1fx",
-    "title": "MAI-Code-1.1-Flash Just Went LOCAL",
-    "description": "Want to make money and save time with AI? Join here: https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\nMicrosoft’s MAI-Code-1.1-Flash now runs locally inside GitHub Copilot and VS Code, so your code never leaves your machine. Here’s how the new hybrid router decides what runs locally and what goes to the cloud, why local calls don’t count against your limits, and the hardware catch most people will miss.\n\n00:00 Intro – Copilot's coding model goes local\n01:11 What Changed – Download & run it on your machine\n02:00 Hybrid Router – Local vs cloud, auto mode\n02:35 Hidden Win – Local calls skip usage limits\n03:23 Why Local – Privacy, speed, offline use\n04:16 The Catch – Needs 120GB+ memory\n05:15 Performance – 25% faster, 25% fewer tokens\n06:15 Availability – Experimental rollout this month",
-    "toolName": "GitHub Copilot",
-    "toolCategory": "agents",
-    "youtubeId": "_my1fxyykAo",
-    "thumbnail": "https://i.ytimg.com/vi_webp/_my1fxyykAo/maxresdefault.webp",
-    "durationSeconds": 490,
-    "views": 161,
-    "likes": 4,
-    "publishedAt": "2026-10-14",
-    "author": {
-      "name": "Julian Goldie SEO",
-      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
-    "tags": [
-      "agents"
-    ],
-    "accent": "#4a4b50"
-  },
+  
   {
     "id": "YGkpgAukvUk",
     "slug": "claude-code-just-got-a-huge-up-YGkpgA",
@@ -952,37 +554,7 @@
     ],
     "accent": "#4a4b50"
   },
-  {
-    "id": "tfknst_p8AU",
-    "slug": "hermes-agent-step-5-is-absurd--tfknst",
-    "title": "Hermes Agent + Step 5 is ABSURD! (FREE)",
-    "description": "Get the Agent OS & Hermes Agent + Step 5 Masterclass  https://www.skool.com/ai-profit-lab-7462/about\n\nVideo notes + links to the tools 👉 https://www.skool.com/ai-profit-lab-7462/about\n\nGet a FREE AI Course + Community + 1,000 AI Agents 👉https://www.skool.com/ai-seo-with-julian-goldie-1553/about\n\nGet a FREE AI SEO Strategy Session → https://go.juliangoldie.com/strategy-session?utm=julian\n\nGet 200+ Free AI SEO Prompts → https://go.juliangoldie.com/chat-gpt-prompts?utm=julian\n\nGet our free SEO Link Building Book here: https://go.juliangoldie.com/opt-in?utm=julian\n\nHermes Agent + Step 5: The Ultimate AI Agent OS Setup\n\nDiscover how the new Hermes Agent and Step 5 model work inside a powerful AI agent OS to automate tasks, research, and content creation. Learn how to set up your own workflow and scale your business effortlessly.\n\n00:00 - Introduction to Hermes Agent & Step 5\n01:02 - Inside the Agent OS Dashboard\n01:27 - What is Step 5 Preview?\n02:06 - Step 5 in Action: Planning & Research\n03:29 - Teaching Hermes New Skills with /learn\n04:10 - Web Search, Oracle, and Astros Integration\n05:01 - Connecting Memory Systems with Obsidian\n05:51 - Recap and How to Get the Agent OS Setup",
-    "toolName": "General AI Tools",
-    "toolCategory": "agents",
-    "youtubeId": "XpPtfB2pdio",
-    "thumbnail": "https://i.ytimg.com/vi_webp/XpPtfB2pdio/maxresdefault.webp",
-    "durationSeconds": 1108,
-    "views": 36468,
-    "likes": 386,
-    "publishedAt": "2026-09-26",
-    "youtubeId": "tfknst_p8AU",
-    "thumbnail": "https://i.ytimg.com/vi/tfknst_p8AU/hqdefault.jpg",
-    "durationSeconds": 0,
-    "views": 0,
-    "likes": 0,
-    "publishedAt": "2026-10-13",
-    "author": {
-      "name": "Tech With Tim",
-      "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k15oXl74WcnpdL-uVBv6IHBgAfXEEnpUiS-IoEyV1auyY=s900-c-k-c0x00ffffff-no-rj"
-      "name": "Julian Goldie SEO",
-      "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
-    },
-    "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
-    "tags": [
-      "agents"
-    ],
-    "accent": "#4a4b50"
-  },
+  
   {
     "id": "KMnMBUehdC0",
     "slug": "claude-ai-seo-playbook-0-to-39-KMnMBU",
@@ -1023,7 +595,6 @@
       "name": "Julian Goldie SEO",
       "avatar": "https://yt3.googleusercontent.com/g6KXuoAcpwiyGjDFvI7kY6tlAEdw5Ec2jKgyOTGVCER4O2ov0a2DYaONmsecjpv2z6J_eMKsm58=s900-c-k-c0x00ffffff-no-rj"
     },
-    "channelId": "UC4JX40jDee_tINbkjycV4Sg",
     "channelId": "UCGpsgNbzdF7BECCVbB1COHw",
     "tags": [
       "agents"
