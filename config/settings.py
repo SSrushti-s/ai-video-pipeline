@@ -21,5 +21,5 @@ from datetime import datetime
 current_timestamp = datetime.now().strftime("%d_%b").lower()
 
 # Sets the default name to "data/output_videos_01_Oct.json"
-OUTPUT_FILE = os.getenv("OUTPUT_FILE",f"data/output_videos_{current_timestamp}.json")
+OUTPUT_FILE = os.getenv("OUTPUT_FILE",f"data/output_videos.json")
 SEEN_FILE = os.getenv("SEEN_FILE", "data/seen_ids.txt")
