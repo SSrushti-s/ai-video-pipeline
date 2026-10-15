@@ -32,7 +32,7 @@ jobs:
           MAX_AGE_HOURS: "148"
           PYTHONUNBUFFERED: "1"
         run: |
-          python main.py
+          python ingest.py
 
       # Optional: If you are storing records as JSON in the repo, commit & push back
       - name: Commit and push changes
