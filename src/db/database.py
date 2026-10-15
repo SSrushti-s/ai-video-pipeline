@@ -85,7 +85,7 @@ class Database:
        ON CONFLICT ("id") DO UPDATE SET
             "durationSeconds" = CASE 
                 WHEN EXCLUDED."durationSeconds" > 0 THEN EXCLUDED."durationSeconds" 
-                ELSE "YouTubeVideoRecord"."durationSeconds" 
+                ELSE "Videos"."durationSeconds" 
             END,
             "views" = EXCLUDED."views",
             "likes" = EXCLUDED."likes",
